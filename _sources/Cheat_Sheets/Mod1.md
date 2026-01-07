@@ -1,0 +1,48 @@
+
+# Module 1 (1.5 sessions)
+(Chapter 1, 2 in Textbook)
+
+## Sample/Data
+* Numerical Data
+* Categorical Data 
+
+## Basic "Descriptive" Statistics
+Descriptive Statistics describe a sample. 
+
+### Pictorial Descriptions 
+* Histogram - $~\sqrt{n}$ number of bins (rule of thumb)
+    * Frequency vs Relative Frequency
+* Box Plot
+
+### Numerical Descriptions
+* Mean $\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$
+* Percentile-related
+    * Median $\tilde{x} = \begin{cases} n \text{ is odd} \implies  (\frac{n+1}{2})^{th} \text{ ordered value} \\ n \text{ is even} \implies \text{average of } (\frac{n}{2})^{th} \text{ and } (\frac{n+1}{2})^{th} \text{ ordered value }\end{cases}$
+    * Quartiles - First, Second, Third, and Fourth
+
+* Measure of Variability
+    * (Sample) Variance $s^2 = \sum_{i=1}{n} \sum_{i=1}^{n} \frac{(x_i - \bar{x})^2}{n -1}$ 
+    * Std. Dev. $s = \sqrt{s^2}$
+
+
+
+
+
+## Concepts
+* Fundamental Goal: Make decisions (a.k.a design)
+    * Examples: How many parking spots do we need at the COE?
+    * Examples: Do we allow more construction in Tallahassee downtown area?
+    * Examples: How long/short the (timer-based) traffic signals should show red/green?
+    * Examples: Does Aspirin reduce headache?
+    * Examples: How long will your car function without trouble?
+
+* Sample vs Population
+    * Mean, Median, Quartiles, Percentiles, 
+    * Variance and Standard Deviation
+    * Histogram and Box Plots
+
+
+* What is Statistics?
+    * Descriptive Statistics 
+* Why Probability? 
+    * Inferential Statistics? 
