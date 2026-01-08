@@ -1,6 +1,6 @@
 
 # Module 1 (1.5 sessions)
-(Chapter 1, 2 in Textbook)
+(Chapters 1, 2, 3, and 4 in Textbook)
 
 ## Sample/Data
 * Numerical Data
@@ -18,14 +18,18 @@ Descriptive Statistics describe a sample.
 * Mean $\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$
 * Percentile-related
     * Median $\tilde{x} = \begin{cases} n \text{ is odd} \implies  (\frac{n+1}{2})^{th} \text{ ordered value} \\ n \text{ is even} \implies \text{average of } (\frac{n}{2})^{th} \text{ and } (\frac{n+1}{2})^{th} \text{ ordered value }\end{cases}$
-    * Quartiles - First, Second, Third, and Fourth
+    * Quartiles - Lower (Q1), Median (Q2), Upper(Q3)
 
 * Measure of Variability
-    * (Sample) Variance $s^2 = \sum_{i=1}{n} \sum_{i=1}^{n} \frac{(x_i - \bar{x})^2}{n -1}$ 
+    * (Sample) Variance $s^2 = \sum_{i=1}^{n}  \frac{(x_i - \bar{x})^2}{n -1}$ 
     * Std. Dev. $s = \sqrt{s^2}$
 
 
 
+
+### Basic Excel Commands
+* AVERAGE
+* 
 
 
 ## Concepts
