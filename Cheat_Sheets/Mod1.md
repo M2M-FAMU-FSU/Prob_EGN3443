@@ -4,17 +4,11 @@
 
 
 
-## Sample/Data
-* Numerical Data
-* Categorical Data 
-
-## Basic "Descriptive" Statistics
-Descriptive Statistics describe a sample. 
 
 ### Pictorial Descriptions 
 * Histogram - $~\sqrt{n}$ number of bins (rule of thumb)
     * Frequency vs Relative Frequency
-* Box Plot
+* Box Plot - Max, Min, Q1, Q2, and Q3
 
 ### Numerical Descriptions
 * Mean $\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$
@@ -27,7 +21,7 @@ Descriptive Statistics describe a sample.
     * Std. Dev. $s = \sqrt{s^2}$
 
 
-## 
+
 
 
 ### Basic Excel Commands
@@ -40,28 +34,6 @@ Descriptive Statistics describe a sample.
 
 
 
-## Mathematical Notations
-*You can try writing in LaTeX (search for Overleaf) or Markdown to learn how to "type" mathematics.*
-
-* Curly Braces - $\{\}$ 
-    * Denote a *set* 
-    * Typically includes values with comma
-    * E.g. $\{1,2,4,7,2\}$ 
-
-* Square Brackets - $[a,b]$
-    * Denote closed interval from $a$ to $b$ including $a$ and $b$
-    * $a$ must be less than $b$ (by convention)
-
-* Paranthesis - $(a,b)$
-    * Denote open interval from $a$ to $b$ that does not include $a$ or $b$
-    * $a$ must be less than $b$ (by convention)
-
-* Mixed - $[a,b)$
-    * Includes $a$ but not $b$ 
-    * And vice versa
-
-* $\subset$ - Subset
-* $\in$ - 'belongs to' 
 
 
 

@@ -3,7 +3,7 @@
 
 1. Textbook Section 1.4 Problem \# 45 
 
-2. Textbook Chapter 1 Supplementary Exercises \# 63 (histogram, mean, variance, standard deviation, quartiles (including median), maximum, minimum, and range)
+2. Textbook Chapter 1 Supplementary Exercises \# 63 (histogram, mean, variance, standard deviation, quartiles (including median), maximum, minimum, and range) - You may use Excel ([dataset here](https://fsu-my.sharepoint.com/:x:/g/personal/rg24o_fsu_edu/IQBmUNSsiW1ySpIE-SGwI-7PAd8sVwYVBiV6tnHhBbpZcvI?e=5WCFjG)). 
 
 
 3.  Mention the appropriate type of sample/data you can get (numerical or categorical), discrete or continuous (if numerical), and size of the sample. 
