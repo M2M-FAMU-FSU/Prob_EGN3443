@@ -27,3 +27,9 @@
 * Some Examples ideas
     * What is the probability of a car waiting twice at a signal?
     * 
+
+
+## 1/8/26 (After first class)
+* Moving proper introduction to events - "multiple random variables,etc." to later part of the course! (probably after I reach CLT)
+    * this includes set theory-based things. 
+    * Independence and things like that!

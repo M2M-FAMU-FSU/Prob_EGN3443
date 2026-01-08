@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Homework 1 (Still under construction, may change) &#8212; Statistical Topics in Engineering (EGN3443)</title>
+    <title>Homework 1 &#8212; Statistical Topics in Engineering (EGN3443)</title>
   
   
   
@@ -62,7 +62,6 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'HWs/HW1';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Markdown Files" href="../markdown.html" />
     <link rel="prev" title="Module 1 (1.5 sessions)" href="../Cheat_Sheets/Mod1.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -182,9 +181,9 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Notations.html">Mathematical Notations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Cheat_Sheets/Mod1.html">Module 1 (1.5 sessions)</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Homework 1 (Still under construction, may change)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../markdown.html">Markdown Files</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Homework 1</a></li>
 </ul>
 
     </div>
@@ -368,7 +367,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Homework 1 (Still under construction, may change)</h1>
+    <h1>Homework 1</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -382,12 +381,12 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="homework-1-still-under-construction-may-change">
-<h1>Homework 1 (Still under construction, may change)<a class="headerlink" href="#homework-1-still-under-construction-may-change" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="homework-1">
+<h1>Homework 1<a class="headerlink" href="#homework-1" title="Link to this heading">#</a></h1>
 <p><em>Check Due Date and Office Hours on Canvas</em></p>
 <ol class="arabic simple">
 <li><p>Textbook Section 1.4 Problem # 45</p></li>
-<li><p>Textbook Chapter 1 Supplementary Exercises # 63 (Histogram, mean, percentiles, variance, and box plot (optional))</p></li>
+<li><p>Textbook Chapter 1 Supplementary Exercises # 63 (histogram, mean, variance, standard deviation, quartiles (including median), maximum, minimum, and range) - You may use Excel (<a class="reference external" href="https://fsu-my.sharepoint.com/:x:/g/personal/rg24o_fsu_edu/IQBmUNSsiW1ySpIE-SGwI-7PAd8sVwYVBiV6tnHhBbpZcvI?e=5WCFjG">dataset here</a>).</p></li>
 <li><p>Mention the appropriate type of sample/data you can get (numerical or categorical), discrete or continuous (if numerical), and size of the sample.</p>
 <ul class="simple">
 <li><p>An engineer marks each manufactured part in a batch of fifty parts as defective or not.</p></li>
@@ -398,22 +397,9 @@ document.write(`
 <li><p>You roll a die ten times.</p></li>
 </ul>
 </li>
-<li><p>From the previous question,</p>
-<ul class="simple">
-<li><p>Define an appropriate sample space (<span class="math notranslate nohighlight">\(\Omega\)</span>) for each case from the previous question (each answer must be a set).</p></li>
+<li><p>From the previous question, define an appropriate sample space (<span class="math notranslate nohighlight">\(\Omega\)</span>) for each case (each answer must be a set).</p></li>
 <li><p>For each sample space (<span class="math notranslate nohighlight">\(\Omega\)</span>), what is the physical meaning of a random variable defined in that sample space?</p></li>
-<li><p>For each random variable, what are all the potential values it can take?</p></li>
-</ul>
-</li>
-<li><p>Answer (Hint: use <span class="math notranslate nohighlight">\(P(\Omega) = 1\)</span>)</p>
-<ul class="simple">
-<li><p>1.1 <span class="math notranslate nohighlight">\(g(x) = 1 \,\, \forall \,\, \omega \in \Omega; \Omega  = [0,1]\)</span>. Is the function <span class="math notranslate nohighlight">\(g\)</span> a pdf, a pmf, or neither?</p></li>
-<li><p>1.2. <span class="math notranslate nohighlight">\(g(x) = 1/2 \,\, \forall \,\, \omega \in \Omega; \Omega = \{Stone, Paper, Scissor\} \)</span>. Is the function <span class="math notranslate nohighlight">\(g\)</span> a pdf, a pmf, or neither?</p></li>
-<li><p>1.3. <span class="math notranslate nohighlight">\(g(x) = |\omega| \,\, \forall \,\, \omega \in \Omega; \Omega = [-1,1] \)</span>. Is the function <span class="math notranslate nohighlight">\(g\)</span> a pdf, a pmf, or neither?
-<em>Note:  <span class="math notranslate nohighlight">\(|\omega| = \begin{cases} \omega, \,\, if \,\, \omega \geq 0 \\ -\omega, \,\, if \,\, \omega &lt; 0 \\ \end{cases} \)</span> (known as absolute value function)</em></p></li>
-<li><p>1.4. <span class="math notranslate nohighlight">\(g(x) = \frac{1}{\sqrt{8\pi}}\exp(-\frac{\omega^2}{8}) \forall \,\, \omega \in \Omega; \Omega = (-\infty,\infty)\)</span>. Is the function <span class="math notranslate nohighlight">\(g\)</span> a pdf, a pmf, or neither?</p></li>
-</ul>
-</li>
+<li><p>For each random variable, what are all the values it can potentially take?</p></li>
 </ol>
 </section>
 
@@ -455,15 +441,6 @@ document.write(`
         <p class="prev-next-subtitle">previous</p>
         <p class="prev-next-title">Module 1 (1.5 sessions)</p>
       </div>
-    </a>
-    <a class="right-next"
-       href="../markdown.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Markdown Files</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
