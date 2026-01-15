@@ -1,5 +1,14 @@
-# Homework 1 (Still under construction, may change)
+# Homework 2 (Still under construction, may change)
 *Check Due Date and Office Hours on Canvas* 
+
+1. Verify De Morgan's Laws through venn diagrams. For each law, draw one diagram for each side of inequality (totaling four diagrams). Use shading or color to differeniate sets ($A$,$A'$,$B$,$B'$) from each other. 
+    * **Law 1**: $(A \cup B)' = A' \cap B' $
+    * **Law 2**: $(A \cap B)' = A' \cup B' $ 
+
+2. Permutations and Combinations
+
+
+
 
 
 5. Answer (Hint: use $P(\Omega) = 1$) 

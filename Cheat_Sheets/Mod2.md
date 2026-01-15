@@ -1,8 +1,20 @@
-# Module 2 (3 sessions)
-(Chapter 3 in Textbook)
+# Module 2 (3 sessions, Under Construction)
+(Chapter 2,3 in Textbook)
+
+* Any Event $A \subseteq 2^{\Omega}$
+
+## From Set Theory
+* $\in$ - belongs to
+* $\notin$ - does not belong to
+* $\subseteq$  - Subset 
+* $\cup$ - Union
+* $\cap$ - Intersection
+* $A'$ - complement of $A$
+* $\phi$ - Null set. 
 
 
-
+## Axioms of Probability
+* $P(\Omega) = 1$
 
 
 

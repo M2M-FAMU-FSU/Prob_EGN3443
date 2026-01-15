@@ -8,7 +8,7 @@
 ### Pictorial Descriptions 
 * Histogram - $~\sqrt{n}$ number of bins (rule of thumb)
     * Frequency vs Relative Frequency
-* Box Plot - Max, Min, Q1, Q2, and Q3
+* Box Plot - Min, Q1, Median, Q3, Max
 
 ### Numerical Descriptions
 * Mean $\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$
