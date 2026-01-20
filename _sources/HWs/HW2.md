@@ -1,7 +1,8 @@
-# Homework 2 (Still under construction, may change)
+# Homework 2 
 *Check Due Date and Office Hours on Canvas* 
+[Textbook is here](https://www.stat.purdue.edu/~qfsong/teaching/511/probability_and_statistics_for_engineering_and_the_sciences.pdf)
 
-1. Verify De Morgan's Laws through venn diagrams. For each law, draw one diagram for each side of inequality (totaling four diagrams). Use shading or color to differeniate sets ($A$,$A'$,$B$,$B'$) from each other. 
+1. Verify De Morgan's Laws through venn diagrams. For each law, draw two diagrams for each side of inequality (totaling eight diagrams). Each diagram will correspond to one operation ($\cup$,$'$, or $\cap$). Use shading or color to differeniate sets ($A$,$A'$,$B$,$B'$) from each other. 
     * **Law 1**: $(A \cup B)' = A' \cap B' $
     * **Law 2**: $(A \cap B)' = A' \cup B' $ 
 
@@ -18,21 +19,21 @@
 
 7. We have a deck of randomly shuffled typical playing cards (if you do not know about cards, please check online). 
     * If we choose one card at random, 
-        * What is the sample space and its size?
-        * What is the probability that the card is black (event)?
+        * What is the appropriate sample space and its size?
+        * What is the probability for an event that the card is black?
     * If we choose two cards together randomly,
         * What is the sample space?
-        * What is the probability that both the cards are black?
-        * What is the probability that one card is black and one card is red?
+        * What is the probability for an event that both the cards are black?
+        * What is the probability for an event that one card is black and one card is red?
     * If we choose two cards one-after-another after replacing the card
         * What is the sample space and its size?
-        * What is the probability that both the cards are black?
-        * What is the probability that one card is black and one card is red?
+        * What is the probability for an event that both the cards are black?
+        * What is the probability for an event that one card is black and one card is red?
 
 
-
-
-
+-----------------------------------------------------------------------
+*(Rest of the HW is still under construction; thank you for your patience!)*
+-----------------------------------------------------------------------
 5. Answer (Hint: use $P(\Omega) = 1$) 
     *  1.1 $g(x) = 1 \,\, \forall \,\, \omega \in \Omega; \Omega  = [0,1]$. Is the function $g$ a pdf, a pmf, or neither?
     *  1.2. $g(x) = 1/2 \,\, \forall \,\, \omega \in \Omega; \Omega = \{Stone, Paper, Scissor\} $. Is the function $g$ a pdf, a pmf, or neither?
