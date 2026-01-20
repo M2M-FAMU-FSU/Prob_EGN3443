@@ -3,6 +3,9 @@
 
 * Any Event $A \subseteq 2^{\Omega}$
 
+## Permuatations and Combinations
+* nCr
+* NPr
 ## From Set Theory
 * $\in$ - belongs to
 * $\notin$ - does not belong to

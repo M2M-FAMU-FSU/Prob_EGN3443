@@ -5,7 +5,29 @@
     * **Law 1**: $(A \cup B)' = A' \cap B' $
     * **Law 2**: $(A \cap B)' = A' \cup B' $ 
 
-2. Permutations and Combinations
+
+2. (Events) Textbook Section 2.1 \# 1
+
+3. (Events) Textbook Section 2.1 \# 3
+
+4. (Events, Independence, Disjointness) Textbook Section 2.2 \# 17
+
+5. (Probability) Textbook Section 2.2 \# 23
+
+6. (Probability/Counting) Textbook Section 2.3 \#40
+
+7. We have a deck of randomly shuffled typical playing cards (if you do not know about cards, please check online). 
+    * If we choose one card at random, 
+        * What is the sample space and its size?
+        * What is the probability that the card is black (event)?
+    * If we choose two cards together randomly,
+        * What is the sample space?
+        * What is the probability that both the cards are black?
+        * What is the probability that one card is black and one card is red?
+    * If we choose two cards one-after-another after replacing the card
+        * What is the sample space and its size?
+        * What is the probability that both the cards are black?
+        * What is the probability that one card is black and one card is red?
 
 
 

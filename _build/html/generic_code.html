@@ -180,8 +180,11 @@
             </li>
         </ul>
         <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Notations.html">Mathematical Notations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Cheat_Sheets/Mod1.html">Module 1 (1.5 sessions)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HWs/HW1.html">Homework 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Cheat_Sheets/Mod2.html">Module 2 (3 sessions, Under Construction)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HWs/HW2.html">Homework 2 (Still under construction, may change)</a></li>
 </ul>
 
     </div>
@@ -466,17 +469,15 @@ document.write(`
 <span class="n">ax</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span><span class="n">f</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span><span class="s1">&#39;$</span><span class="se">\\</span><span class="s1">frac</span><span class="si">{1}</span><span class="s1">{</span><span class="se">\\</span><span class="s1">sqrt{2</span><span class="se">\\</span><span class="s1">pi</span><span class="se">\\</span><span class="s1">sigma^2}}$&#39;</span><span class="p">,</span><span class="n">math_fontfamily</span> <span class="o">=</span> <span class="s1">&#39;cm&#39;</span><span class="p">,</span><span class="n">fontsize</span> <span class="o">=</span> <span class="s1">&#39;14&#39;</span><span class="p">)</span>
 
 <span class="c1"># ax.text(a-0.1,-0.02,&#39;$b$&#39;,math_fontfamily = &#39;cm&#39;,fontsize = &#39;14&#39;)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;Normal.png&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;&gt;:9: SyntaxWarning: invalid escape sequence &#39;\m&#39;
 &lt;&gt;:9: SyntaxWarning: invalid escape sequence &#39;\m&#39;
-/tmp/ipykernel_15943/1963952874.py:9: SyntaxWarning: invalid escape sequence &#39;\m&#39;
+/tmp/ipykernel_70145/4111992585.py:9: SyntaxWarning: invalid escape sequence &#39;\m&#39;
   fig,ax = generic_pdf(x, f, fig, ax, shade = False,title = &#39;$\mathcal{N}(\\mu,\\sigma^2$)&#39;,x_cdf_cutoff=a)
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Text(0.5, 0.3989422804014327, &#39;$\\frac{1}{\\sqrt{2\\pi\\sigma^2}}$&#39;)
 </pre></div>
 </div>
 <img alt="_images/06197728bf47b4b828313274d3b8ab4888fa4198b28ec3b9a155fb53832e5723.png" src="_images/06197728bf47b4b828313274d3b8ab4888fa4198b28ec3b9a155fb53832e5723.png" />
