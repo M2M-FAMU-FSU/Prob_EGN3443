@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Module 2 (3 sessions, Under Construction) &#8212; Statistical Topics in Engineering (EGN3443)</title>
+    <title>Module 2 (3 sessions) &#8212; Statistical Topics in Engineering (EGN3443)</title>
   
   
   
@@ -62,7 +62,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'Cheat_Sheets/Mod2';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Homework 2 (Still under construction, may change)" href="../HWs/HW2.html" />
+    <link rel="next" title="Homework 2" href="../HWs/HW2.html" />
     <link rel="prev" title="Homework 1" href="../HWs/HW1.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -182,11 +182,14 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Coffee_Discussions/Coffee_Discussions.html">Coffee Discussion</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Notations.html">Mathematical Notations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Mod1.html">Module 1 (1.5 sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW1.html">Homework 1</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 2 (3 sessions, Under Construction)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../HWs/HW2.html">Homework 2 (Still under construction, may change)</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 2 (3 sessions)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HWs/HW2.html">Homework 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Projects/Mini_Project1.html">Mini Project 1 - Design an Email Inbox Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Coffee_Discussions/Coffee_Discussions_Sols.html">Coffee Discussion (Instruction Material)</a></li>
 </ul>
 
     </div>
@@ -372,7 +375,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Module 2 (3 sessions, Under Construction)</h1>
+    <h1>Module 2 (3 sessions)</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -382,12 +385,13 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#permuatations-and-combinations">Permuatations and Combinations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#from-set-theory">From Set Theory</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#axioms-of-probability">Axioms of Probability</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#concepts">Concepts</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#math-skills">Math Skills</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Concepts</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definitions">Definitions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#probability-relations">Probability Relations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-mathematics">Basic Mathematics</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#permutations-and-combinations">Permutations and Combinations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#demorgan-s-laws">DeMorgan’s Laws</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -399,63 +403,58 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="module-2-3-sessions-under-construction">
-<h1>Module 2 (3 sessions, Under Construction)<a class="headerlink" href="#module-2-3-sessions-under-construction" title="Link to this heading">#</a></h1>
-<p>(Chapter 2,3 in Textbook)</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="module-2-3-sessions">
+<h1>Module 2 (3 sessions)<a class="headerlink" href="#module-2-3-sessions" title="Link to this heading">#</a></h1>
+<p>(Chapter 2 in Textbook)
+May be useful to refer <a class="reference external" href="https://m2m-famu-fsu.github.io/Prob_EGN3443/Notations.html">mathematical notations</a></p>
+<section id="definitions">
+<h2>Definitions<a class="headerlink" href="#definitions" title="Link to this heading">#</a></h2>
 <ul class="simple">
-<li><p>Any Event <span class="math notranslate nohighlight">\(A \subseteq 2^{\Omega}\)</span></p></li>
-</ul>
-<section id="permuatations-and-combinations">
-<h2>Permuatations and Combinations<a class="headerlink" href="#permuatations-and-combinations" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>nCr</p></li>
-<li><p>NPr</p></li>
-</ul>
-</section>
-<section id="from-set-theory">
-<h2>From Set Theory<a class="headerlink" href="#from-set-theory" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(\in\)</span> - belongs to</p></li>
-<li><p><span class="math notranslate nohighlight">\(\notin\)</span> - does not belong to</p></li>
-<li><p><span class="math notranslate nohighlight">\(\subseteq\)</span>  - Subset</p></li>
-<li><p><span class="math notranslate nohighlight">\(\cup\)</span> - Union</p></li>
-<li><p><span class="math notranslate nohighlight">\(\cap\)</span> - Intersection</p></li>
-<li><p><span class="math notranslate nohighlight">\(A'\)</span> - complement of <span class="math notranslate nohighlight">\(A\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\phi\)</span> - Null set.</p></li>
-</ul>
-</section>
-<section id="axioms-of-probability">
-<h2>Axioms of Probability<a class="headerlink" href="#axioms-of-probability" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(P(\Omega) = 1\)</span></p></li>
-</ul>
-</section>
-<section id="concepts">
-<h2>Concepts<a class="headerlink" href="#concepts" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>What is Probability?</p></li>
-<li><p>Random Variables</p></li>
-<li><p>Discrete RV, Continuous RV</p></li>
-<li><p>PMF, PDF, CDF (No standard Distributions)</p></li>
-<li><p>Sample Space</p></li>
-</ul>
-</section>
-<section id="math-skills">
-<h2>Math Skills<a class="headerlink" href="#math-skills" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Summation &lt;-&gt; Integration</p></li>
-</ul>
-</section>
-<section id="id1">
-<h2>Concepts<a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Expected value</p>
+<li><p>Events - Subset of Sample Space <span class="math notranslate nohighlight">\(A \subseteq \Omega\)</span> or <span class="math notranslate nohighlight">\(A \in 2^{\Omega}\)</span></p></li>
+<li><p>Probability (<span class="math notranslate nohighlight">\(p(A)\)</span>) - Every event has an associated probability</p>
 <ul>
-<li><p>“probablity” weighted average!</p></li>
-<li><p>Expected Value of function of X</p></li>
-</ul>
+<li><p><strong>Axioms of Probability</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(p(\Omega) = 1\)</span></p></li>
+<li><p>For any event A, <span class="math notranslate nohighlight">\(p(A) \geq 0\)</span></p></li>
+<li><p>If <span class="math notranslate nohighlight">\(A_i\)</span> are disjoint events, <span class="math notranslate nohighlight">\(p(\cup_{i=1}^{\infty} A_i) = \sum_{i=1}^{\infty} p(A_i)\)</span></p></li>
+</ol>
 </li>
 </ul>
+</li>
+<li><p>Two events are independent <span class="math notranslate nohighlight">\(\implies P(A \cap B) = P(A).P(B) \)</span></p></li>
+</ul>
+</section>
+<section id="probability-relations">
+<h2>Probability Relations<a class="headerlink" href="#probability-relations" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(p(A|B) = \frac{p(A \cap B)}{p(B)} \Leftrightarrow P(A\cap B) = P(A|B).P(B)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(p(A \cup B) = p(A) + p(B) - P(A \cap B)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(p(A \cup B \cup C) = p(A) + p(B) + p(C) - P(A \cap B) - P(B \cap C) - P(A \cap C) +  P(A \cap B \cap C)\)</span></p></li>
+<li><p><strong>Law of Total Probability</strong>
+If <span class="math notranslate nohighlight">\(A_1,...,A_k\)</span> are mutually exlusive and exhaustive events.
+<span class="math notranslate nohighlight">\(P(B) = \sum_{i=1}^{k}P(B|A_i)p(A_i)\)</span></p></li>
+<li><p><strong>Bayes’ Theorem</strong>
+If <span class="math notranslate nohighlight">\(A_1,...,A_k\)</span> are mutually exlusive and exhaustive events.
+<span class="math notranslate nohighlight">\(P(A_j|B) = \frac{P(B|A_j)P(A_j)}{\sum_{i=1}^{k}P(B|A_i)p(A_i)}\)</span></p></li>
+</ul>
+</section>
+<section id="basic-mathematics">
+<h2>Basic Mathematics<a class="headerlink" href="#basic-mathematics" title="Link to this heading">#</a></h2>
+<section id="permutations-and-combinations">
+<h3>Permutations and Combinations<a class="headerlink" href="#permutations-and-combinations" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(^nC_r =\)</span> <span class="math notranslate nohighlight">\(n\choose r\)</span> <span class="math notranslate nohighlight">\(= \frac{n!}{r! \times (n-r)!}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(^nP_r =\)</span> <span class="math notranslate nohighlight">\(n\choose r\)</span> <span class="math notranslate nohighlight">\(\times r!= \frac{n!}{(n-r)!}\)</span></p></li>
+</ul>
+</section>
+<section id="demorgan-s-laws">
+<h3>DeMorgan’s Laws<a class="headerlink" href="#demorgan-s-laws" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\((A \cup B)' = A' \cap B' \)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((A \cap B)' = A' \cup B' \)</span></p></li>
+</ul>
+</section>
 </section>
 </section>
 
@@ -503,7 +502,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Homework 2 (Still under construction, may change)</p>
+        <p class="prev-next-title">Homework 2</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -523,12 +522,13 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#permuatations-and-combinations">Permuatations and Combinations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#from-set-theory">From Set Theory</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#axioms-of-probability">Axioms of Probability</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#concepts">Concepts</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#math-skills">Math Skills</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Concepts</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definitions">Definitions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#probability-relations">Probability Relations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-mathematics">Basic Mathematics</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#permutations-and-combinations">Permutations and Combinations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#demorgan-s-laws">DeMorgan’s Laws</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 

@@ -63,7 +63,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Module 1 (1.5 sessions)" href="Cheat_Sheets/Mod1.html" />
-    <link rel="prev" title="Statistical Topics in Engineering (EGN3443)" href="intro.html" />
+    <link rel="prev" title="Coffee Discussion" href="Coffee_Discussions/Coffee_Discussions.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -182,9 +182,14 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Coffee_Discussions/Coffee_Discussions.html">Coffee Discussion</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Mathematical Notations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Cheat_Sheets/Mod1.html">Module 1 (1.5 sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="HWs/HW1.html">Homework 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Cheat_Sheets/Mod2.html">Module 2 (3 sessions)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HWs/HW2.html">Homework 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Projects/Mini_Project1.html">Mini Project 1 - Design an Email Inbox Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Coffee_Discussions/Coffee_Discussions_Sols.html">Coffee Discussion (Instruction Material)</a></li>
 </ul>
 
     </div>
@@ -357,7 +362,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -373,6 +380,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#set-theory">Set Theory</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#permutations-and-combinations">Permutations and Combinations</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -385,6 +401,8 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="mathematical-notations">
 <h1>Mathematical Notations<a class="headerlink" href="#mathematical-notations" title="Link to this heading">#</a></h1>
 <p><em>You can try writing in LaTeX (search for Overleaf) or Markdown to learn how to “type” mathematics.</em></p>
+<section id="set-theory">
+<h2>Set Theory<a class="headerlink" href="#set-theory" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Curly Braces - <span class="math notranslate nohighlight">\(\{\}\)</span></p>
 <ul>
@@ -411,9 +429,23 @@ document.write(`
 <li><p>And vice versa</p></li>
 </ul>
 </li>
-<li><p><span class="math notranslate nohighlight">\(\subset\)</span> - Subset</p></li>
-<li><p><span class="math notranslate nohighlight">\(\in\)</span> - ‘belongs to’</p></li>
+<li><p><span class="math notranslate nohighlight">\(\in\)</span> - belongs to</p></li>
+<li><p><span class="math notranslate nohighlight">\(\notin\)</span> - does not belong to</p></li>
+<li><p><span class="math notranslate nohighlight">\(\subseteq\)</span>  - Subset</p></li>
+<li><p><span class="math notranslate nohighlight">\(\subset\)</span> - Proper Subset</p></li>
+<li><p><span class="math notranslate nohighlight">\(\cup\)</span> - Union</p></li>
+<li><p><span class="math notranslate nohighlight">\(\cap\)</span> - Intersection</p></li>
+<li><p><span class="math notranslate nohighlight">\(A'\)</span> - complement of <span class="math notranslate nohighlight">\(A\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\phi\)</span> - Null set.</p></li>
 </ul>
+</section>
+<section id="permutations-and-combinations">
+<h2>Permutations and Combinations<a class="headerlink" href="#permutations-and-combinations" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(^nC_r\)</span> or <span class="math notranslate nohighlight">\( n\choose r\)</span> - n <em>choose</em> r</p></li>
+<li><p><span class="math notranslate nohighlight">\(^nP_r\)</span>  - n <em>permute</em> r</p></li>
+</ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -447,12 +479,12 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="intro.html"
+       href="Coffee_Discussions/Coffee_Discussions.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Statistical Topics in Engineering (EGN3443)</p>
+        <p class="prev-next-title">Coffee Discussion</p>
       </div>
     </a>
     <a class="right-next"
@@ -470,6 +502,22 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#set-theory">Set Theory</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#permutations-and-combinations">Permutations and Combinations</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
