@@ -405,23 +405,26 @@ document.write(`
 </section>
 <section id="module-2-session-5">
 <h2><strong>Module 2 (Session #5)</strong><a class="headerlink" href="#module-2-session-5" title="Link to this heading">#</a></h2>
-<p>You are designing a bridge. A structural engineer asks you, will the bridge fail? There are some known causes (listed below).
-a. Dead loads (the bridge structure itself)
-b. Live loads (moving vehicles/people)
-c. Winds
-d. Rain
-e. Snow
-f. Heat
-g. Earthquakes</p>
-<p><strong>Prompts</strong>
-* How will you answer?
-<span style = "color: red"> The answer is never binary (yes or no). Change the question to “how likely” the bridge will fail. We need to quantify as probability - specifically, in terms of time/days per year/decade/century that the authorities can understand.    </style>
-* Describe all the information you need (which may be available or collectable) &amp; how will you make sense of that information?
+<p>You are designing a bridge. A structural engineer asks you, will the bridge fail? There are some known causes (listed below).</p>
+<ul class="simple">
+<li><p>Dead loads (the bridge structure itself)</p></li>
+<li><p>Live loads (moving vehicles/people)</p></li>
+<li><p>Winds</p></li>
+<li><p>Rain</p></li>
+<li><p>Snow</p></li>
+<li><p>Heat</p></li>
+<li><p>Earthquakes</p></li>
+</ul>
+<p><strong>Prompts</strong></p>
+<ul class="simple">
+<li><p>How will you answer?
+<span style = "color: red"> The answer is never binary (yes or no). Change the question to “how likely” the bridge will fail. We need to quantify as probability - specifically, in terms of time/days per year/decade/century that the authorities can understand.    </style></p></li>
+<li><p>Describe all the information you need (which may be available or collectable) &amp; how will you make sense of that information?
 <span style = "color: red">
 <em>Two types on information (Are there more?)</em>
 * How likely (probability) the bridge will fail with each associated cases.
-* How likely (probability) the loading itself can occur (over time)?    </style>
-* How will you give a mathematical form to this?
+* How likely (probability) the loading itself can occur (over time)?    </style></p></li>
+<li><p>How will you give a mathematical form to this?
 <span style = "color: red">
 * Sample Space: <span class="math notranslate nohighlight">\( \Omega = \{0, 1\}\)</span> with <span class="math notranslate nohighlight">\(0\)</span> indicating that the bridge fails.
 * Event (subset of sample space): Only four (<span class="math notranslate nohighlight">\(2^2\)</span>) possible events <span class="math notranslate nohighlight">\(\{\}, \{0\}, \{1\}, \{0,1\}\)</span>
@@ -439,17 +442,27 @@ g. Earthquakes</p>
 We can use information
 * <span class="math notranslate nohighlight">\(p(\{bridgefails\}|\{a-occurs\}), p(\{bridgefails\}|\{b-occurs\}),\)</span> etc.
 * <span class="math notranslate nohighlight">\(p(a-occurs),p(b-occurs),...,\)</span>
-<br>
-* Sample Space: All time from now or <span class="math notranslate nohighlight">\((0,\infty)\)</span>
-* Event (subset of sample space): <span class="math notranslate nohighlight">\(2^\infty\)</span>
-* Define Events: a-occurs, b-occurs, bridgefails, etc.
-* We need to find <span class="math notranslate nohighlight">\(p(bridgefails) = ?\)</span>
-* We can ask for information such as
-* <span class="math notranslate nohighlight">\(p(bridgefails|a-occurs), p(bridgefails|b-occurs),\)</span> etc.
-* <span class="math notranslate nohighlight">\(p(a-occurs),p(b-occurs),...,\)</span>
-* We can also think about events occuring together (two events,three events,…, seven events) - find appropriate ‘combinatorial’ probability.
-* We can use interdependencies, mutually exclusive events, etc.
-</style></p>
+<br></p>
+<ul>
+<li><p>Sample Space: All time from now or <span class="math notranslate nohighlight">\((0,\infty)\)</span></p>
+<ul>
+<li><p>Event (subset of sample space): <span class="math notranslate nohighlight">\(2^\infty\)</span></p></li>
+<li><p>Define Events: a-occurs, b-occurs, bridgefails, etc.</p></li>
+<li><p>We need to find <span class="math notranslate nohighlight">\(p(bridgefails) = ?\)</span></p></li>
+<li><p>We can ask for information such as</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(p(bridgefails|a-occurs), p(bridgefails|b-occurs),\)</span> etc.</p></li>
+<li><p><span class="math notranslate nohighlight">\(p(a-occurs),p(b-occurs),...,\)</span></p></li>
+</ul>
+</li>
+<li><p>We can also think about events occuring together (two events,three events,…, seven events) - find appropriate ‘combinatorial’ probability.</p></li>
+<li><p>We can use interdependencies, mutually exclusive events, etc.
+</style></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 </section>
 </section>
 
