@@ -4,13 +4,13 @@ Have you faced issues with parking or seen cars parked on grass at COE? How can 
 
 ### **Module 2 (Session \#5)** 
 You are designing a bridge. A structural engineer asks you, will the bridge fail? There are some known causes (listed below). 
-    a. Dead loads (the bridge structure itself) 
-    b. Live loads (moving vehicles/people) 
-    c. Winds
-    d. Rain 
-    e. Snow
-    f. Heat
-    g. Earthquakes 
+* Dead loads (the bridge structure itself) 
+* Live loads (moving vehicles/people) 
+* Winds
+* Rain 
+* Snow
+* Heat
+* Earthquakes 
    
 **Prompts**
 *  How will you answer - "will the bridge fail"? 
