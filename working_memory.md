@@ -49,4 +49,19 @@
 
 ## 1/15/26
 * Was able to only cover permutations, combinations, and set theory today. 
-* 
+
+
+## 1/26/26
+* For figures in CAREER proposal: 
+Some sort of relational data between various fields (calculus, probability, statistics, physics, materials science, thermodynamics, manufacturing, AI, machine learning, computer coding, algebra, research, industry work) is useful - kind of a general perception! - This is specific to the “subject” 
+
+* **I am rethinking everything**
+ * Why not make the (rest of my) classes a bunch of problems? - They think and then I introduce the concepts!
+    * The problems need not encapsulate everything. 
+    * Adversarial Questions
+        * Can I include mathematical questions?
+        * Students do not care anyway? - Well, they might but it's a bigger threshold!- and you can only get better over the years!
+        * Lots of effort - I can get money for doing my "teaching" as well!! - I can get more people (graduate students) involved in my teaching! - I can totally flip how teaching is done! 
+
+ * Just started prob-a-day 
+    * Will make a single markdown that I use to add content daily - 

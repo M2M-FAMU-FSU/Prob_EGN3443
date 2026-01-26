@@ -4,10 +4,12 @@
 format: jb-book
 root: intro
 chapters:
+- file: Coffee_Discussions/Coffee_Discussions
 - file: Notations.md
 - file: Cheat_Sheets/Mod1 
 - file: HWs/HW1
 - file: Cheat_Sheets/Mod2
 - file: HWs/HW2
 - file: Projects/Mini_Project1.md
+- file: Coffee_Discussions/Coffee_Discussions_Sols
 

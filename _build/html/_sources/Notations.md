@@ -1,6 +1,7 @@
 # Mathematical Notations
 *You can try writing in LaTeX (search for Overleaf) or Markdown to learn how to "type" mathematics.*
 
+### Set Theory
 * Curly Braces - $\{\}$ 
     * Denote a *set* 
     * Typically includes values with comma
@@ -18,5 +19,18 @@
     * Includes $a$ but not $b$ 
     * And vice versa
 
-* $\subset$ - Subset
-* $\in$ - 'belongs to' 
+
+
+* $\in$ - belongs to
+* $\notin$ - does not belong to
+* $\subseteq$  - Subset 
+* $\subset$ - Proper Subset
+* $\cup$ - Union
+* $\cap$ - Intersection
+* $A'$ - complement of $A$
+* $\phi$ - Null set. 
+
+
+### Permutations and Combinations
+* $^nC_r$ or $ n\choose r$ - n *choose* r
+* $^nP_r$  - n *permute* r

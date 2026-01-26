@@ -13,7 +13,7 @@ In Outlook Email, you can use ``received: mm/dd/yyyy`` command in search bar to 
 **Submission Requirements**
 * Single pdf file (no more than 2 pages)
     * Describe your design and logic drawn from historical data (need not provide the past data).
-    * Provide the *testing table* as above.
+    * Provide the *testing table* as below.
 
 **Example Testing**
 Say, your designed EIS capacity is 10 email threads per day. Thus, the subscription charge is \$10 per day. 
@@ -39,6 +39,6 @@ Say, your designed EIS capacity is 10 email threads per day. Thus, the subscript
 **Notes**
 * Be creative, but provide clear logic on your proposed capacity for your team's EIS.
 * Instructor/TA will not help you in contacting your team members. 
-* Your team will recieve a single grade irrespective of individual members' contributions. 
+* Your team will receive a single grade irrespective of individual members' contributions. 
 * You can use the *Complimentary Feedback* deadline to submit your project for feedback with no impact on your grades. 
 * Costs provided above are hypothetical. 
