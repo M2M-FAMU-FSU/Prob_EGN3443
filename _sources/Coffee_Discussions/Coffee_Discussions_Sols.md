@@ -23,21 +23,21 @@ You are designing a bridge. A structural engineer asks you, will the bridge fail
 * How will you give a mathematical form to this? 
 <span style = "color: red"> 
     * Sample Space: $ \Omega = \{0, 1\}$ with $0$ indicating that the bridge fails. 
-    * Event (subset of sample space): Only four ($2^2$) possible events $\{\}, \{0\}, \{1\}, \{0,1\}$
-    * Can you answer the question with the given information using this mathematical form? 
+        * Event (subset of sample space): Only four ($2^2$) possible events $\{\}, \{0\}, \{1\}, \{0,1\}$
+        * Can you answer the question with the given information using this mathematical form? 
     <br> 
     * Sample Space: $\{ a-failure, b-failure,..., f-failure \}$. 
-    * Event (subset of sample space): $2^6 = 64$ possible events - each denoting 
-    * Can you find the probability with the given information? 
-    * Can you answer the question with the given information using this mathematical form?
+        * Event (subset of sample space): $2^6 = 64$ possible events - each denoting 
+        * Can you find the probability with the given information? 
+        * Can you answer the question with the given information using this mathematical form?
     <br>
     * Sample Space: $\{ a-occurs, b-occurs,..., f-occurs, bridge fails\}$.
-    * Event (subset of sample space): $2^7 = 128$ possible events - half of those "events" include bridge failing!
-    * Can you find the probability with the given information?
-    * Define Events - We need to find $p(\{bridgefails\}) = ?$
-        We can use information
-        * $p(\{bridgefails\}|\{a-occurs\}), p(\{bridgefails\}|\{b-occurs\}),$ etc.
-        * $p(a-occurs),p(b-occurs),...,$
+        * Event (subset of sample space): $2^7 = 128$ possible events - half of those "events" include bridge failing!
+        * Can you find the probability with the given information?
+        * Define Events - We need to find $p(\{bridgefails\}) = ?$
+            We can use information
+            * $p(\{bridgefails\}|\{a-occurs\}), p(\{bridgefails\}|\{b-occurs\}),$ etc.
+            * $p(a-occurs),p(b-occurs),...,$
     <br>
     * Sample Space: All time from now or $(0,\infty)$
         * Event (subset of sample space): $2^\infty$
