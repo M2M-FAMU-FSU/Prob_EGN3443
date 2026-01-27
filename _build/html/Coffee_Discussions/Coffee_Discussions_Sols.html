@@ -421,29 +421,44 @@ document.write(`
 <span style = "color: red"> The answer is never binary (yes or no). Change the question to “how likely” the bridge will fail. We need to quantify as probability - specifically, in terms of time/days per year/decade/century that the authorities can understand.    </style></p></li>
 <li><p>Describe all the information you need (which may be available or collectable) &amp; how will you make sense of that information?
 <span style = "color: red">
-<em>Two types on information (Are there more?)</em>
-* How likely (probability) the bridge will fail with each associated cases.
-* How likely (probability) the loading itself can occur (over time)?    </style></p></li>
-<li><p>How will you give a mathematical form to this?
-<span style = "color: red">
-* Sample Space: <span class="math notranslate nohighlight">\( \Omega = \{0, 1\}\)</span> with <span class="math notranslate nohighlight">\(0\)</span> indicating that the bridge fails.
-* Event (subset of sample space): Only four (<span class="math notranslate nohighlight">\(2^2\)</span>) possible events <span class="math notranslate nohighlight">\(\{\}, \{0\}, \{1\}, \{0,1\}\)</span>
-* Can you answer the question with the given information using this mathematical form?
-<br>
-* Sample Space: <span class="math notranslate nohighlight">\(\{ a-failure, b-failure,..., f-failure \}\)</span>.
-* Event (subset of sample space): <span class="math notranslate nohighlight">\(2^6 = 64\)</span> possible events - each denoting
-* Can you find the probability with the given information?
-* Can you answer the question with the given information using this mathematical form?
-<br>
-* Sample Space: <span class="math notranslate nohighlight">\(\{ a-occurs, b-occurs,..., f-occurs, bridge fails\}\)</span>.
-* Event (subset of sample space): <span class="math notranslate nohighlight">\(2^7 = 128\)</span> possible events - half of those “events” include bridge failing!
-* Can you find the probability with the given information?
-* Define Events - We need to find <span class="math notranslate nohighlight">\(p(\{bridgefails\}) = ?\)</span>
-We can use information
-* <span class="math notranslate nohighlight">\(p(\{bridgefails\}|\{a-occurs\}), p(\{bridgefails\}|\{b-occurs\}),\)</span> etc.
-* <span class="math notranslate nohighlight">\(p(a-occurs),p(b-occurs),...,\)</span>
-<br></p>
+<em>Two types on information (Are there more?)</em></p>
 <ul>
+<li><p>How likely (probability) the bridge will fail with each associated cases.</p></li>
+<li><p>How likely (probability) the loading itself can occur (over time)?    </style></p></li>
+</ul>
+</li>
+<li><p>How will you give a mathematical form to this?
+<span style = "color: red"></p>
+<ul>
+<li><p>Sample Space: <span class="math notranslate nohighlight">\( \Omega = \{0, 1\}\)</span> with <span class="math notranslate nohighlight">\(0\)</span> indicating that the bridge fails.</p>
+<ul>
+<li><p>Event (subset of sample space): Only four (<span class="math notranslate nohighlight">\(2^2\)</span>) possible events <span class="math notranslate nohighlight">\(\{\}, \{0\}, \{1\}, \{0,1\}\)</span></p></li>
+<li><p>Can you answer the question with the given information using this mathematical form?
+<br></p></li>
+</ul>
+</li>
+<li><p>Sample Space: <span class="math notranslate nohighlight">\(\{ a-failure, b-failure,..., f-failure \}\)</span>.</p>
+<ul>
+<li><p>Event (subset of sample space): <span class="math notranslate nohighlight">\(2^6 = 64\)</span> possible events - each denoting</p></li>
+<li><p>Can you find the probability with the given information?</p></li>
+<li><p>Can you answer the question with the given information using this mathematical form?
+<br></p></li>
+</ul>
+</li>
+<li><p>Sample Space: <span class="math notranslate nohighlight">\(\{ a-occurs, b-occurs,..., f-occurs, bridge fails\}\)</span>.</p>
+<ul>
+<li><p>Event (subset of sample space): <span class="math notranslate nohighlight">\(2^7 = 128\)</span> possible events - half of those “events” include bridge failing!</p></li>
+<li><p>Can you find the probability with the given information?</p></li>
+<li><p>Define Events - We need to find <span class="math notranslate nohighlight">\(p(\{bridgefails\}) = ?\)</span>
+We can use information</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(p(\{bridgefails\}|\{a-occurs\}), p(\{bridgefails\}|\{b-occurs\}),\)</span> etc.</p></li>
+<li><p><span class="math notranslate nohighlight">\(p(a-occurs),p(b-occurs),...,\)</span>
+<br></p></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><p>Sample Space: All time from now or <span class="math notranslate nohighlight">\((0,\infty)\)</span></p>
 <ul>
 <li><p>Event (subset of sample space): <span class="math notranslate nohighlight">\(2^\infty\)</span></p></li>
