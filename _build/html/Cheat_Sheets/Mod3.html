@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Module 3 (2 sessions, Under Construction) &#8212; Statistical Topics in Engineering (EGN3443)</title>
+    <title>Module 3 - Formula Sheet (2 sessions, Under Construction) &#8212; Statistical Topics in Engineering (EGN3443)</title>
   
   
   
@@ -57,9 +57,13 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'Cheat_Sheets/Mod3';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Mini Project 1 - Design an Email Inbox Server" href="../Projects/Mini_Project1.html" />
+    <link rel="prev" title="Homework 2" href="../HWs/HW2.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -122,8 +126,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -179,13 +181,14 @@
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../Coffee_Discussions/Coffee_Discussions.html">Coffee Discussion</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Notations.html">Mathematical Notations</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Mod1.html">Module 1 (1.5 sessions)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Mod1.html">Module 1 - Formula Sheet (1.5 sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW1.html">Homework 1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Mod2.html">Module 2 (3 sessions)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Mod2.html">Module 2 - Formula Sheet (3 sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW2.html">Homework 2</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 3 - Formula Sheet (2 sessions, Under Construction)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Projects/Mini_Project1.html">Mini Project 1 - Design an Email Inbox Server</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Coffee_Discussions/Coffee_Discussions_Sols.html">Coffee Discussion (Instruction Material)</a></li>
 </ul>
@@ -373,7 +376,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Module 3 (2 sessions, Under Construction)</h1>
+    <h1>Module 3 - Formula Sheet (2 sessions, Under Construction)</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -383,6 +386,22 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-probability-definitions">Basic Probability Definitions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#standard-five-distributions">Standard (five) Distributions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uniform-distribution-mathcal-u-a-b">1. Uniform Distribution <span class="math notranslate nohighlight">\(\mathcal{U}(a,b)\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#normal-distribution-mathcal-n-mu-sigma-2">2. Normal Distribution <span class="math notranslate nohighlight">\(\mathcal{N}(\mu,\sigma^2)\)</span> ***</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exponential-distribution-exp-dist-lambda-used-mostly-in-reliability-engineering">3. Exponential Distribution <span class="math notranslate nohighlight">\(Exp.Dist.(\lambda)\)</span> (used mostly in reliability engineering)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#binomial-distribution-mathcal-b-n-p">4. Binomial Distribution <span class="math notranslate nohighlight">\(\mathcal{B}(N,p)\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#poisson-distribution-poisson-lambda">5. Poisson Distribution <span class="math notranslate nohighlight">\(Poisson(\lambda)\)</span></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#other-distributions-in-this-course">Other Distributions (in this course)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bernoulli-distribution-bernoulli-p">6. Bernoulli distribution <span class="math notranslate nohighlight">\(Bernoulli(p)\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#students-t-distribution-t-n-1">7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chi-squared-distribution-chi-2-n-1">8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-from-a-population-distribution">Sample from a Population Distribution</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#concepts">Concepts</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#math-skills">Math Skills</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Concepts</a></li>
@@ -397,8 +416,103 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="module-3-2-sessions-under-construction">
-<h1>Module 3 (2 sessions, Under Construction)<a class="headerlink" href="#module-3-2-sessions-under-construction" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="module-3-formula-sheet-2-sessions-under-construction">
+<h1>Module 3 - Formula Sheet (2 sessions, Under Construction)<a class="headerlink" href="#module-3-formula-sheet-2-sessions-under-construction" title="Link to this heading">#</a></h1>
+<p>*** - denotes <strong>IMPORTANT</strong></p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\mathbb{E}[X] = \sum_{i=1}^n  p(x_i)x_i\)</span> (or)  <span class="math notranslate nohighlight">\(\sum_{i}  p(x_i)x_i\)</span></p></li>
+</ul>
+<section id="basic-probability-definitions">
+<h2>Basic Probability Definitions<a class="headerlink" href="#basic-probability-definitions" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(F(x) = p(\omega \leq x) = \int_{-\infty}^{x}f(\omega)d\omega\)</span> (integral will convert to summation for attributes/pmfs)</p></li>
+<li><p><span class="math notranslate nohighlight">\(p(a \leq x \leq b) = \int_{a}^{b}f(x)dx\)</span> (integral will convert to summation for attributes/pmfs)</p></li>
+<li><p><span class="math notranslate nohighlight">\(p(\Omega) = \int_{\Omega} f(x)dx = 1\)</span></p></li>
+</ul>
+</section>
+<section id="standard-five-distributions">
+<h2>Standard (five) Distributions<a class="headerlink" href="#standard-five-distributions" title="Link to this heading">#</a></h2>
+<section id="uniform-distribution-mathcal-u-a-b">
+<h3>1. Uniform Distribution <span class="math notranslate nohighlight">\(\mathcal{U}(a,b)\)</span><a class="headerlink" href="#uniform-distribution-mathcal-u-a-b" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Variable (continuous)</p></li>
+<li><p><span class="math notranslate nohighlight">\(a\)</span> - lower limit or bound, <span class="math notranslate nohighlight">\(b\)</span>- upper limit or bound</p></li>
+<li><p><span class="math notranslate nohighlight">\(f(x) = \frac{1}{b-a} \,\, \forall \,\, a \leq x \leq b\)</span> (<span class="math notranslate nohighlight">\(0\)</span> otherwise)</p></li>
+<li><p><span class="math notranslate nohighlight">\(F(x) = \begin{cases} 0, \,\, \text{if} \,\, x \leq a \\ \frac{x-a}{b-a}, \,\, \text{if} \,\, a \leq x \leq b \\ 1, \,\, \text{if} \,\, x \geq b \end{cases}\)</span></p></li>
+</ul>
+</section>
+<section id="normal-distribution-mathcal-n-mu-sigma-2">
+<h3>2. Normal Distribution <span class="math notranslate nohighlight">\(\mathcal{N}(\mu,\sigma^2)\)</span> ***<a class="headerlink" href="#normal-distribution-mathcal-n-mu-sigma-2" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Variable (continuous)</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mu\)</span> - Mean, <span class="math notranslate nohighlight">\(\sigma^2\)</span>- Variance</p></li>
+<li><p><span class="math notranslate nohighlight">\(f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}\exp(-\frac{(x-\mu)^2}{2 \sigma^2}) \,\, \forall \,\, x \in (-\infty,\infty) \)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(F(x)\)</span> - use standard normal tables using z-score!</p></li>
+<li><p>***  <em>Standard Normal Score</em> or <em>z-score</em> <span class="math notranslate nohighlight">\(z(x) = \frac{x - \mu}{\sigma}\)</span></p></li>
+<li><p>*** <span class="math notranslate nohighlight">\(\Phi(x)\)</span> - cdf of standard normal distribution <span class="math notranslate nohighlight">\(\mathcal{N}(0,1)\)</span></p></li>
+<li><p>***  <span class="math notranslate nohighlight">\(F(x) = \Phi(z(x))\)</span></p></li>
+</ul>
+</section>
+<section id="exponential-distribution-exp-dist-lambda-used-mostly-in-reliability-engineering">
+<h3>3. Exponential Distribution <span class="math notranslate nohighlight">\(Exp.Dist.(\lambda)\)</span> (used mostly in reliability engineering)<a class="headerlink" href="#exponential-distribution-exp-dist-lambda-used-mostly-in-reliability-engineering" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Variable (continuous)</p></li>
+<li><p><span class="math notranslate nohighlight">\(f(x) = \lambda \exp(-\lambda x) \,\, \forall \,\, x \in [0,\infty) \)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(F(x) = 1 - \exp(-\lambda x)\)</span></p></li>
+</ul>
+</section>
+<section id="binomial-distribution-mathcal-b-n-p">
+<h3>4. Binomial Distribution <span class="math notranslate nohighlight">\(\mathcal{B}(N,p)\)</span><a class="headerlink" href="#binomial-distribution-mathcal-b-n-p" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Attribute (discrete)</p></li>
+<li><p><span class="math notranslate nohighlight">\(N\)</span> - Number of Trials, <span class="math notranslate nohighlight">\(p\)</span> - probability of success in one trial</p></li>
+<li><p><span class="math notranslate nohighlight">\(p(x) = \binom{N}{x} p^{x}(1-p)^{N-x} \,\, \forall \,\, x \in \{0,1,2,..., N\} \)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(F(x) = \sum_{i=0}^{x}  \binom{N}{i} p^{i}(1-p)^{N-i}\)</span></p></li>
+</ul>
+</section>
+<section id="poisson-distribution-poisson-lambda">
+<h3>5. Poisson Distribution <span class="math notranslate nohighlight">\(Poisson(\lambda)\)</span><a class="headerlink" href="#poisson-distribution-poisson-lambda" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Attribute (discrete)</p></li>
+<li><p><span class="math notranslate nohighlight">\(p(x) = \frac{e^{-\lambda} \lambda^x}{x!} \,\, \forall \,\, x \in \{0,1,2,..., \infty\} \)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(F(x) = \sum_{i=0}^{x}  \frac{e^{-\lambda} \lambda^x}{x!} \)</span></p></li>
+</ul>
+</section>
+</section>
+<section id="other-distributions-in-this-course">
+<h2>Other Distributions (in this course)<a class="headerlink" href="#other-distributions-in-this-course" title="Link to this heading">#</a></h2>
+<section id="bernoulli-distribution-bernoulli-p">
+<h3>6. Bernoulli distribution <span class="math notranslate nohighlight">\(Bernoulli(p)\)</span><a class="headerlink" href="#bernoulli-distribution-bernoulli-p" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Attribute (Discrete), <span class="math notranslate nohighlight">\(x \in \{0,1\}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(p\)</span> is the probability of success, i.e., probability of getting 1.</p></li>
+<li><p><span class="math notranslate nohighlight">\((1-p)\)</span> is the probability of failure, i.e., probability of getting 0.</p></li>
+</ul>
+</section>
+<section id="students-t-distribution-t-n-1">
+<h3>7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span><a class="headerlink" href="#students-t-distribution-t-n-1" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Variable (continuous), <span class="math notranslate nohighlight">\(x \in (-\infty,\infty)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(n\)</span> is the sample size typically</p></li>
+<li><p><span class="math notranslate nohighlight">\(n-1\)</span> degrees of freedom</p></li>
+</ul>
+</section>
+<section id="chi-squared-distribution-chi-2-n-1">
+<h3>8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span><a class="headerlink" href="#chi-squared-distribution-chi-2-n-1" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Variable (continuous) but can only take positive real numbers <span class="math notranslate nohighlight">\(x \in [0,\infty)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(n\)</span> is the sample size typically</p></li>
+<li><p><span class="math notranslate nohighlight">\(n-1\)</span> degrees of freedom</p></li>
+</ul>
+</section>
+</section>
+<section id="sample-from-a-population-distribution">
+<h2>Sample from a Population Distribution<a class="headerlink" href="#sample-from-a-population-distribution" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Each sample has an associated size <span class="math notranslate nohighlight">\(n\)</span></p></li>
+<li><p>To draw a histogram of the sample, use approximately <span class="math notranslate nohighlight">\(\sqrt{n}\)</span> bins.</p></li>
+</ul>
+</section>
 <section id="concepts">
 <h2>Concepts<a class="headerlink" href="#concepts" title="Link to this heading">#</a></h2>
 <ul class="simple">
@@ -458,6 +572,24 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="../HWs/HW2.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Homework 2</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../Projects/Mini_Project1.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Mini Project 1 - Design an Email Inbox Server</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -474,6 +606,22 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-probability-definitions">Basic Probability Definitions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#standard-five-distributions">Standard (five) Distributions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uniform-distribution-mathcal-u-a-b">1. Uniform Distribution <span class="math notranslate nohighlight">\(\mathcal{U}(a,b)\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#normal-distribution-mathcal-n-mu-sigma-2">2. Normal Distribution <span class="math notranslate nohighlight">\(\mathcal{N}(\mu,\sigma^2)\)</span> ***</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exponential-distribution-exp-dist-lambda-used-mostly-in-reliability-engineering">3. Exponential Distribution <span class="math notranslate nohighlight">\(Exp.Dist.(\lambda)\)</span> (used mostly in reliability engineering)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#binomial-distribution-mathcal-b-n-p">4. Binomial Distribution <span class="math notranslate nohighlight">\(\mathcal{B}(N,p)\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#poisson-distribution-poisson-lambda">5. Poisson Distribution <span class="math notranslate nohighlight">\(Poisson(\lambda)\)</span></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#other-distributions-in-this-course">Other Distributions (in this course)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bernoulli-distribution-bernoulli-p">6. Bernoulli distribution <span class="math notranslate nohighlight">\(Bernoulli(p)\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#students-t-distribution-t-n-1">7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chi-squared-distribution-chi-2-n-1">8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-from-a-population-distribution">Sample from a Population Distribution</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#concepts">Concepts</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#math-skills">Math Skills</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Concepts</a></li>

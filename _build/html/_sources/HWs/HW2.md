@@ -4,7 +4,7 @@
 
 [Textbook is here.](https://www.stat.purdue.edu/~qfsong/teaching/511/probability_and_statistics_for_engineering_and_the_sciences.pdf)
 
-1. Verify De Morgan's Laws through venn diagrams. For each law, draw two diagrams for each side of inequality (totaling eight diagrams). Each diagram will correspond to one operation ($\cup$,$'$, or $\cap$). Use shading or color to differeniate sets ($A$,$A'$,$B$,$B'$) from each other. 
+1. Verify De Morgan's Laws through venn diagrams. For each law, draw two diagrams for each side of inequality (totaling eight diagrams). Each diagram will correspond to one operation ($\cup$,$'$, or $\cap$). Use shading or color to differentiate sets ($A$,$A'$,$B$,$B'$) from each other. 
     * **Law 1**: $(A \cup B)' = A' \cap B' $
     * **Law 2**: $(A \cap B)' = A' \cup B' $ 
 

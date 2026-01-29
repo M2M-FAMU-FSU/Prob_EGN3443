@@ -65,3 +65,12 @@ Some sort of relational data between various fields (calculus, probability, stat
 
  * Just started prob-a-day 
     * Will make a single markdown that I use to add content daily - 
+    
+    
+## 1/27/26    
+* Maybe just "discussions" once a module!
+    * Had a great one today - good involvement
+* Things to do
+    * HW2 Solutions
+    * Exam 2
+    * Need to give Exam special office hours!

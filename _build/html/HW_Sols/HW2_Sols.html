@@ -184,10 +184,11 @@
         <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../Coffee_Discussions/Coffee_Discussions.html">Coffee Discussion</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Notations.html">Mathematical Notations</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../Cheat_Sheets/Mod1.html">Module 1 (1.5 sessions)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Cheat_Sheets/Mod1.html">Module 1 - Formula Sheet (1.5 sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW1.html">Homework 1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../Cheat_Sheets/Mod2.html">Module 2 (3 sessions)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Cheat_Sheets/Mod2.html">Module 2 - Formula Sheet (3 sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW2.html">Homework 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Cheat_Sheets/Mod3.html">Module 3 - Formula Sheet (2 sessions, Under Construction)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Projects/Mini_Project1.html">Mini Project 1 - Design an Email Inbox Server</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Coffee_Discussions/Coffee_Discussions_Sols.html">Coffee Discussion (Instruction Material)</a></li>
 </ul>
@@ -392,52 +393,127 @@ document.write(`
 <p><em>Check Due Date and Office Hours on Canvas</em></p>
 <p><a class="reference external" href="https://www.stat.purdue.edu/~qfsong/teaching/511/probability_and_statistics_for_engineering_and_the_sciences.pdf">Textbook is here.</a></p>
 <ol class="arabic simple">
-<li><p>Verify De Morgan’s Laws through venn diagrams. For each law, draw two diagrams for each side of inequality (totaling eight diagrams). Each diagram will correspond to one operation (<span class="math notranslate nohighlight">\(\cup\)</span>,<span class="math notranslate nohighlight">\('\)</span>, or <span class="math notranslate nohighlight">\(\cap\)</span>). Use shading or color to differeniate sets (<span class="math notranslate nohighlight">\(A\)</span>,<span class="math notranslate nohighlight">\(A'\)</span>,<span class="math notranslate nohighlight">\(B\)</span>,<span class="math notranslate nohighlight">\(B'\)</span>) from each other.</p>
+<li><p><span style = color:red> Verify De Morgan’s Laws through venn diagrams. For each law, draw two diagrams for each side of inequality (totaling eight diagrams). Each diagram will correspond to one operation (<span class="math notranslate nohighlight">\(\cup\)</span>,<span class="math notranslate nohighlight">\('\)</span>, or <span class="math notranslate nohighlight">\(\cap\)</span>). Use shading or color to differeniate sets (<span class="math notranslate nohighlight">\(A\)</span>,<span class="math notranslate nohighlight">\(A'\)</span>,<span class="math notranslate nohighlight">\(B\)</span>,<span class="math notranslate nohighlight">\(B'\)</span>) from each other.</p>
 <ul class="simple">
 <li><p><strong>Law 1</strong>: <span class="math notranslate nohighlight">\((A \cup B)' = A' \cap B' \)</span></p></li>
-<li><p><strong>Law 2</strong>: <span class="math notranslate nohighlight">\((A \cap B)' = A' \cup B' \)</span></p></li>
+<li><p><strong>Law 2</strong>: <span class="math notranslate nohighlight">\((A \cap B)' = A' \cup B' \)</span>
+</style></p></li>
 </ul>
 </li>
-<li><p>(Events) Textbook Section 2.1 #1</p></li>
-<li><p>(Events) Textbook Section 2.1 #3</p></li>
-<li><p>(Events, Independence, Disjointness) Textbook Section 2.2 #17</p></li>
-<li><p>(Probability) Textbook Section 2.2 #23</p></li>
-<li><p>(Probability/Counting) Textbook Section 2.3 #40</p></li>
+</ol>
+<br>
+<ol class="arabic" start="2">
+<li><p>(Events) Textbook Section 2.1 #1 (Textbook notation for sample notation is <span class="math notranslate nohighlight">\(\mathcal{S}\)</span>)
+a. <span class="math notranslate nohighlight">\(\Omega = \{1324,3124,1342,3142,2314,3214,2341,3241,
+                 1423,4123,1432,4132,2413,4213,2431,4231\}\)</span></p>
+<p>b. <span class="math notranslate nohighlight">\(A = \{1324, 1342, 1423, 1432\}\)</span>
+c.  <span class="math notranslate nohighlight">\(B = \{2314, 2341, 2413, 2431, 3214, 3241,4213,4231 \}\)</span>
+d. <span class="math notranslate nohighlight">\(A \cup B = \{1324, 1342, 1423, 1432, 2314, 2341, 2413, 2431, 3214, 3241,4213,4231 \}\)</span>
+<span class="math notranslate nohighlight">\(A \cap B = \{ \}\)</span> (Null set because either 1 or 2, not both, can get into the championship)
+<span class="math notranslate nohighlight">\(A' = \{3124,3142,2314,3214,2341,3241,4123,4132,2413,4213,2431,4231\}\)</span></p>
+</li>
+</ol>
+<br>
+<ol class="arabic simple" start="3">
+<li><p>(Events) Textbook Section 2.1 #3
+Though not asked, it is a good idea to first write down all possible outcomes (aka Sample Space)
+<span class="math notranslate nohighlight">\(\Omega = \{SSS,SSF,SFS,FSS, SFF, FSF, FFS, FFF\}\)</span> (<span class="math notranslate nohighlight">\(2^3\)</span> possible outcomes)
+a.  <span class="math notranslate nohighlight">\(A = \{SSF,SFS,FSS\}\)</span>
+b. <span class="math notranslate nohighlight">\(B = \{SSS,SSF,SFS,FSS\}\)</span>
+c. <span class="math notranslate nohighlight">\(C = \{SSS,SSF,SFS\}\)</span>
+d. <span class="math notranslate nohighlight">\(C' = \{FSS, SFF, FSF, FFS, FFF\}\)</span>
+<span class="math notranslate nohighlight">\(A\cup C = \{SSF,SFS,FSS, SFF, FSF, FFS, FFF\}\)</span>
+<span class="math notranslate nohighlight">\(A\cap C = \{FSS\}\)</span>
+<span class="math notranslate nohighlight">\(B\cup C = \{SSS,SSF,SFS,FSS, SFF, FSF, FFS, FFF\}\)</span>
+<span class="math notranslate nohighlight">\(B\cap C = \{FSS\}\)</span></p></li>
+</ol>
+<br>
+<ol class="arabic simple" start="4">
+<li><p>(Events, Independence, Disjointness) Textbook Section 2.2 #17
+a. There is a possibility (an outcome in Sample Space) that the next request is neither SPSS or SAS.
+b. <span class="math notranslate nohighlight">\(P(A') = 1 - 0.3 = 0.7\)</span>
+c. <span class="math notranslate nohighlight">\(P(A \cup B) =  P(A) + P(B) - P(A\cap B) = 0.3 + 0.5 - 0 = 0.8\)</span> (<span class="math notranslate nohighlight">\(P(A\cap B) = 0\)</span> assumed because the request cannot be involving SPSS and SAS at the same time, also otherwise we cannot calculate the values)
+d. Use DeMorgan’s Laws (and first axiom of probability)
+<span class="math notranslate nohighlight">\(P(A' \cap B') = P((A \cup B)') = 1 - P(A\cup B) = 0.2 \)</span></p></li>
+</ol>
+<br>
+<ol class="arabic simple" start="5">
+<li><p>(Probability) Textbook Section 2.2 #23
+15 (<span class="math notranslate nohighlight">\(=\)</span> <span class="math notranslate nohighlight">\(^6C_2\)</span>) equally likely outcomes
+a. <span class="math notranslate nohighlight">\(\frac{^2C_2}{^6C_2}\)</span>
+b. <span class="math notranslate nohighlight">\(\frac{^4C_2}{^6C_2}\)</span>
+c. <span class="math notranslate nohighlight">\(\frac{^4C_2 + 4}{^6C_2}\)</span>
+d. <span class="math notranslate nohighlight">\(\frac{4\times2}{^6C_2}\)</span></p></li>
+</ol>
+<br>
+<ol class="arabic simple" start="6">
+<li><p>(Probability/Counting) Textbook Section 2.3 #40
+a. <span class="math notranslate nohighlight">\(\frac{12!}{3^4}\)</span>
+b. (Assuming all outcomes are equally likely)
+<span class="math notranslate nohighlight">\(\frac{4!}{\frac{12!}{3^4}}\)</span></p></li>
+</ol>
+<br>
+<ol class="arabic simple" start="7">
 <li><p>We have a deck of randomly shuffled typical playing cards (if you do not know about cards, please check online).</p>
 <ul class="simple">
 <li><p>If we choose one card at random,</p>
 <ul>
-<li><p>What is the appropriate sample space and its size?</p></li>
-<li><p>What is the probability for an event that the card is black?</p></li>
+<li><p><span class="math notranslate nohighlight">\(\Omega = \)</span> All single cards. <span class="math notranslate nohighlight">\(n(\Omega) = 52\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\frac{26}{52}\)</span></p></li>
 </ul>
 </li>
 <li><p>If we choose two cards together randomly,</p>
 <ul>
-<li><p>What is the appropriate sample space and its size?</p></li>
-<li><p>What is the probability for an event that both the cards are black?</p></li>
-<li><p>What is the probability for an event that one card is black and one card is red?</p></li>
+<li><p><span class="math notranslate nohighlight">\(\Omega = \)</span> All combinations of different cards. <span class="math notranslate nohighlight">\(n(\Omega) =\)</span> <span class="math notranslate nohighlight">\( 52 \choose 2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\frac{26 \choose 2}{52 \choose 2}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\frac{26 \choose 1 }{52 \choose 2} \times \frac{26 \choose 1 }{52 \choose 2}\)</span></p></li>
 </ul>
 </li>
 <li><p>If we choose two cards one-after-another after replacing the card</p>
 <ul>
-<li><p>What is the appropriate sample space and its size?</p></li>
-<li><p>What is the probability for an event that both the cards are black?</p></li>
-<li><p>What is the probability for an event that one card is black and one card is red?</p></li>
+<li><p><span class="math notranslate nohighlight">\(\Omega = \)</span> All combinations including choosing the same card twice, <span class="math notranslate nohighlight">\(n(\Omega) =\)</span> <span class="math notranslate nohighlight">\( 52\times52\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\frac{26 \times 26}{52 \times 52}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\frac{26 \times 26}{52 \times 52}\)</span></p></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><p>(A classical problem) COVID-19 tests are known to detect correctly 99% of the times when the virus is present on the swab. However, the test also incorrectly detects (false-positive) 2% of the time when the virus is not present on the swab. Assume 10% of the population have COVID-19 right now. If you take a COVID-19 test and it turns out to be (unfortunately) positive, what is the probability that you have COVID-19?</p></li>
-<li><p>Textbook Section 2.4 #60</p></li>
-<li><p>Textbook Section 2.4 #63 (b), (c), (d) and (e). (You may read about tree diagram in (a) if you are curious)</p></li>
-<li><p>Textbook Section 2.5 #80</p>
+<li><p>(A classical problem)
+<em>You need to apply Bayes’ Theorem</em>
+Let <span class="math notranslate nohighlight">\(A\)</span> denote the event that I have COVID-19 <span class="math notranslate nohighlight">\(\implies\)</span> <span class="math notranslate nohighlight">\(A'\)</span> is the event that I do not have COVID-19. <span class="math notranslate nohighlight">\(A\)</span> and <span class="math notranslate nohighlight">\(A'\)</span> form mutually exlusive and exhaustive events such that <span class="math notranslate nohighlight">\(P(A) + P(A') = 1\)</span>.
+Let <span class="math notranslate nohighlight">\(B\)</span> denote the event that I tested positive. We need to find <span class="math notranslate nohighlight">\(P(A|B)\)</span></p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[P(A|B) = \frac{P(B|A)P(A)}{P(B|A)P(A) + P(B|A')P(A')}\]</div>
+<div class="math notranslate nohighlight">
+\[P(A) = 0.1 \implies P(A') = 0.9\]</div>
+<div class="math notranslate nohighlight">
+\[P(B|A) = 0.99, P(B|A') = 0.02\]</div>
+<div class="math notranslate nohighlight">
+\[ \begin{align}\begin{aligned}\implies P(A|B) = \frac{0.99 \times 0.1 }{0.99 \times 0.1 + 0.02 \times 0.9} = 84.6\%$$ *(surprising?)*\\&lt;br&gt;\\9. Textbook Section 2.4 \#60
+(Another application of Bayes' Theorem) 
+We are only talking about light aircraft, so you do not need to be thinking about other aircrafts (for example, you do not need to worry about $P(Discovered|NotLightAircraft)$)\\Given light aircraft,
+$P(Discovered) = 0.7$
+$P(YesLocator|Discovered) = 0.6$
+$P(NoLocator|NotDiscovered) = 0.9$\\
+a. $$P(NotDiscovered|YesLocator) = \frac{P(YesLocator|NotDiscovered)P(NotDiscovered)}{P(YesLocator|NotDiscovered)P(NotDiscovered) + P(YesLocator|Discovered)P(Discovered)}\end{aligned}\end{align} \]</div>
 <ul class="simple">
-<li><p>Additionally, write the definitions of sample space and events, that help you formulate this problem to calculate the probability values? Draw a relevant Venn diagram, if possible.</p></li>
+<li><p><span class="math notranslate nohighlight">\(P(YesLocator|NotDiscovered) = 1 - 0.9 = 0.1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(P(NotDiscovered) = 1 - 0.7 = 0.3\)</span></p></li>
 </ul>
-</li>
+<div class="math notranslate nohighlight">
+\[P(NotDiscovered|YesLocator) = \frac{0.1\times0.3}{0.1\times0.3 + 0.6 \times 0.7} = \frac{3}{45} = \frac{1}{15}\]</div>
+<br>
+10. <span style = color:red> Textbook Section 2.4 \#63 (b), (c), (d) and (e). (You may read about tree diagram in (a) if you are curious) 
+</style>
+<br>
+<p>11.<span style = color:red>  Textbook Section 2.5 #80
+* Additionally, write the definitions of sample space and events, that help you formulate this problem to calculate the probability values? Draw a relevant Venn diagram, if possible.
+</style></p>
+<ol class="arabic simple" start="12">
 <li><p>Car manufacturing can be considered an assembly of 500 independent components. If 99.9% of cars needs to be defect-free,</p>
 <ul class="simple">
-<li><p>What is the allowable defect rate (probability) for a component? (convert the obtained value to <em>parts-per-million</em> or <em>ppm</em>)</p></li>
+<li><p>If <span class="math notranslate nohighlight">\(p\)</span> is the required probability <span class="math notranslate nohighlight">\((1-p)^{500} = 0.999 \implies (1-p) \approx 0.999998 \implies p = 0.000002 = 2 ppm\)</span></p></li>
 <li><p>Write the definitions of sample space and events, that help you formulate this problem to calculate the probability of defective cars? Draw a relevant Venn diagram, if possible.</p></li>
 </ul>
 </li>

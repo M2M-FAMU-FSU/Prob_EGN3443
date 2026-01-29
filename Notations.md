@@ -34,3 +34,14 @@
 ### Permutations and Combinations
 * $^nC_r$ or $ n\choose r$ - n *choose* r
 * $^nP_r$  - n *permute* r
+
+
+
+## Basic Probability Notations  (UNDER CONSTRUCTION)
+* $p$ - Probability or Probability Mass Function (pmf, attributes, discrete)
+* $f$ - Probability Distribution Function (pdf, variables, continuous) *** 
+* $F$ - Cumulative Distribution Function (cdf)
+* $\Omega$ - Support set (sometimes called *domain*) (pronounced as "Omega")
+* $\omega$ - an element in the support  (still pronounced as "omega")
+* $\omega \in \Omega \implies$ element omega belongs to the support omega.  
+* $\forall \implies$ reads as and means "for all"

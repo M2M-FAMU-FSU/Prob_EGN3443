@@ -1,4 +1,4 @@
-# Module 2 (3 sessions)
+# Module 2 - Formula Sheet (3 sessions)
 (Chapter 2 in Textbook)
 May be useful to refer [mathematical notations](https://m2m-famu-fsu.github.io/Prob_EGN3443/Notations.html)
 
