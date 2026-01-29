@@ -1,6 +1,6 @@
 
-# Module 1 (1.5 sessions)
-(Chapters 1, 2, 3, and 4 in Textbook)
+# Module 1 - Formula Sheet (1.5 sessions)
+(Chapters 1,2, and 3 in Textbook)
 
 
 
