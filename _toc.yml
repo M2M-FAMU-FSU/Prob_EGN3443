@@ -6,12 +6,16 @@ root: intro
 chapters:
 - file: Coffee_Discussions/Coffee_Discussions
 - file: Notations.md
-- file: Cheat_Sheets/Mod1 
+- file: Formula_Sheets/Mod1 
 - file: HWs/HW1
-- file: Cheat_Sheets/Mod2
+- file: Formula_Sheets/Mod2
 - file: HWs/HW2
-- file:  Cheat_Sheets/Mod3
+- file: Formula_Sheets/Mod3
+- file: HWs/HW3
+- file: Formula_Sheets/Mod4
+- file: HWs/HW4
 - file: Projects/Mini_Project1.md
 - file: Coffee_Discussions/Coffee_Discussions_Sols
+
 
 

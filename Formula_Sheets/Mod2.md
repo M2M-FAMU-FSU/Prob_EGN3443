@@ -8,8 +8,9 @@ May be useful to refer [mathematical notations](https://m2m-famu-fsu.github.io/P
     * **Axioms of Probability**
         1. $p(\Omega) = 1$
         2. For any event A, $p(A) \geq 0$
-        3. If $A_i$ are disjoint events, $p(\cup_{i=1}^{\infty} A_i) = \sum_{i=1}^{\infty} p(A_i)$
+        3. If $A_i$ are disjoint (mutually exclusive) events, $p(\cup_{i=1}^{\infty} A_i) = \sum_{i=1}^{\infty} p(A_i)$
 * Two events are independent $\implies P(A \cap B) = P(A).P(B) $
+* Exhaustive Events  $\cup_{i=1}^{k} A_i = \Omega$ 
 ## Probability Relations
 * $p(A|B) = \frac{p(A \cap B)}{p(B)} \Leftrightarrow P(A\cap B) = P(A|B).P(B)$ 
 * $p(A \cup B) = p(A) + p(B) - P(A \cap B)$
