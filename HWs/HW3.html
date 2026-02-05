@@ -366,9 +366,7 @@ document.write(`
   </button>
 `);
 </script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
+
 </div></div>
       
     </div>
@@ -384,14 +382,6 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rest-of-the-hw-is-still-under-construction-thank-you-for-your-patience"><em>(Rest of the HW is still under construction; thank you for your patience!)</em></a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -406,13 +396,14 @@ document.write(`
 <p><em>Check Due Date and Office Hours on Canvas</em></p>
 <p><a class="reference external" href="https://www.stat.purdue.edu/~qfsong/teaching/511/probability_and_statistics_for_engineering_and_the_sciences.pdf">Textbook is here.</a></p>
 <ol class="arabic simple">
-<li><p>Answer (Hint: use <span class="math notranslate nohighlight">\(P(\Omega) = 1\)</span>)</p>
+<li><p>Justify the answer (Hint: use <span class="math notranslate nohighlight">\(P(\Omega) = 1\)</span>)</p>
 <ul class="simple">
-<li><p>1.1 <span class="math notranslate nohighlight">\(g(x) = 1 \,\, \forall \,\, x \in X; X  = [0,1]\)</span>. Is the function <span class="math notranslate nohighlight">\(g\)</span> a pdf, a pmf, or neither?</p></li>
-<li><p>1.2. <span class="math notranslate nohighlight">\(g(x) = 1/2 \,\, \forall \,\, x \in X\)</span>; <span class="math notranslate nohighlight">\(X = \{1,2,3\}\)</span> . Is the function <span class="math notranslate nohighlight">\(g\)</span> a pdf, a pmf, or neither?</p></li>
-<li><p>1.3. <span class="math notranslate nohighlight">\(g(x) = |x| \,\, \forall \,\, x \in X; X = [-1,1] \)</span>. Is the function <span class="math notranslate nohighlight">\(g\)</span> a pdf, a pmf, or neither?
+<li><p><span class="math notranslate nohighlight">\(g(x) = 1 \,\, \forall \,\, x \in X; X  = [0,1]\)</span>. Is the function <span class="math notranslate nohighlight">\(g\)</span> a pdf, a pmf, or neither?</p></li>
+<li><p><span class="math notranslate nohighlight">\(g(x) = \frac{1}{2} \,\, \forall \,\, x \in X\)</span>; <span class="math notranslate nohighlight">\(X = \{1,2,3\}\)</span> . Is the function <span class="math notranslate nohighlight">\(g\)</span> a pdf, a pmf, or neither?</p></li>
+<li><p><span class="math notranslate nohighlight">\(g(x) = |x| \,\, \forall \,\, x \in X; X = [-1,1] \)</span>. Is the function <span class="math notranslate nohighlight">\(g\)</span> a pdf, a pmf, or neither?
 <em>Note:  <span class="math notranslate nohighlight">\(|x| = \begin{cases} x, \,\, if \,\, x \geq 0 \\ -x, \,\, if \,\, x &lt; 0 \\ \end{cases} \)</span> (known as absolute value function)</em></p></li>
-<li><p>1.4. <span class="math notranslate nohighlight">\(g(x) = \frac{1}{\sqrt{8\pi}}\exp(-\frac{x^2}{8}) \forall \,\, x \in X; X = (-\infty,\infty)\)</span>. Is the function <span class="math notranslate nohighlight">\(g\)</span> a pdf, a pmf, or neither?</p></li>
+<li><p><span class="math notranslate nohighlight">\(g(x) = \frac{1}{\sqrt{2\pi}}\exp(-\frac{x^2}{2}) \forall \,\, x \in X; X = (-\infty,\infty)\)</span>. Is the function <span class="math notranslate nohighlight">\(g\)</span> a pdf, a pmf, or neither?</p></li>
+<li><p><span class="math notranslate nohighlight">\(g(x) =\)</span> <span class="math notranslate nohighlight">\(n \choose x\)</span> <span class="math notranslate nohighlight">\(p^x(1-p)^{n-x} \,\, \forall \,\, x \in X; X = \{0,1,2,...,n\}\)</span>. Is the function <span class="math notranslate nohighlight">\(g\)</span> a pdf, a pmf, or neither?</p></li>
 </ul>
 </li>
 <li><p>Find the expected value of <span class="math notranslate nohighlight">\(X\)</span>, if</p>
@@ -430,18 +421,35 @@ document.write(`
 <li><p>What are <span class="math notranslate nohighlight">\(F(0.2)\)</span>, <span class="math notranslate nohighlight">\(F(5.5)\)</span>, and <span class="math notranslate nohighlight">\(F(8.5)\)</span>?</p></li>
 </ul>
 </li>
+<li><p>Find the value of  <span class="math notranslate nohighlight">\(\big(\mathbb{E}[X^2] - (\mathbb{E}[X])^2\big)\)</span>, if</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(X \sim Binomial(p)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(X \sim Poisson(\lambda)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(X \sim Uniform(a,b)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(X \sim Exponential(\lambda)\)</span></p></li>
+</ul>
+</li>
+<li><p>Prove that the</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(Poisson(\lambda)\)</span> is a probability mass function.</p></li>
+<li><p><span class="math notranslate nohighlight">\(Exponential(\lambda)\)</span> is a probability distribution function.</p></li>
+</ul>
+</li>
+<li><p>Sketch the pdfs and cdfs of <span class="math notranslate nohighlight">\(Bernoulli(0.3)\)</span>, <span class="math notranslate nohighlight">\(Bernoulli(0.5)\)</span>, and <span class="math notranslate nohighlight">\(Bernoulli(0.75)\)</span>.</p></li>
+<li><p>Let there are <span class="math notranslate nohighlight">\(n\)</span> random variables, such that <span class="math notranslate nohighlight">\(X_1 \sim Bernoulli(0.6)\)</span>, <span class="math notranslate nohighlight">\(X_2 \sim Bernoulli(0.6)\)</span>,<span class="math notranslate nohighlight">\(\cdots\)</span>, <span class="math notranslate nohighlight">\(X_n \sim Bernoulli(0.6)\)</span>. What is the <span class="math notranslate nohighlight">\(\mathbb{E}[X]\)</span> where <span class="math notranslate nohighlight">\(X = X_1 + X_2 + X_3+ \cdots + X_n\)</span>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(P(x) =\)</span> <span class="math notranslate nohighlight">\(4 \choose x\)</span> <span class="math notranslate nohighlight">\(0.3^x(0.7)^{4-x}\)</span>, find</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\mathbb{E}[X]\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{E}[X^2] - (\mathbb{E}[X])^2\)</span></p></li>
+</ul>
+</li>
+<li><p>Textbook Section 3.2 #11 (No need to draw ‘probability histogram’ in (b))</p></li>
+<li><p>Textbook Section 3.2 #24</p></li>
+<li><p>Textbook Section 3.2 #26</p></li>
+<li><p>Textbook Section 3.3 #30</p></li>
+<li><p>Textbook Section 3.3 #38</p></li>
+<li><p><a class="reference external" href="https://forms.office.com/Pages/ResponsePage.aspx?id=61Bkowbbp0KNGwJnGfcB44zsTaTJL2ZJmeUrSrQ2didUNUdSUldFNDNUQ1Y4WldLUzdGS0ZCTkJWUy4u"><strong>EGN3443 Spring 26 - Perception Survey (Part 1)</strong></a>: Please provide evidence of completed survey (screenshots of completed survey or email-based proofs). This will take you only 2 minutes to complete.</p></li>
 </ol>
-<hr class="docutils" />
-<section id="rest-of-the-hw-is-still-under-construction-thank-you-for-your-patience">
-<h2><em>(Rest of the HW is still under construction; thank you for your patience!)</em><a class="headerlink" href="#rest-of-the-hw-is-still-under-construction-thank-you-for-your-patience" title="Link to this heading">#</a></h2>
-<ol class="arabic simple" start="8">
-<li><p>You are redesigning a mobile app. You want to know if users think the “Profile” icon also contains “Settings.” You assume 70% of users expect Settings to be under “Profile” (industry standard). In a usability test with 5 users, 4 of them immediately click the “Hamburger Menu” instead.</p></li>
-</ol>
-<p>Design Decision: Design Insight: This allows students to objectively admit when their design hypothesis was wrong. Instead of arguing about “best practices,” they update their “belief” based on the 4 users they just watched.</p>
-<ol class="arabic simple" start="10">
-<li><p><strong>IMPORTANT Survey Question</strong>: Testing modalities of teaching</p></li>
-</ol>
-</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -498,21 +506,6 @@ document.write(`
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rest-of-the-hw-is-still-under-construction-thank-you-for-your-patience"><em>(Rest of the HW is still under construction; thank you for your patience!)</em></a></li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>

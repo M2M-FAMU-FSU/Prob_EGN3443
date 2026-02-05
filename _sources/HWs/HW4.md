@@ -26,3 +26,19 @@
     * Find $p(x \leq 8)$.
     * Find $F(1)$
 
+
+-----------------------------------------------------------------------
+*(Rest of the HW is still under construction; thank you for your patience!)*
+-----------------------------------------------------------------------
+
+
+
+
+
+
+8. You are redesigning a mobile app. You want to know if users think the "Profile" icon also contains "Settings." You assume 70% of users expect Settings to be under "Profile" (industry standard). In a usability test with 5 users, 4 of them immediately click the "Hamburger Menu" instead.
+
+Design Decision: Design Insight: This allows students to objectively admit when their design hypothesis was wrong. Instead of arguing about "best practices," they update their "belief" based on the 4 users they just watched.
+
+
+10. **IMPORTANT Survey Question**: Testing modalities of teaching 
