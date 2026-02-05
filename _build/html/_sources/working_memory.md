@@ -74,3 +74,15 @@ Some sort of relational data between various fields (calculus, probability, stat
     * HW2 Solutions
     * Exam 2
     * Need to give Exam special office hours!
+
+
+## 2/3/26
+* Trying to get back to being efficient - Lagging behind on quite a bit of things.
+    * HW3 Should be done by today (including the Survey question for CAREER);
+        * Parallely the formula sheet! 
+        * Also, Class Prep!
+    * Coffee Discussion or regular class on Thursday!?
+    * Exam 2 Solutions Remaining;
+    * Need to also develop the next two projects!
+    * Also, the Animation thing!- Just do it once!
+
