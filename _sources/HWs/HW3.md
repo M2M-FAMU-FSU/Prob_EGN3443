@@ -7,7 +7,7 @@
     *  1.1 $g(x) = 1 \,\, \forall \,\, x \in X; X  = [0,1]$. Is the function $g$ a pdf, a pmf, or neither?
     *  1.2. $g(x) = 1/2 \,\, \forall \,\, x \in X$; $X = \{1,2,3\}$ . Is the function $g$ a pdf, a pmf, or neither?
     *   1.3. $g(x) = |x| \,\, \forall \,\, x \in X; X = [-1,1] $. Is the function $g$ a pdf, a pmf, or neither? 
-        *Note:  $|\omega| = \begin{cases} \omega, \,\, if \,\, \omega \geq 0 \\ -\omega, \,\, if \,\, \omega < 0 \\ \end{cases} $ (known as absolute value function)*   
+        *Note:  $|x| = \begin{cases} x, \,\, if \,\, x \geq 0 \\ -x, \,\, if \,\, x < 0 \\ \end{cases} $ (known as absolute value function)*   
     *   1.4. $g(x) = \frac{1}{\sqrt{8\pi}}\exp(-\frac{x^2}{8}) \forall \,\, x \in X; X = (-\infty,\infty)$. Is the function $g$ a pdf, a pmf, or neither?
 
 

@@ -20,6 +20,13 @@ You are designing a bridge. A structural engineer asks you, will the bridge fail
         
 
 ### **Module 3 (Session \#7)** 
+* How do you verify if a coin is biased (or unbiased)?
+* How do you verify if a die is fair?
+        
+
+---
+*(Under Construction, please ignore)**
+---
 Consider 
 1. Decide the number of parking spots at COE
 2. Decide the number of Baristas/Waiters to hire at Cafe/Restaurant
@@ -37,7 +44,3 @@ Consider
 8. Wait Times at COE Cafe
 9. Temperature in Tallahassee
 10. Length of Pine Leaves 
-   
-**Prompts**
-*  What is the basis of grouping?
-        
