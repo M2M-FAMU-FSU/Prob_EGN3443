@@ -52,7 +52,7 @@
 
 13. Textbook Section 3.3 \#38
 
-14. [**EGN3443 Spring 26 - Perception Survey (Part 1)**](https://forms.office.com/Pages/ResponsePage.aspx?id=61Bkowbbp0KNGwJnGfcB44zsTaTJL2ZJmeUrSrQ2didUNUdSUldFNDNUQ1Y4WldLUzdGS0ZCTkJWUy4u): Please provide evidence of completed survey (screenshots of completed survey or email-based proofs). This will take you only 2 minutes to complete.  
+14. [**EGN3443 Spring 26 - Perception Survey (Part 1)**](https://forms.office.com/Pages/ResponsePage.aspx?id=61Bkowbbp0KNGwJnGfcB44zsTaTJL2ZJmeUrSrQ2didUNUdSUldFNDNUQ1Y4WldLUzdGS0ZCTkJWUy4u): Please provide evidence of completed survey (screenshots of completed survey or email-based pdf). This will take you only 2 minutes to complete.  
 
 
 
