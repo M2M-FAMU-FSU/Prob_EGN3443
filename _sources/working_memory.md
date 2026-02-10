@@ -86,3 +86,10 @@ Some sort of relational data between various fields (calculus, probability, stat
     * Need to also develop the next two projects!
     * Also, the Animation thing!- Just do it once!
 
+
+## 2/10/26
+* learn git ignore! 
+    * So that I can also write exams with .md (though not the only reason but HW solutions has high accessibility score)
+* HW3 Sols
+* Exam 3
+* Class Prep for Thursday ~ Think about Module 4
