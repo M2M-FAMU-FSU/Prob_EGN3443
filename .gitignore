@@ -1,0 +1,11 @@
+# Ignore folders
+_build/
+HW_Sols/
+
+# Ignore specific files
+#.env
+#config.json
+
+# Ignore all files with a certain extension
+#*.log
+#*.exe
