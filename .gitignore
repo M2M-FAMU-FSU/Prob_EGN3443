@@ -3,6 +3,7 @@ _build/
 HW_Sols/
 
 # Ignore specific files
+working_memory.md
 #.env
 #config.json
 
