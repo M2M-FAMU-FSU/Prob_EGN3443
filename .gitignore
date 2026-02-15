@@ -1,6 +1,7 @@
 # Ignore folders
 _build/
 HW_Sols/
+Exams/
 
 # Ignore specific files
 working_memory.md

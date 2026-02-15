@@ -1,11 +1,12 @@
 # Module 3 - Formula Sheet (2 sessions)
 
-*** - denotes **IMPORTANT**
-
-
-## Math Tip
+## Basic Math
 * Summation in Discrete $\leftrightarrow$ Integration in Continuous
-
+* **Binomial Theorem** $(a+b)^n = \sum_{x=0}^n$ $n \choose x$ $a^x b^{n-x}$  
+* **Taylor Series** $f(x) = f(a) + \frac{f'(a)}{1!} (x-a) + \frac{f''(a)}{2!} (x-a)^2 + \cdots \infty \,\, terms$ 
+    * $e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}$ (by substituting $a = 0$)
+* **Sum of Infinite terms in Geometric Series** 
+    * $s = a + ar + ar^2 + \cdots \infty \,\, terms = \frac{a}{1-r}$ (only if $0<r < 1$)
 
 ## Basic Probability Definitions
 * **CDF** $F(x) = p(\omega \leq x) = \int_{-\infty}^{x}f(\omega)d\omega$ (integral will convert to summation for attributes/pmfs)
@@ -43,7 +44,7 @@
     * $F(x) = \begin{cases} 0, \,\, \text{if} \,\, x \leq a \\ \frac{x-a}{b-a}, \,\, \text{if} \,\, a \leq x \leq b \\ 1, \,\, \text{if} \,\, x \geq b \end{cases}$ 
 
 
-2. **Exponential Distribution** $Exp.Dist.(\lambda)$ 
+2. **Exponential Distribution** $Exponential(\lambda)$ 
     * *Use Cases:* Time to fail, Waiting Time 
     * Variable (continuous)
     * $f(x) = \lambda \exp(-\lambda x) \,\, \forall \,\, x \in X, \,\,X =  [0,\infty) $

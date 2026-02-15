@@ -38,7 +38,7 @@
 
 7. Let there are $n$ random variables, such that $X_1 \sim Bernoulli(0.6)$, $X_2 \sim Bernoulli(0.6)$,$\cdots$, $X_n \sim Bernoulli(0.6)$. What is the $\mathbb{E}[X]$ where $X = X_1 + X_2 + X_3+ \cdots + X_n$?  
 
-8. $P(x) =$ $4 \choose x$ $0.3^x(0.7)^{4-x}$, find 
+8. $P(x) =$ $4 \choose x$ $0.3^x(0.7)^{4-x} \,\, x \in X, \,\, X = \{0,1,2,3,4\}$ , find 
     * $\mathbb{E}[X]$
     * $\mathbb{E}[X^2] - (\mathbb{E}[X])^2$
 

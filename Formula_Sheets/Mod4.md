@@ -3,6 +3,15 @@
 * Expected Values
     * Mean, Variance Definitions.
 
+* $\mu_X = \mathbb{E}[X]$
+* $\sigma^2_X = \mathbb{E}[(X-\mu_X)^2] = \mathbb{E}[X^2] - (\mathbb{E}[X])^2$ 
+
+
+* $\mathbb{E}[T] = n\mu$
+* $\mathbb{V}[T] = n\sigma^2$
+* $\mathbb{E}[\bar{X}] = \mu_{\bar{X}} = \mu $
+* $\mathbb{V}[\bar{X}] = \frac{\sigma^2}{n} $
+
 
 ### 7. Students' t-distribution $t(n-1)$
 * Variable (continuous), $x \in (-\infty,\infty)$
@@ -13,9 +22,6 @@
 * Variable (continuous) but can only take positive real numbers $x \in [0,\infty)$
 * $n$ is the sample size typically
 * $n-1$ degrees of freedom
-
-
-
 
 ### 3. Exponential Distribution $Exp.Dist.(\lambda)$ (used mostly in reliability engineering)
 * Variable (continuous)
