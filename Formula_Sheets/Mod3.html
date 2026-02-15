@@ -389,7 +389,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#math-tip">Math Tip</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-math">Basic Math</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-probability-definitions">Basic Probability Definitions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expected-values">Expected Values</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-pmfs">Basic PMFs</a></li>
@@ -407,11 +407,21 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="module-3-formula-sheet-2-sessions">
 <h1>Module 3 - Formula Sheet (2 sessions)<a class="headerlink" href="#module-3-formula-sheet-2-sessions" title="Link to this heading">#</a></h1>
-<p>*** - denotes <strong>IMPORTANT</strong></p>
-<section id="math-tip">
-<h2>Math Tip<a class="headerlink" href="#math-tip" title="Link to this heading">#</a></h2>
+<section id="basic-math">
+<h2>Basic Math<a class="headerlink" href="#basic-math" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Summation in Discrete <span class="math notranslate nohighlight">\(\leftrightarrow\)</span> Integration in Continuous</p></li>
+<li><p><strong>Binomial Theorem</strong> <span class="math notranslate nohighlight">\((a+b)^n = \sum_{x=0}^n\)</span> <span class="math notranslate nohighlight">\(n \choose x\)</span> <span class="math notranslate nohighlight">\(a^x b^{n-x}\)</span></p></li>
+<li><p><strong>Taylor Series</strong> <span class="math notranslate nohighlight">\(f(x) = f(a) + \frac{f'(a)}{1!} (x-a) + \frac{f''(a)}{2!} (x-a)^2 + \cdots \infty \,\, terms\)</span></p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}\)</span> (by substituting <span class="math notranslate nohighlight">\(a = 0\)</span>)</p></li>
+</ul>
+</li>
+<li><p><strong>Sum of Infinite terms in Geometric Series</strong></p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(s = a + ar + ar^2 + \cdots \infty \,\, terms = \frac{a}{1-r}\)</span> (only if <span class="math notranslate nohighlight">\(0&lt;r &lt; 1\)</span>)</p></li>
+</ul>
+</li>
 </ul>
 </section>
 <section id="basic-probability-definitions">
@@ -465,7 +475,7 @@ document.write(`
 <li><p><span class="math notranslate nohighlight">\(F(x) = \begin{cases} 0, \,\, \text{if} \,\, x \leq a \\ \frac{x-a}{b-a}, \,\, \text{if} \,\, a \leq x \leq b \\ 1, \,\, \text{if} \,\, x \geq b \end{cases}\)</span></p></li>
 </ul>
 </li>
-<li><p><strong>Exponential Distribution</strong> <span class="math notranslate nohighlight">\(Exp.Dist.(\lambda)\)</span></p>
+<li><p><strong>Exponential Distribution</strong> <span class="math notranslate nohighlight">\(Exponential(\lambda)\)</span></p>
 <ul class="simple">
 <li><p><em>Use Cases:</em> Time to fail, Waiting Time</p></li>
 <li><p>Variable (continuous)</p></li>
@@ -541,7 +551,7 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#math-tip">Math Tip</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-math">Basic Math</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-probability-definitions">Basic Probability Definitions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expected-values">Expected Values</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-pmfs">Basic PMFs</a></li>
@@ -570,7 +580,7 @@ By Raghav Gnanasambandam
 
   <p class="copyright">
     
-      © Copyright 2026.
+      © Copyright 2026-.
       <br/>
     
   </p>
