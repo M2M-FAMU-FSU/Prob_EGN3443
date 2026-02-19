@@ -13,9 +13,6 @@
 * $p(a \leq x \leq b) = \int_{a}^{b}f(x)dx$ (integral will convert to summation for attributes/pmfs)
 * $p(\Omega) = \int_{\Omega} f(x)dx = 1$
 
-
-
-
 ## Expected Values
 * $\mathbb{E}[X] =   \sum_{i}  p(x_i)x_i$ (or) $\int_ {-\infty}^{\infty}xf(x)dx$
 * $\mathbb{E}[g(X)] = \sum_{i}  p(x_i)g(x_i)$ (or) $\int_ {-\infty}^{\infty}g(x)f(x)dx$ 
@@ -38,7 +35,7 @@
 ## Basic PDFs
 1. **Uniform Distribution** $\mathcal{U}(a,b)$
     * *Use cases*: Niche but good for developing understanding. 
-    * Conitnuous RV
+    * Continuous RV
     * $a$ - lower limit or bound, $b$- upper limit or bound
     * $f(x) = \frac{1}{b-a} \,\, \forall \,\, a \leq x \leq b$ ($0$ otherwise)
     * $F(x) = \begin{cases} 0, \,\, \text{if} \,\, x \leq a \\ \frac{x-a}{b-a}, \,\, \text{if} \,\, a \leq x \leq b \\ 1, \,\, \text{if} \,\, x \geq b \end{cases}$ 

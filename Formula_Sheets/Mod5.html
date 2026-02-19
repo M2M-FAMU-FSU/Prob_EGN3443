@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Module 4 - Formula Sheet (3 Sessions, Under Construction) &#8212; Statistical Topics in Engineering (EGN3443)</title>
+    <title>Module 5 - Formula Sheet (3 Sessions, Under Construction) &#8212; Statistical Topics in Engineering (EGN3443)</title>
   
   
   
@@ -59,11 +59,9 @@
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'Formula_Sheets/Mod4';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Formula_Sheets/Mod5';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Homework 4" href="../HWs/HW4.html" />
-    <link rel="prev" title="Homework 3" href="../HWs/HW3.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -126,6 +124,8 @@
       
       
       
+        
+      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -181,7 +181,7 @@
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
+        <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../Coffee_Discussions/Coffee_Discussions.html">Coffee Discussion</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Notations.html">Mathematical Notations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Mod1.html">Module 1 - Formula Sheet (1.5 sessions)</a></li>
@@ -190,7 +190,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW2.html">Homework 2</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Mod3.html">Module 3 - Formula Sheet (2 sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW3.html">Homework 3</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 4 - Formula Sheet (3 Sessions, Under Construction)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Mod4.html">Module 4 - Formula Sheet (3 Sessions, Under Construction)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW4.html">Homework 4</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Projects/Mini_Project1.html">Mini Project 1 - Design an Email Inbox Server</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Coffee_Discussions/Coffee_Discussions_Sols.html">Coffee Discussion (Instruction Material)</a></li>
@@ -265,7 +265,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FFormula_Sheets/Mod4.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FFormula_Sheets/Mod5.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -295,7 +295,7 @@
       
       
       
-      <li><a href="../_sources/Formula_Sheets/Mod4.md" target="_blank"
+      <li><a href="../_sources/Formula_Sheets/Mod5.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -379,7 +379,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Module 4 - Formula Sheet (3 Sessions, Under Construction)</h1>
+    <h1>Module 5 - Formula Sheet (3 Sessions, Under Construction)</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -389,8 +389,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#binomial-distribution-mathcal-b-n-p">Binomial Distribution <span class="math notranslate nohighlight">\(\mathcal{B}(N,p)\)</span></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#normal-distribution-mathcal-n-mu-sigma-2"><strong>Normal Distribution</strong> <span class="math notranslate nohighlight">\(\mathcal{N}(\mu,\sigma^2)\)</span> ***</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#students-t-distribution-t-n-1">7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chi-squared-distribution-chi-2-n-1">8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span></a></li>
 </ul>
             </nav>
         </div>
@@ -402,50 +402,22 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="module-4-formula-sheet-3-sessions-under-construction">
-<h1>Module 4 - Formula Sheet (3 Sessions, Under Construction)<a class="headerlink" href="#module-4-formula-sheet-3-sessions-under-construction" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="module-5-formula-sheet-3-sessions-under-construction">
+<h1>Module 5 - Formula Sheet (3 Sessions, Under Construction)<a class="headerlink" href="#module-5-formula-sheet-3-sessions-under-construction" title="Link to this heading">#</a></h1>
+<section id="students-t-distribution-t-n-1">
+<h2>7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span><a class="headerlink" href="#students-t-distribution-t-n-1" title="Link to this heading">#</a></h2>
 <ul class="simple">
-<li><p>Expected Values</p>
-<ul>
-<li><p>Mean, Variance Definitions.</p></li>
-</ul>
-</li>
-<li><p><span class="math notranslate nohighlight">\(\mu_X = \mathbb{E}[X]\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\sigma^2_X = \mathbb{E}[(X-\mu_X)^2] = \mathbb{E}[X^2] - (\mathbb{E}[X])^2\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{E}[T] = n\mu\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{V}[T] = n\sigma^2\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{E}[\bar{X}] = \mu_{\bar{X}} = \mu \)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{V}[\bar{X}] = \frac{\sigma^2}{n} \)</span></p></li>
-</ul>
-<section id="binomial-distribution-mathcal-b-n-p">
-<h2>Binomial Distribution <span class="math notranslate nohighlight">\(\mathcal{B}(N,p)\)</span><a class="headerlink" href="#binomial-distribution-mathcal-b-n-p" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>If <span class="math notranslate nohighlight">\(X \sim Bernoulli(p)\)</span>, then <span class="math notranslate nohighlight">\(Y = (X_1 + X_2 + X_3 + ... + X_N) \sim Binomial (N,p)\)</span></p>
-<ul>
-<li><p>Attribute (discrete)</p></li>
-<li><p><em>Use cases</em>: Probability of defective items in a batch, # of rainy days in a year.</p></li>
-<li><p><span class="math notranslate nohighlight">\(N\)</span> - Number of Trials, <span class="math notranslate nohighlight">\(p\)</span> - probability of success in one trial</p></li>
-<li><p><span class="math notranslate nohighlight">\(p(x) = \binom{N}{x} p^{x}(1-p)^{N-x} \,\, \forall \,\, x \in \{0,1,2,..., N\} \)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(F(x) = \sum_{i=0}^{x}  \binom{N}{i} p^{i}(1-p)^{N-i}\)</span></p></li>
-</ul>
-</li>
+<li><p>Variable (continuous), <span class="math notranslate nohighlight">\(x \in (-\infty,\infty)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(n\)</span> is the sample size typically</p></li>
+<li><p><span class="math notranslate nohighlight">\(n-1\)</span> degrees of freedom</p></li>
 </ul>
 </section>
-<section id="normal-distribution-mathcal-n-mu-sigma-2">
-<h2><strong>Normal Distribution</strong> <span class="math notranslate nohighlight">\(\mathcal{N}(\mu,\sigma^2)\)</span> ***<a class="headerlink" href="#normal-distribution-mathcal-n-mu-sigma-2" title="Link to this heading">#</a></h2>
+<section id="chi-squared-distribution-chi-2-n-1">
+<h2>8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span><a class="headerlink" href="#chi-squared-distribution-chi-2-n-1" title="Link to this heading">#</a></h2>
 <ul class="simple">
-<li><p>From Central Limit Theorem!</p>
-<ul>
-<li><p>Variable (continuous)</p></li>
-<li><p>Most Widely Used Distribution: <em>Some Examples</em>: Drug Trials (or broadly hypothesis testing), Quality Control, AI/Machine Learning.</p></li>
-<li><p><span class="math notranslate nohighlight">\(\mu\)</span> - Mean, <span class="math notranslate nohighlight">\(\sigma^2\)</span>- Variance</p></li>
-<li><p><span class="math notranslate nohighlight">\(f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}\exp(-\frac{(x-\mu)^2}{2 \sigma^2}) \,\, \forall \,\, x \in (-\infty,\infty) \)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(F(x)\)</span> - use standard normal tables using z-score!</p></li>
-<li><p>***  <em>Standard Normal Score</em> or <em>z-score</em> <span class="math notranslate nohighlight">\(z(x) = \frac{x - \mu}{\sigma}\)</span></p></li>
-<li><p>*** <span class="math notranslate nohighlight">\(\Phi(x)\)</span> - cdf of standard normal distribution <span class="math notranslate nohighlight">\(\mathcal{N}(0,1)\)</span></p></li>
-<li><p>***  <span class="math notranslate nohighlight">\(F(x) = \Phi(z(x))\)</span></p></li>
-</ul>
-</li>
+<li><p>Variable (continuous) but can only take positive real numbers <span class="math notranslate nohighlight">\(x \in [0,\infty)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(n\)</span> is the sample size typically</p></li>
+<li><p><span class="math notranslate nohighlight">\(n-1\)</span> degrees of freedom</p></li>
 </ul>
 </section>
 </section>
@@ -480,24 +452,6 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="../HWs/HW3.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Homework 3</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="../HWs/HW4.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Homework 4</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               
@@ -514,8 +468,8 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#binomial-distribution-mathcal-b-n-p">Binomial Distribution <span class="math notranslate nohighlight">\(\mathcal{B}(N,p)\)</span></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#normal-distribution-mathcal-n-mu-sigma-2"><strong>Normal Distribution</strong> <span class="math notranslate nohighlight">\(\mathcal{N}(\mu,\sigma^2)\)</span> ***</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#students-t-distribution-t-n-1">7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chi-squared-distribution-chi-2-n-1">8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span></a></li>
 </ul>
   </nav></div>
 

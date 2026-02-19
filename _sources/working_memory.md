@@ -90,6 +90,13 @@ Some sort of relational data between various fields (calculus, probability, stat
 ## 2/10/26
 * learn git ignore! 
     * So that I can also write exams with .md (though not the only reason but HW solutions has high accessibility score)
-* HW3 Sols
+* HW3 Sols 
 * Exam 3
 * Class Prep for Thursday ~ Think about Module 4
+
+
+## 2/19/26
+* Exam 3 Solutions - Done!
+* HW4: With SURVEY QUESTION!!
+    * All about Normal and Binomial!
+* Mini Project 2!! 
