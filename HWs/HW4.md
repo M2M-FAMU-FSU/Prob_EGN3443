@@ -35,13 +35,23 @@
     * What is the probability that the value $\frac{\# of heads}{Total \# of tosses}$ is greater than $0.5$? 
     * What is the probability that the value $\frac{\# of heads}{Total \# of tosses}$  is greater than $0.5$ if you toss the coin 50 times? Is it different from the previous answer? 
 
------------------------------------------------------------------------
-*(Rest of the HW is still under construction; thank you for your patience!)*
------------------------------------------------------------------------
+6. Textbook Section 4.3 \#42 
 
-8. You are redesigning a mobile app. You want to know if users think the "Profile" icon also contains "Settings." You assume 70% of users expect Settings to be under "Profile" (industry standard). In a usability test with 5 users, 4 of them immediately click the "Hamburger Menu" instead.
+7. Textbook Section 4.3 \#46
 
-Design Decision: Design Insight: This allows students to objectively admit when their design hypothesis was wrong. Instead of arguing about "best practices," they update their "belief" based on the 4 users they just watched.
+8. Textbook Section 4.3 \#51
 
+9. Textbook Section 4.3 \#53
 
-10. **IMPORTANT Survey Question**: Testing modalities of teaching 
+10. Textbook Section 4.3 \#55
+
+11. Textbook Section 5.4 \#46
+
+12. Textbook Section 5.4 \#56
+
+13. Textbook Section 5.5 \#64
+
+14. Textbook Section 5.5 \#67
+
+15. [**EGN3443 Spring 26 - Perception Survey (Part 1)**](https://forms.office.com/Pages/ResponsePage.aspx?id=61Bkowbbp0KNGwJnGfcB44zsTaTJL2ZJmeUrSrQ2didUNUdSUldFNDNUQ1Y4WldLUzdGS0ZCTkJWUy4u): Please provide evidence of completed survey (screenshots of completed survey or email-based pdf). This will take you only 2 minutes to complete.  
+
