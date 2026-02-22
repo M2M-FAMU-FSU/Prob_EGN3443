@@ -1,7 +1,5 @@
 # Homework 4
-*Check Due Date and Office Hours on Canvas* 
-
-[Textbook is here.](https://www.stat.purdue.edu/~qfsong/teaching/511/probability_and_statistics_for_engineering_and_the_sciences.pdf)
+*Check Due Date, Office Hours, and Textbook on Canvas* 
 
 1. Shade to show appropriate values on a figure of normal pdf with mean $\mu$ and variance $\sigma^2$. Draw a figure for each case. 
     * $p(x \leq a)$, where $a < \mu$.
