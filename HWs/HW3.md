@@ -1,8 +1,7 @@
 # Homework 3 
-*Check Due Date and Office Hours on Canvas* 
+*Check Due Date, Office Hours, and Textbook on Canvas* 
 
 
-[Textbook is here.](https://www.stat.purdue.edu/~qfsong/teaching/511/probability_and_statistics_for_engineering_and_the_sciences.pdf)
 1. Justify the answer (Hint: use $P(\Omega) = 1$) 
     *  $g(x) = 1 \,\, \forall \,\, x \in X; X  = [0,1]$. Is the function $g$ a pdf, a pmf, or neither? 
     *  $g(x) = \frac{1}{2} \,\, \forall \,\, x \in X$; $X = \{1,2,3\}$ . Is the function $g$ a pdf, a pmf, or neither?

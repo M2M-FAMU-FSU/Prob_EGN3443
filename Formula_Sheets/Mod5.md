@@ -1,5 +1,8 @@
 # Module 5 - Formula Sheet (3 Sessions, Under Construction) 
 
+## Missed "some" distributions
+## Missed 'joint' distributions and covariance!  
+
 ### 7. Students' t-distribution $t(n-1)$
 * Variable (continuous), $x \in (-\infty,\infty)$
 * $n$ is the sample size typically
