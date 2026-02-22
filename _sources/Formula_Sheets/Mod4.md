@@ -1,12 +1,12 @@
 # Module 4 - Formula Sheet (3 Sessions, Under Construction) 
 
-* Expected Values
-    * Mean, Variance Definitions.
-
+## Population Mean and Variance
 * $\mu_X = \mathbb{E}[X]$
 * $\sigma^2_X = \mathbb{E}[(X-\mu_X)^2] = \mathbb{E}[X^2] - (\mathbb{E}[X])^2$ 
 
 
+
+## Distributions of Sample Statistics
 * $\mathbb{E}[T] = n\mu$
 * $\mathbb{V}[T] = n\sigma^2$
 * $\mathbb{E}[\bar{X}] = \mu_{\bar{X}} = \mu $
@@ -24,7 +24,7 @@
     * $F(x) = \sum_{i=0}^{x}  \binom{N}{i} p^{i}(1-p)^{N-i}$ 
 
 
-### **Normal Distribution** $\mathcal{N}(\mu,\sigma^2)$ *** 
+### **Normal/Gaussian Distribution** $\mathcal{N}(\mu,\sigma^2)$ *** 
  * From Central Limit Theorem!   
     * Variable (continuous)
     * Most Widely Used Distribution: *Some Examples*: Drug Trials (or broadly hypothesis testing), Quality Control, AI/Machine Learning. 
