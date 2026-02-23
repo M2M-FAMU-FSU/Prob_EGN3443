@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Module 4 - Formula Sheet (3 Sessions, Under Construction) &#8212; Statistical Topics in Engineering (EGN3443)</title>
+    <title>Module 4 - Formula Sheet (3 Sessions) &#8212; Statistical Topics in Engineering (EGN3443)</title>
   
   
   
@@ -190,7 +190,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW2.html">Homework 2</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Mod3.html">Module 3 - Formula Sheet (2 sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW3.html">Homework 3</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 4 - Formula Sheet (3 Sessions, Under Construction)</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 4 - Formula Sheet (3 Sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW4.html">Homework 4</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Projects/Mini_Project1.html">Mini Project 1 - Design an Email Inbox Server</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Coffee_Discussions/Coffee_Discussions_Sols.html">Coffee Discussion (Instruction Material)</a></li>
@@ -379,7 +379,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Module 4 - Formula Sheet (3 Sessions, Under Construction)</h1>
+    <h1>Module 4 - Formula Sheet (3 Sessions)</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -390,7 +390,8 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#population-mean-and-variance">Population Mean and Variance</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#distributions-of-sample-statistics">Distributions of Sample Statistics</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#distributions-of-i-i-d-sample-statistics">Distributions of i.i.d. Sample Statistics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-combination-of-independent-rvs">Linear Combination of independent RVs.</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#binomial-distribution-mathcal-b-n-p">Binomial Distribution <span class="math notranslate nohighlight">\(\mathcal{B}(N,p)\)</span></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#normal-gaussian-distribution-mathcal-n-mu-sigma-2"><strong>Normal/Gaussian Distribution</strong> <span class="math notranslate nohighlight">\(\mathcal{N}(\mu,\sigma^2)\)</span> ***</a></li>
 </ul>
@@ -406,8 +407,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="module-4-formula-sheet-3-sessions-under-construction">
-<h1>Module 4 - Formula Sheet (3 Sessions, Under Construction)<a class="headerlink" href="#module-4-formula-sheet-3-sessions-under-construction" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="module-4-formula-sheet-3-sessions">
+<h1>Module 4 - Formula Sheet (3 Sessions)<a class="headerlink" href="#module-4-formula-sheet-3-sessions" title="Link to this heading">#</a></h1>
 <section id="population-mean-and-variance">
 <h2>Population Mean and Variance<a class="headerlink" href="#population-mean-and-variance" title="Link to this heading">#</a></h2>
 <ul class="simple">
@@ -415,13 +416,24 @@ document.write(`
 <li><p><span class="math notranslate nohighlight">\(\sigma^2_X = \mathbb{E}[(X-\mu_X)^2] = \mathbb{E}[X^2] - (\mathbb{E}[X])^2\)</span></p></li>
 </ul>
 </section>
-<section id="distributions-of-sample-statistics">
-<h2>Distributions of Sample Statistics<a class="headerlink" href="#distributions-of-sample-statistics" title="Link to this heading">#</a></h2>
+<section id="distributions-of-i-i-d-sample-statistics">
+<h2>Distributions of i.i.d. Sample Statistics<a class="headerlink" href="#distributions-of-i-i-d-sample-statistics" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(\mathbb{E}[T] = n\mu\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(\mathbb{V}[T] = n\sigma^2\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(\mathbb{E}[\bar{X}] = \mu_{\bar{X}} = \mu \)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(\mathbb{V}[\bar{X}] = \frac{\sigma^2}{n} \)</span></p></li>
+</ul>
+</section>
+<section id="linear-combination-of-independent-rvs">
+<h2>Linear Combination of independent RVs.<a class="headerlink" href="#linear-combination-of-independent-rvs" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>If <span class="math notranslate nohighlight">\(Y = \sum_{i=1}^{n} a_iX_i\)</span></p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(\mu_{Y} = \sum_{i=1}^{n} a_i\mu_i\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\sigma^2_{Y} = \sum_{i=1}^{n} a_i^2\sigma^2_i\)</span></p></li>
+</ul>
+</li>
 </ul>
 <section id="binomial-distribution-mathcal-b-n-p">
 <h3>Binomial Distribution <span class="math notranslate nohighlight">\(\mathcal{B}(N,p)\)</span><a class="headerlink" href="#binomial-distribution-mathcal-b-n-p" title="Link to this heading">#</a></h3>
@@ -522,7 +534,8 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#population-mean-and-variance">Population Mean and Variance</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#distributions-of-sample-statistics">Distributions of Sample Statistics</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#distributions-of-i-i-d-sample-statistics">Distributions of i.i.d. Sample Statistics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-combination-of-independent-rvs">Linear Combination of independent RVs.</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#binomial-distribution-mathcal-b-n-p">Binomial Distribution <span class="math notranslate nohighlight">\(\mathcal{B}(N,p)\)</span></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#normal-gaussian-distribution-mathcal-n-mu-sigma-2"><strong>Normal/Gaussian Distribution</strong> <span class="math notranslate nohighlight">\(\mathcal{N}(\mu,\sigma^2)\)</span> ***</a></li>
 </ul>

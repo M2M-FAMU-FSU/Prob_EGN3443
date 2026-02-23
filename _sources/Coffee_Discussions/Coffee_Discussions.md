@@ -23,6 +23,9 @@ You are designing a bridge. A structural engineer asks you, will the bridge fail
 * How do you verify if a coin is biased (or unbiased)?
 * How do you verify if a die is fair?
         
+### **Module 4 (Session \#)** 
+* How do you verify if a coin is biased (or unbiased)?
+* How do you verify if a die is fair?
 
 ---
 *(Under Construction, please ignore)**

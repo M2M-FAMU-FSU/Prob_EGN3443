@@ -1,18 +1,19 @@
-# Module 4 - Formula Sheet (3 Sessions, Under Construction) 
+# Module 4 - Formula Sheet (3 Sessions) 
 
 ## Population Mean and Variance
 * $\mu_X = \mathbb{E}[X]$
 * $\sigma^2_X = \mathbb{E}[(X-\mu_X)^2] = \mathbb{E}[X^2] - (\mathbb{E}[X])^2$ 
 
-
-
-## Distributions of Sample Statistics
+## Distributions of i.i.d. Sample Statistics
 * $\mathbb{E}[T] = n\mu$
 * $\mathbb{V}[T] = n\sigma^2$
 * $\mathbb{E}[\bar{X}] = \mu_{\bar{X}} = \mu $
 * $\mathbb{V}[\bar{X}] = \frac{\sigma^2}{n} $
 
-
+## Linear Combination of independent RVs.
+* If $Y = \sum_{i=1}^{n} a_iX_i$
+   * $\mu_{Y} = \sum_{i=1}^{n} a_i\mu_i$
+   * $\sigma^2_{Y} = \sum_{i=1}^{n} a_i^2\sigma^2_i$
 
 
 ### Binomial Distribution $\mathcal{B}(N,p)$

@@ -51,5 +51,5 @@
 
 14. Textbook Section 5.5 \#67
 
-15. [**EGN3443 Spring 26 - Perception Survey (Part 2)**](https://forms.office.com/r/fixn7F93dn): Please provide evidence of completed survey (screenshots of completed survey or email-based pdf). This will take you only 2 minutes to complete.  
+15. [**EGN3443 Spring 26 - Perception Survey (Part 2)**](https://forms.office.com/r/fixn7F93dn): Please provide evidence of completed survey (screenshots of completed survey or email-based PDF). This will take you only 2 minutes to complete.  
 
