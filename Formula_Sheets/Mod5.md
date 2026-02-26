@@ -3,6 +3,8 @@
 ## Missed "some" distributions
 ## Missed 'joint' distributions and covariance!  
 
+**Law of Large Numbers**
+
 ### 7. Students' t-distribution $t(n-1)$
 * Variable (continuous), $x \in (-\infty,\infty)$
 * $n$ is the sample size typically
