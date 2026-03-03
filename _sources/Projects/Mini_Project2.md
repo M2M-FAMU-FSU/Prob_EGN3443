@@ -25,8 +25,9 @@ V_r2 =  # Fill-in here
 
 
 ### Task 3: Manufacturing Scenario: Carbon Diffusing in Body Centered Cubic (BCC) Iron
-Arrhenius law provides the relationship to relate temperature (thermal energy) to$\tau$ as 
-$$\frac{1}{\tau} = \nu_0 \exp(-\frac{Q}{k_BT})$$ 
+Arrhenius law provides the relationship to relate temperature (thermal energy) to $\tau$ as 
+
+$\frac{1}{\tau} = \nu_0 \exp(-\frac{Q}{k_B T})$
 
 where $T$ is the temperature. It is known that attempt to jump frequency $\nu_0 = 10^{13} Hz$ for carbon in BCC iron, activation energy $Q = 0.83 ev$, and Boltzmann constant $k_B = 8.617 \times 10^{-5} ev/K$.  
 
@@ -45,4 +46,4 @@ If the expected value from the Task 2 in 3D equals $6D(n\tau)$, find the diffusi
 1. You need to know basic mathematical operations in Python, i.e., $+$,$-$, $*$ and $/$.
 2. You will find the save '.gif' files usually if you click the folder button on the left sidebar. 
 
-<img src="./Colab_sidebar.png" alt="A simple flow chart" width="50" height="100">
+<img src="./Colab_sidebar.png" alt="Google Colab - check for saved files" width="50" height="100">
