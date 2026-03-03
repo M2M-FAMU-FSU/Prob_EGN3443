@@ -32,6 +32,6 @@
     * $\mu$ - Mean, $\sigma^2$- Variance 
     * $f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}\exp(-\frac{(x-\mu)^2}{2 \sigma^2}) \,\, \forall \,\, x \in (-\infty,\infty) $
     * $F(x)$ - use standard normal tables using z-score!
-    * ***  *Standard Normal Score* or *z-score* $z(x) = \frac{x - \mu}{\sigma}$   
+    * *** *Standard Normal Score* or *z-score* $z(x) = \frac{x - \mu}{\sigma}$   
     * *** $\Phi(x)$ - cdf of standard normal distribution $\mathcal{N}(0,1)$  
     * ***  $F(x) = \Phi(z(x))$ 

@@ -99,4 +99,18 @@ Some sort of relational data between various fields (calculus, probability, stat
 * Exam 3 Solutions - Done!
 * HW4: With SURVEY QUESTION!!
     * All about Normal and Binomial!
+
+
+## 2/24/26
+(Tuesday. i.e., a lot of meetings)
+* Mini Project 2!! 
+* HW4 Solutions! 
+* Exam 4
+
+
+## 2/26/26
+(Thursday: LOT TO COVER)
+* HW4 Solutions! 
+* Exam 4
+    * Exam 4 Solutions
 * Mini Project 2!! 

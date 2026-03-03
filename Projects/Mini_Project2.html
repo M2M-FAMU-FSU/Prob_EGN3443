@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Fick’s law? &#8212; Statistical Topics in Engineering (EGN3443)</title>
+    <title>Mini Project 2 - Atomic Diffusion Process &#8212; Statistical Topics in Engineering (EGN3443)</title>
   
   
   
@@ -57,9 +57,13 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'Projects/Mini_Project2';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Coffee Discussion (Instruction Material)" href="../Coffee_Discussions/Coffee_Discussions_Sols.html" />
+    <link rel="prev" title="Mini Project 1 - Design an Email Inbox Server" href="Mini_Project1.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -122,8 +126,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -179,7 +181,7 @@
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../Coffee_Discussions/Coffee_Discussions.html">Coffee Discussion</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Notations.html">Mathematical Notations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Formula_Sheets/Mod1.html">Module 1 - Formula Sheet (1.5 sessions)</a></li>
@@ -188,9 +190,12 @@
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW2.html">Homework 2</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Formula_Sheets/Mod3.html">Module 3 - Formula Sheet (2 sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW3.html">Homework 3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../Formula_Sheets/Mod4.html">Module 4 - Formula Sheet (3 Sessions, Under Construction)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Formula_Sheets/Mod4.html">Module 4 - Formula Sheet (3 Sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW4.html">Homework 4</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Mini_Project1.html">Mini Project 1 - Design an Email Inbox Server</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Mini Project 2 - Atomic Diffusion Process</a></li>
+
+
 <li class="toctree-l1"><a class="reference internal" href="../Coffee_Discussions/Coffee_Discussions_Sols.html">Coffee Discussion (Instruction Material)</a></li>
 </ul>
 
@@ -364,7 +369,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -375,11 +382,27 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Fick’s law?</h1>
+    <h1>Mini Project 2 - Atomic Diffusion Process</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Mini Project 2 - Atomic Diffusion Process</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-1-1d-drunkard-s-walk">Task 1: 1D “Drunkard’s Walk”</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-2-3d-squared-displacement">Task 2: 3D Squared Displacement</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-3-manufacturing-scenario-carbon-diffusing-in-body-centered-cubic-bcc-iron">Task 3: Manufacturing Scenario: Carbon Diffusing in Body Centered Cubic (BCC) Iron</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#deliverables">Deliverables</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tips-for-python-in-google-colab">Tips for Python in Google Colab</a></li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -389,9 +412,54 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="fick-s-law">
-<h1>Fick’s law?<a class="headerlink" href="#fick-s-law" title="Link to this heading">#</a></h1>
-<p>CLT-related! - somehow</p>
+  <section id="mini-project-2-atomic-diffusion-process">
+<h1>Mini Project 2 - Atomic Diffusion Process<a class="headerlink" href="#mini-project-2-atomic-diffusion-process" title="Link to this heading">#</a></h1>
+<p><em>Check Canvas for Deadlines and Office Hours</em></p>
+<p><strong>The necessary Python code is available <a class="reference external" href="https://colab.research.google.com/drive/1Xa7q9WCV04prodgW6G-1MeYrbnfujNcH?usp=sharing">here</a>.</strong></p>
+<p>An atomic diffusion process looks <a class="reference external" href="https://en.wikipedia.org/wiki/File:Chemical_surface_diffusion_slow.gif">like this</a>. Imagine a single atom sitting on a lattice site in a crystal. Every <span class="math notranslate nohighlight">\(\tau\)</span> seconds, it gains enough thermal energy to jump to an adjacent site at distance <span class="math notranslate nohighlight">\(a\)</span>, i.e., jump to <span class="math notranslate nohighlight">\((current position + a)\)</span> or <span class="math notranslate nohighlight">\((current position - a)\)</span>.</p>
+<section id="task-1-1d-drunkard-s-walk">
+<h2>Task 1: 1D “Drunkard’s Walk”<a class="headerlink" href="#task-1-1d-drunkard-s-walk" title="Link to this heading">#</a></h2>
+<p>In a simple 1D model, assume that the atom can move either left or right with equal probability (<span class="math notranslate nohighlight">\(p = 0.5\)</span>). If there are <span class="math notranslate nohighlight">\(k\)</span>-particles all starting at <span class="math notranslate nohighlight">\(x = 0\)</span> at time <span class="math notranslate nohighlight">\(t = 0\)</span>, derive the <span class="math notranslate nohighlight">\(E[X]\)</span> and <span class="math notranslate nohighlight">\(Var[X]\)</span> of positions of these <span class="math notranslate nohighlight">\(k\)</span> particles after <span class="math notranslate nohighlight">\(n \tau\)</span> seconds. Fill in the code with (<span class="math notranslate nohighlight">\(E[X]\)</span> and <span class="math notranslate nohighlight">\(Var[X]\)</span>) in the code at this line (do not modify anything else):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">E_x</span> <span class="o">=</span>   <span class="c1">#Fill in here</span>
+<span class="n">V_x</span> <span class="o">=</span>   <span class="c1">#Fill in here</span>
+</pre></div>
+</div>
+<p>If the appropriate values are entered, the code will run. Check for the saved .gif file (instructions below)</p>
+</section>
+<section id="task-2-3d-squared-displacement">
+<h2>Task 2: 3D Squared Displacement<a class="headerlink" href="#task-2-3d-squared-displacement" title="Link to this heading">#</a></h2>
+<p>If the atoms can move to adjacent sites in 3D (jump <span class="math notranslate nohighlight">\(+a\)</span> or <span class="math notranslate nohighlight">\(-a\)</span> in any of the three directions with equally likely probabilities), what is the expected value and variance of squared displacement <span class="math notranslate nohighlight">\(r^2\)</span>? Note the general definition of displacement is <span class="math notranslate nohighlight">\(r = \sqrt{x^2 + y^2 + z^2}\)</span>. It may be helpful to start thinking in 1D then move to 3D.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">E_r2</span> <span class="o">=</span>  <span class="c1"># Fill-in here</span>
+<span class="n">V_r2</span> <span class="o">=</span>  <span class="c1"># Fill-in here</span>
+</pre></div>
+</div>
+</section>
+<section id="task-3-manufacturing-scenario-carbon-diffusing-in-body-centered-cubic-bcc-iron">
+<h2>Task 3: Manufacturing Scenario: Carbon Diffusing in Body Centered Cubic (BCC) Iron<a class="headerlink" href="#task-3-manufacturing-scenario-carbon-diffusing-in-body-centered-cubic-bcc-iron" title="Link to this heading">#</a></h2>
+<p>Arrhenius law provides the relationship to relate temperature (thermal energy) to<span class="math notranslate nohighlight">\(\tau\)</span> as $<span class="math notranslate nohighlight">\(\frac{1}{\tau} = \nu_0 \exp(-\frac{Q}{k_BT})\)</span><span class="math notranslate nohighlight">\( where \)</span>T<span class="math notranslate nohighlight">\( is the temperature. It is known that attempt to jump frequency \)</span>\nu_0 = 10^{13} Hz<span class="math notranslate nohighlight">\( for carbon in BCC iron, activation energy \)</span>Q = 0.83 ev<span class="math notranslate nohighlight">\(, and Boltzmann constant \)</span>k_B = 8.617 \times 10^{-5} ev/K$.</p>
+<p>If the expected value from the Task 2 in 3D equals <span class="math notranslate nohighlight">\(6D(n\tau)\)</span>, find the diffusion coefficient <span class="math notranslate nohighlight">\(D\)</span> assuming that the step size <span class="math notranslate nohighlight">\(a = 0.2nm\)</span> at <em>(1)</em> room temperature (<span class="math notranslate nohighlight">\(300K\)</span>) and while <em>(2)</em> heat treatment (<span class="math notranslate nohighlight">\(1000K\)</span>).</p>
+</section>
+</section>
+<section id="deliverables">
+<h1>Deliverables<a class="headerlink" href="#deliverables" title="Link to this heading">#</a></h1>
+<ol class="arabic simple">
+<li><p>In a single pdf file, include</p>
+<ul class="simple">
+<li><p>Derivations of Task 1 and Task 2. (handwritten is okay)</p></li>
+<li><p>Task 1 and Task 2 answering whether you see a match with blue line and the histogram? Why or why not?</p></li>
+<li><p>Diffusion coefficient values from Task 3.</p></li>
+</ul>
+</li>
+<li><p>.gif files from Task 1 and Task 2.</p></li>
+</ol>
+</section>
+<section id="tips-for-python-in-google-colab">
+<h1>Tips for Python in Google Colab<a class="headerlink" href="#tips-for-python-in-google-colab" title="Link to this heading">#</a></h1>
+<ol class="arabic simple">
+<li><p>You need to know basic mathematical operations in Python, i.e., <span class="math notranslate nohighlight">\(+\)</span>,<span class="math notranslate nohighlight">\(-\)</span>, <span class="math notranslate nohighlight">\(*\)</span> and <span class="math notranslate nohighlight">\(/\)</span>.</p></li>
+<li><p>You will find the save ‘.gif’ files usually if you click the folder button on the left sidebar.</p></li>
+</ol>
+<img src="./Colab_sidebar.png" alt="A simple flow chart" width="50" height="100">
 </section>
 
     <script type="text/x-thebe-config">
@@ -424,12 +492,53 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="Mini_Project1.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Mini Project 1 - Design an Email Inbox Server</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../Coffee_Discussions/Coffee_Discussions_Sols.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Coffee Discussion (Instruction Material)</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Mini Project 2 - Atomic Diffusion Process</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-1-1d-drunkard-s-walk">Task 1: 1D “Drunkard’s Walk”</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-2-3d-squared-displacement">Task 2: 3D Squared Displacement</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-3-manufacturing-scenario-carbon-diffusing-in-body-centered-cubic-bcc-iron">Task 3: Manufacturing Scenario: Carbon Diffusing in Body Centered Cubic (BCC) Iron</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#deliverables">Deliverables</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tips-for-python-in-google-colab">Tips for Python in Google Colab</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>
