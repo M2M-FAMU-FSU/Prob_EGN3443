@@ -46,4 +46,12 @@ If the expected value from the Task 2 in 3D equals $6D(n\tau)$, find the diffusi
 1. You need to know basic mathematical operations in Python, i.e., $+$,$-$, $*$ and $/$.
 2. You will find the save '.gif' files usually if you click the folder button on the left sidebar. 
 
-<img src="./Projects/Colab_sidebar.png" alt="Google Colab - check for saved files" width="50" height="100">
+
+```{figure} ./Colab_sidebar.png
+:alt: This is my descriptive alt text
+:width: 50px
+:align: center
+
+Google Colab - check for saved files
+
+<!-- <img src="./Projects/Colab_sidebar.png" alt="Google Colab - check for saved files" width="50" height="100"> -->
