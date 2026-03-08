@@ -1,16 +1,12 @@
-# Module 5 - Formula Sheet (3 Sessions, Under Construction) 
+# Module 5 - Formula Sheet (3 Sessions) 
 
-## Missed "some" distributions
-## Missed 'joint' distributions and covariance!  
+* Unbiased Estimate $\mathbb{E}_{\theta}[\hat{\theta}] = \theta$
+    * ($\mathbb{E}[\hat{\theta}] - \theta$) is the bias
 
-**Law of Large Numbers**
+* $\hat{\mu} = \bar{x}$ 
 
-### 7. Students' t-distribution $t(n-1)$
-* Variable (continuous), $x \in (-\infty,\infty)$
-* $n$ is the sample size typically
-* $n-1$ degrees of freedom
+* $\hat{\sigma^2} = s^2$
 
-### 8. Chi-squared Distribution $\chi^2(n-1)$
-* Variable (continuous) but can only take positive real numbers $x \in [0,\infty)$
-* $n$ is the sample size typically
-* $n-1$ degrees of freedom
+* **Standard Error** $\sigma_{\hat{\theta}} = \sqrt{\mathbb{V}(\hat{\theta})}$ 
+
+
