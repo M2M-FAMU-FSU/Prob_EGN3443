@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Module 6 - Formula Sheet (3 Sessions) &#8212; Statistical Topics in Engineering (EGN3443)</title>
+    <title>Missed “some” distributions &#8212; Statistical Topics in Engineering (EGN3443)</title>
   
   
   
@@ -57,9 +57,7 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'Formula_Sheets/Mod6';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Formula_Sheets/Mod7';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -271,7 +269,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FFormula_Sheets/Mod6.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FFormula_Sheets/Mod7.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -301,7 +299,7 @@
       
       
       
-      <li><a href="../_sources/Formula_Sheets/Mod6.md" target="_blank"
+      <li><a href="../_sources/Formula_Sheets/Mod7.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -385,7 +383,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Module 6 - Formula Sheet (3 Sessions)</h1>
+    <h1>Missed “some” distributions</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -395,10 +393,12 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gamma-distribution">Gamma Distribution</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#students-t-distribution-t-n-1">7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chi-squared-distribution-chi-2-n-1">8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span></a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Missed “some” distributions</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#missed-joint-distributions-and-covariance">Missed ‘joint’ distributions and covariance!</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#missed-method-of-moments-and-mle">Missed Method of moments and MLE!</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#hypothesis-testing">Hypothesis Testing</a></li>
 </ul>
+
             </nav>
         </div>
     </div>
@@ -409,34 +409,18 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="module-6-formula-sheet-3-sessions">
-<h1>Module 6 - Formula Sheet (3 Sessions)<a class="headerlink" href="#module-6-formula-sheet-3-sessions" title="Link to this heading">#</a></h1>
-<section id="gamma-distribution">
-<h2>Gamma Distribution<a class="headerlink" href="#gamma-distribution" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(f(x) = \frac{1}{\Gamma(\alpha) \beta^{\alpha}}x^{\alpha -1}e^{-\frac{x}{\beta}} \,\, \forall \,\, x \in [0,\infty]\)</span></p></li>
-<li><p>Parameters - Shape <span class="math notranslate nohighlight">\(\alpha\)</span>, scale <span class="math notranslate nohighlight">\(\beta\)</span></p></li>
-<li><p>Gamma function <span class="math notranslate nohighlight">\(\Gamma(\alpha)  = \int_0^\infty t^{\alpha-1}e^{-t}dt\)</span></p></li>
-</ul>
+  <section id="missed-some-distributions">
+<h1>Missed “some” distributions<a class="headerlink" href="#missed-some-distributions" title="Link to this heading">#</a></h1>
 </section>
-<section id="students-t-distribution-t-n-1">
-<h2>7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span><a class="headerlink" href="#students-t-distribution-t-n-1" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(f(x) =\frac{\Gamma(\frac{\nu +1}{2})}{\sqrt{\pi \nu} \Gamma(\frac{\nu}{2})} (1+\frac{x^2}{\nu})^{-\frac{\nu + 1}{2}}\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\mu = 0\)</span> and <span class="math notranslate nohighlight">\(\sigma^2 = \frac{\nu}{\nu - 2}\)</span></p></li>
-<li><p>Variable (continuous), <span class="math notranslate nohighlight">\(x \in (-\infty,\infty)\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\nu\)</span> is the degrees of freedom</p></li>
-<li><p><span class="math notranslate nohighlight">\(n-1\)</span> degrees of freedom</p></li>
-</ul>
+<section id="missed-joint-distributions-and-covariance">
+<h1>Missed ‘joint’ distributions and covariance!<a class="headerlink" href="#missed-joint-distributions-and-covariance" title="Link to this heading">#</a></h1>
 </section>
-<section id="chi-squared-distribution-chi-2-n-1">
-<h2>8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span><a class="headerlink" href="#chi-squared-distribution-chi-2-n-1" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Variable (continuous) but can only take positive real numbers <span class="math notranslate nohighlight">\(x \in [0,\infty)\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(n\)</span> is the sample size typically</p></li>
-<li><p><span class="math notranslate nohighlight">\(n-1\)</span> degrees of freedom</p></li>
-</ul>
+<section id="missed-method-of-moments-and-mle">
+<h1>Missed Method of moments and MLE!<a class="headerlink" href="#missed-method-of-moments-and-mle" title="Link to this heading">#</a></h1>
 </section>
+<section class="tex2jax_ignore mathjax_ignore" id="hypothesis-testing">
+<h1>Hypothesis Testing<a class="headerlink" href="#hypothesis-testing" title="Link to this heading">#</a></h1>
+<p><strong>Law of Large Numbers</strong></p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -485,10 +469,12 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gamma-distribution">Gamma Distribution</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#students-t-distribution-t-n-1">7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chi-squared-distribution-chi-2-n-1">8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span></a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Missed “some” distributions</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#missed-joint-distributions-and-covariance">Missed ‘joint’ distributions and covariance!</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#missed-method-of-moments-and-mle">Missed Method of moments and MLE!</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#hypothesis-testing">Hypothesis Testing</a></li>
 </ul>
+
   </nav></div>
 
 </div></div>
