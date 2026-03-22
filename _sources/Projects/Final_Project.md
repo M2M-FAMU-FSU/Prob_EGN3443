@@ -21,15 +21,16 @@ I want to know if organic apples and *normal* apples are distinct in terms of it
 
 
 ## Deliverables
-(*Note that the report and presentation carries equal weight*)
+(*Note that the report and presentation carry equal weight*)
 1. **Report:** In a single pdf file *(3 pages in total)*, include
-    * Your problem goal, description of 'experiments' (pictures if applicable), your statistical procedure, and conclusions *(2 pages)*.
-    * Data as Appendix *(1 page)*  
+    * Provide a suitable title for the project. 
+    * Your problem goal, description of 'experiments' (pictures if applicable), your statistical procedure, and conclusions. *(2 pages)*
+    * Data as Appendix. *(1 page)*  
 2. **10-minute presentation:** The presentation will be evaluated (must be submitted on *Canvas* before presenting) on 
-    * Presentation Coherence (25%)	
-    * Project Completeness (25%)
-    * Conclusions & Takeaways (25%)
-    * Team Involvement (25%)
+    * Presentation Coherence (25%).	
+    * Project Completeness (25%).
+    * Conclusions & Takeaways (25%).
+    * Team Involvement (25%).
 
 
 
