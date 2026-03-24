@@ -17,7 +17,7 @@ For each item, the sample size must be greater than 4 and less than 30.
 **An Example** 
 (*This is just an example. Please come up with your own entities and measurements. Be creative and try not to spend money*)
 
-I want to know if organic apples and *normal* apples are distinct in terms of its weight (*measure*). I may buy about five of each (randomly) from the same Publix store and measure the weight with a kitchen weight scale (and perhaps eat them after measuring). Now I have the data that I can use to answer the question!
+I want to know if organic apples and *normal* apples are distinct in terms of its weight (*measure*). I may buy about five of each (randomly) from the same Publix store and measure the weight of each with a kitchen weight scale (and perhaps eat them after measuring). Now I have the data ($2 \times 5$ observations) that I can use to answer the question!
 
 
 ## Deliverables
@@ -31,7 +31,7 @@ I want to know if organic apples and *normal* apples are distinct in terms of it
     * Project Completeness (25%).
     * Conclusions & Takeaways (25%).
     * Team Involvement (25%).
-
+gi
 
 
 
