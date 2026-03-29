@@ -31,7 +31,6 @@ I want to know if organic apples and *normal* apples are distinct in terms of it
     * Project Completeness (25%).
     * Conclusions & Takeaways (25%).
     * Team Involvement (25%).
-gi
 
 
 

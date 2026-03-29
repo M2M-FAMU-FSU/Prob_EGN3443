@@ -62,6 +62,8 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'Formula_Sheets/Mod6';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Homework 6" href="../HWs/HW6.html" />
+    <link rel="prev" title="Homework 5" href="../HWs/HW5.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -124,8 +126,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -181,7 +181,7 @@
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../Coffee_Discussions/Coffee_Discussions.html">Coffee Discussion</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Notations.html">Mathematical Notations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Mod1.html">Module 1 - Formula Sheet (1.5 sessions)</a></li>
@@ -194,6 +194,8 @@
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW4.html">Homework 4</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Mod5.html">Module 5 - Formula Sheet (3 Sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW5.html">Homework 5</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 6 - Formula Sheet (3 Sessions)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HWs/HW6.html">Homework 6</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Projects/Mini_Project1.html">Mini Project 1 - Design an Email Inbox Server</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Projects/Mini_Project2.html">Mini Project 2 - Atomic Diffusion Process</a></li>
 
@@ -395,9 +397,16 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gamma-distribution">Gamma Distribution</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#students-t-distribution-t-n-1">7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chi-squared-distribution-chi-2-n-1">8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#errors-in-hypothesis-testing">Errors in Hypothesis Testing</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gamma-distribution">Gamma Distribution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#students-t-distribution-t-n-1">7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chi-squared-distribution-chi-2-n-1">8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#p-value-of-hypothesis-testing">p-value of Hypothesis Testing ***</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assuming-normal-distribution-of-x">Assuming Normal Distribution of <span class="math notranslate nohighlight">\(x\)</span></a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -411,8 +420,19 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="module-6-formula-sheet-3-sessions">
 <h1>Module 6 - Formula Sheet (3 Sessions)<a class="headerlink" href="#module-6-formula-sheet-3-sessions" title="Link to this heading">#</a></h1>
+<section id="errors-in-hypothesis-testing">
+<h2>Errors in Hypothesis Testing<a class="headerlink" href="#errors-in-hypothesis-testing" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><em>p-value</em> <span class="math notranslate nohighlight">\(\leq \alpha\)</span> <span class="math notranslate nohighlight">\(\implies\)</span> Reject <span class="math notranslate nohighlight">\(H_0\)</span></p></li>
+<li><p><em>Type-I Error</em>:(Definition) Reject <span class="math notranslate nohighlight">\(H_0\)</span> when it is True</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(\alpha\)</span> = <span class="math notranslate nohighlight">\(p\)</span>(<em>Type-I Error</em>)</p></li>
+<li><p>Typically, the <span class="math notranslate nohighlight">\(\alpha\)</span> values are provided as 5% or 10%</p></li>
+</ul>
+</li>
+</ul>
 <section id="gamma-distribution">
-<h2>Gamma Distribution<a class="headerlink" href="#gamma-distribution" title="Link to this heading">#</a></h2>
+<h3>Gamma Distribution<a class="headerlink" href="#gamma-distribution" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(f(x) = \frac{1}{\Gamma(\alpha) \beta^{\alpha}}x^{\alpha -1}e^{-\frac{x}{\beta}} \,\, \forall \,\, x \in [0,\infty]\)</span></p></li>
 <li><p>Parameters - Shape <span class="math notranslate nohighlight">\(\alpha\)</span>, scale <span class="math notranslate nohighlight">\(\beta\)</span></p></li>
@@ -420,7 +440,7 @@ document.write(`
 </ul>
 </section>
 <section id="students-t-distribution-t-n-1">
-<h2>7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span><a class="headerlink" href="#students-t-distribution-t-n-1" title="Link to this heading">#</a></h2>
+<h3>7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span><a class="headerlink" href="#students-t-distribution-t-n-1" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(f(x) =\frac{\Gamma(\frac{\nu +1}{2})}{\sqrt{\pi \nu} \Gamma(\frac{\nu}{2})} (1+\frac{x^2}{\nu})^{-\frac{\nu + 1}{2}}\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(\mu = 0\)</span> and <span class="math notranslate nohighlight">\(\sigma^2 = \frac{\nu}{\nu - 2}\)</span></p></li>
@@ -430,12 +450,45 @@ document.write(`
 </ul>
 </section>
 <section id="chi-squared-distribution-chi-2-n-1">
-<h2>8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span><a class="headerlink" href="#chi-squared-distribution-chi-2-n-1" title="Link to this heading">#</a></h2>
+<h3>8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span><a class="headerlink" href="#chi-squared-distribution-chi-2-n-1" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Variable (continuous) but can only take positive real numbers <span class="math notranslate nohighlight">\(x \in [0,\infty)\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(n\)</span> is the sample size typically</p></li>
 <li><p><span class="math notranslate nohighlight">\(n-1\)</span> degrees of freedom</p></li>
 </ul>
+</section>
+</section>
+<section id="p-value-of-hypothesis-testing">
+<h2>p-value of Hypothesis Testing ***<a class="headerlink" href="#p-value-of-hypothesis-testing" title="Link to this heading">#</a></h2>
+<section id="assuming-normal-distribution-of-x">
+<h3>Assuming Normal Distribution of <span class="math notranslate nohighlight">\(x\)</span><a class="headerlink" href="#assuming-normal-distribution-of-x" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Testing on <span class="math notranslate nohighlight">\(\mu\)</span></strong></p>
+<ul>
+<li><p>Known <span class="math notranslate nohighlight">\(\sigma^2\)</span> - “One Sample z-test” <span class="math notranslate nohighlight">\(\implies z_{test} = \frac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}\)</span></p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(H_0\)</span>: <span class="math notranslate nohighlight">\(\mu = \mu_0\)</span>; <span class="math notranslate nohighlight">\(H_a\)</span>: <span class="math notranslate nohighlight">\(\mu \neq \mu_0\)</span> <span class="math notranslate nohighlight">\(\implies\)</span> Two-sided <span class="math notranslate nohighlight">\(\implies\)</span> <em>p-value</em> = <span class="math notranslate nohighlight">\(2p(Z \geq |z_{test}|)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(H_0\)</span>: <span class="math notranslate nohighlight">\(\mu = \mu_0\)</span>; <span class="math notranslate nohighlight">\(H_a\)</span>: <span class="math notranslate nohighlight">\(\mu &gt; \mu_0\)</span> <span class="math notranslate nohighlight">\(\implies\)</span> One-sided (Upper Tail Test) <span class="math notranslate nohighlight">\(\implies\)</span> <em>p-value</em> = <span class="math notranslate nohighlight">\(p(Z \geq z_{test})\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(H_0\)</span>: <span class="math notranslate nohighlight">\(\mu = \mu_0\)</span>; <span class="math notranslate nohighlight">\(H_a\)</span>: <span class="math notranslate nohighlight">\(\mu &lt; \mu_0\)</span> <span class="math notranslate nohighlight">\(\implies\)</span> One-sided (Lower Tail Test) <span class="math notranslate nohighlight">\(\implies\)</span> <em>p-value</em> = <span class="math notranslate nohighlight">\(p(Z \leq z_{test})\)</span></p></li>
+</ul>
+</li>
+<li><p>Unknown <span class="math notranslate nohighlight">\(\sigma^2\)</span> - “One Sample t-test” <span class="math notranslate nohighlight">\(\implies t_{test} = \frac{\bar{x} - \mu_0}{s/\sqrt{n}}\)</span> (remember to use (n-1) degrees of freedom)</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(H_0\)</span>: <span class="math notranslate nohighlight">\(\mu = \mu_0\)</span>; <span class="math notranslate nohighlight">\(H_a\)</span>: <span class="math notranslate nohighlight">\(\mu \neq \mu_0\)</span> <span class="math notranslate nohighlight">\(\implies\)</span> Two-sided <span class="math notranslate nohighlight">\(\implies\)</span> <em>p-value</em> = <span class="math notranslate nohighlight">\(2p(T \geq |t_{test}|)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(H_0\)</span>: <span class="math notranslate nohighlight">\(\mu = \mu_0\)</span>; <span class="math notranslate nohighlight">\(H_a\)</span>: <span class="math notranslate nohighlight">\(\mu &gt; \mu_0\)</span> <span class="math notranslate nohighlight">\(\implies\)</span> One-sided (Upper Tail Test) <span class="math notranslate nohighlight">\(\implies\)</span> <em>p-value</em> = <span class="math notranslate nohighlight">\(p(T \geq t_{test})\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(H_0\)</span>: <span class="math notranslate nohighlight">\(\mu = \mu_0\)</span>; <span class="math notranslate nohighlight">\(H_a\)</span>: <span class="math notranslate nohighlight">\(\mu &lt; \mu_0\)</span> <span class="math notranslate nohighlight">\(\implies\)</span> One-sided (Lower Tail Test) <span class="math notranslate nohighlight">\(\implies\)</span> <em>p-value</em> = <span class="math notranslate nohighlight">\(p(T \leq t_{test})\)</span></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Testing on <span class="math notranslate nohighlight">\(\sigma^2\)</span></strong></p>
+<ul>
+<li><p>“Chi-squared Test” <span class="math notranslate nohighlight">\(\implies \chi_{test}^2 = \frac{(n-1)s^2}{\sigma_0^2}\)</span></p></li>
+<li><p>Two-sided <span class="math notranslate nohighlight">\(\implies\)</span> <em>p-value</em> <span class="math notranslate nohighlight">\(= \min(p(\chi^2 &gt; \chi_{test}^2), p(\chi^2 &lt; \chi_{test}^2)) \)</span></p></li>
+</ul>
+</li>
+</ul>
+</section>
 </section>
 </section>
 
@@ -469,6 +522,24 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="../HWs/HW5.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Homework 5</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../HWs/HW6.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Homework 6</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -485,9 +556,16 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gamma-distribution">Gamma Distribution</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#students-t-distribution-t-n-1">7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chi-squared-distribution-chi-2-n-1">8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#errors-in-hypothesis-testing">Errors in Hypothesis Testing</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gamma-distribution">Gamma Distribution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#students-t-distribution-t-n-1">7. Students’ t-distribution <span class="math notranslate nohighlight">\(t(n-1)\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chi-squared-distribution-chi-2-n-1">8. Chi-squared Distribution <span class="math notranslate nohighlight">\(\chi^2(n-1)\)</span></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#p-value-of-hypothesis-testing">p-value of Hypothesis Testing ***</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assuming-normal-distribution-of-x">Assuming Normal Distribution of <span class="math notranslate nohighlight">\(x\)</span></a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 

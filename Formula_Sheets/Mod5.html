@@ -194,6 +194,8 @@
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW4.html">Homework 4</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 5 - Formula Sheet (3 Sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../HWs/HW5.html">Homework 5</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Mod6.html">Module 6 - Formula Sheet (3 Sessions)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HWs/HW6.html">Homework 6</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Projects/Mini_Project1.html">Mini Project 1 - Design an Email Inbox Server</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Projects/Mini_Project2.html">Mini Project 2 - Atomic Diffusion Process</a></li>
 
@@ -372,7 +374,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -388,6 +392,18 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#confidence-intervals">Confidence Intervals</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-z-score-values">Useful z-score values</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#confidence-interval-on-variance">Confidence Interval on Variance</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -408,8 +424,45 @@ document.write(`
 <li><p><span class="math notranslate nohighlight">\(\hat{\mu} = \bar{x}\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(\hat{\sigma^2} = s^2\)</span></p></li>
 <li><p><strong>Standard Error</strong> <span class="math notranslate nohighlight">\(\sigma_{\hat{\theta}} = \sqrt{\mathbb{V}(\hat{\theta})}\)</span></p></li>
+</ul>
+<p><strong>rest of it is not well organized</strong></p>
+<section id="confidence-intervals">
+<h2>Confidence Intervals<a class="headerlink" href="#confidence-intervals" title="Link to this heading">#</a></h2>
+<section id="useful-z-score-values">
+<h3>Useful z-score values<a class="headerlink" href="#useful-z-score-values" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Two-sided</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(90\% \implies z_{0.05} = \pm 1.645\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(95\% \implies z_{0.025} = \pm 1.96\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(99\% \implies z_{0.005} = \pm 2.575\)</span></p></li>
+</ul>
+</li>
+<li><p>One-sided Right Tail</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(90\% \implies z_{0.1}^{(r)} = 1.28\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(95\% \implies z_{0.05}^{(r)} = 1.645\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(99\% \implies z_{0.01}^{(r)} = 2.33\)</span></p></li>
+</ul>
+</li>
+<li><p>One-sided Left Tail</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(90\% \implies z_{0.1}^{(l)} = -1.28\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(95\% \implies z_{0.05}^{(l)} = -1.645\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(99\% \implies z_{0.01}^{(l)} = -2.33\)</span></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="confidence-interval-on-variance">
+<h3>Confidence Interval on Variance<a class="headerlink" href="#confidence-interval-on-variance" title="Link to this heading">#</a></h3>
+<p>For given error rate (<span class="math notranslate nohighlight">\(\alpha\)</span>)</p>
+<p><span class="math notranslate nohighlight">\(\frac{(n-1)s^2}{\chi_{\frac{\alpha}{2}}^2(n-1)} \leq \sigma^2 \leq \frac{(n-1)s^2}{\chi_{1-\frac{\alpha}{2}}^2(n-1)}\)</span></p>
+<ul class="simple">
 <li><p>95% confidence interval <span class="math notranslate nohighlight">\(\implies \bar{x} - 1.96.\frac{\sigma}{\sqrt{n}} &lt; \mu &lt;  \bar{x} + 1.96.\frac{\sigma}{\sqrt{n}}\)</span></p></li>
 </ul>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -466,6 +519,25 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#confidence-intervals">Confidence Intervals</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-z-score-values">Useful z-score values</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#confidence-interval-on-variance">Confidence Interval on Variance</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
