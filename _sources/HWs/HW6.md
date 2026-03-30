@@ -53,10 +53,3 @@
 
 12. [**EGN3443 Spring 26 - Job/Internship Survey**](https://forms.office.com/r/AE3Z7Pc7ms): Please provide evidence of completed survey (screenshots of completed survey or email-based PDF). This will take you only 2 minutes to complete.  
 
-
-
----
-**Additional Questions are upcoming... Thank you for your patience**
----
-
-
