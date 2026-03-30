@@ -43,6 +43,17 @@
     * Construct a 95\% two-sided confidence interval on $\sigma^2$.
     * Construct a 95\% upper confidence interval on $\sigma$.
 
+8. Textbook Section 8.1 \#3
+
+9. Textbook Section 8.2 \#28
+
+10. Textbook Section 8.4 \#57
+
+11.  Textbook Section 8.4 \#58
+
+12. [**EGN3443 Spring 26 - Job/Internship Survey**](https://forms.office.com/r/AE3Z7Pc7ms): Please provide evidence of completed survey (screenshots of completed survey or email-based PDF). This will take you only 2 minutes to complete.  
+
+
 
 ---
 **Additional Questions are upcoming... Thank you for your patience**
