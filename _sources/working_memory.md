@@ -114,3 +114,15 @@ Some sort of relational data between various fields (calculus, probability, stat
 * Exam 4
     * Exam 4 Solutions
 * Mini Project 2!! 
+
+
+## 4/2/26
+* HW6 solutions 
+    * Partially from QCRE course - DONE!!
+
+* Exam 6
+    * 2 versions?!  - DONE!!
+
+* HW7 ('Faster' than usual)
+* HW7 Solutions('Faster' Than usual)
+* Exam 7 ('faster' than usual)
