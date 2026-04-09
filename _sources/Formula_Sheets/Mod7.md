@@ -22,6 +22,8 @@ or
 * $\rho_{X,Y} = \frac{Cov(X,Y)}{\sigma_X \sigma_Y}$
 
 
+* Median of PMFs and PDFs
+
 % ## Missed Method of moments and MLE!
 
 
