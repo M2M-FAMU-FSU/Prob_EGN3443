@@ -1,8 +1,5 @@
 # Module 6 - Formula Sheet (3 Sessions) 
 
-
-
-
 ## Errors in Hypothesis Testing 
 * *p-value* $\leq \alpha$ $\implies$ Reject $H_0$ 
 * *Type-I Error*:(Definition) Reject $H_0$ when it is True  
