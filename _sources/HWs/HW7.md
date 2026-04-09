@@ -21,4 +21,4 @@
 
 10. Find the mean, median, and mode of Weibull distribution parameterized with two parameters $\lambda$ and $K$ (both $\in \mathbb{R}^+$). The pdf is given as $f(x) = \frac{k}{\lambda} (\frac{x}{\lambda})^{k-1} e^{-(x/\lambda)^k} \,\, \forall \,\, x \geq 0$ 
 
-**Note:**  Please fill the official course evaluation survey you received on Canvas. *(No submissions required, and this does not carry points)*
+**Note:** Please fill the official course evaluation survey you received on Canvas. *(No submissions required as part of HW7, and this does not carry points)*
