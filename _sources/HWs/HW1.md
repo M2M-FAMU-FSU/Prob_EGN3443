@@ -1,5 +1,7 @@
 # Homework 1 
-*Check Due Date and Office Hours on Canvas* 
+* *Do your cognitively demanding attempt and write it down **before** you ask an AI Chatbot*. 
+* *Check Due Date and Office Hours on Canvas* 
+
 
 1. Textbook Section 1.4 Problem \# 45 
 
@@ -16,7 +18,7 @@
 
 4. From the previous question, define an appropriate sample space ($\Omega$) for each case (each answer must be a set). 
 
-5. For each sample space ($\Omega$), what is the physical meaning of a random variable defined in that sample space?
+5. (*Ask AI chatbot and compare with yours - report both*) For each sample space ($\Omega$), what is the physical meaning of a random variable defined in that sample space?
 
 6. For each random variable, what are all the values it can potentially take? 
 

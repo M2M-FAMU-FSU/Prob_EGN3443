@@ -22,8 +22,14 @@ or
 * $\rho_{X,Y} = \frac{Cov(X,Y)}{\sigma_X \sigma_Y}$
 
 
-* Median of PMFs and PDFs
+* Median of PMFs and PDFs 
+    * Minimum $M$ such that $cdf(M) \geq 0.5$
 
-% ## Missed Method of moments and MLE!
+
+* Mode $M = \argmax_x f(x)$ 
+    * $x$ corresponding to maximum of f(x). 
+
+* Q-Q plot
+
 
 

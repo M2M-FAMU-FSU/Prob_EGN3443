@@ -123,6 +123,16 @@ Some sort of relational data between various fields (calculus, probability, stat
 * Exam 6
     * 2 versions?!  - DONE!!
 
-* HW7 ('Faster' than usual)
+* HW7 ('Faster' than usual) - DONE!
 * HW7 Solutions('Faster' Than usual)
 * Exam 7 ('faster' than usual)
+
+## 4/9/26
+* HW7 - Done!
+* Exam 6 Solutions - two versions! with some figures! 
+
+
+## 4/11/26 - Saturday
+* Exam 6 Solutions - done!!
+* HW7 Solutions
+* Exam 7
