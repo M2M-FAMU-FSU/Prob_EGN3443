@@ -2,6 +2,7 @@
 _build/
 HW_Sols/
 Exams/
+Unrelated/
 
 # Ignore specific files
 working_memory.md
