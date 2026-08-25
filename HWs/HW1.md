@@ -1,5 +1,7 @@
 # Homework 1 
-*Check Due Date and Office Hours on Canvas* 
+* *Do your cognitively demanding attempt and write it down **before** you ask an AI Chatbot*. 
+* *Check Due Date and Office Hours on Canvas* 
+
 
 1. Textbook Section 1.4 Problem \# 45 
 

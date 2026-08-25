@@ -4,7 +4,7 @@
 format: jb-book
 root: intro
 chapters:
-- file: Coffee_Discussions/Coffee_Discussions
+# - file: Coffee_Discussions/Coffee_Discussions
 - file: Notations.md
 - file: Formula_Sheets/Mod1 
 - file: HWs/HW1

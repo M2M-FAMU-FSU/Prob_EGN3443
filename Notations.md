@@ -19,10 +19,13 @@
     * Includes $a$ but not $b$ 
     * And vice versa
 
-
-
 * $\in$ - belongs to
 * $\notin$ - does not belong to
+
+
+
+
+
 * $\subseteq$  - Subset 
 * $\subset$ - Proper Subset
 * $\cup$ - Union

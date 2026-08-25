@@ -10,15 +10,15 @@
     * Frequency vs Relative Frequency
 * Box Plot - Min, Q1, Median, Q3, Max
 
-### Numerical Descriptions
-* Mean $\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$
+### Numerical Descriptions 
+* Sample Mean $\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$
 * Percentile-related
-    * Median $\tilde{x} = \begin{cases} n \text{ is odd} \implies  (\frac{n+1}{2})^{th} \text{ ordered value} \\ n \text{ is even} \implies \text{average of } (\frac{n}{2})^{th} \text{ and } (\frac{n+1}{2})^{th} \text{ ordered value }\end{cases}$
-    * Quartiles - Lower (Q1), Median (Q2), Upper(Q3)
+    * Sample Median $\tilde{x} = \begin{cases} n \text{ is odd} \implies  (\frac{n+1}{2})^{th} \text{ ordered value} \\ n \text{ is even} \implies \text{average of } (\frac{n}{2})^{th} \text{ and } (\frac{n+1}{2})^{th} \text{ ordered value }\end{cases}$
+    * Sample Quartiles - Lower (Q1), Median (Q2), Upper(Q3)
 
 * Measure of Variability
-    * (Sample) Variance $s^2 = \sum_{i=1}^{n}  \frac{(x_i - \bar{x})^2}{n -1}$ 
-    * Std. Dev. $s = \sqrt{s^2}$
+    * Sample Variance $s^2 = \sum_{i=1}^{n}  \frac{(x_i - \bar{x})^2}{n -1}$ 
+    * Sample Std. Dev. $s = \sqrt{s^2}$
 
 
 
