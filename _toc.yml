@@ -8,8 +8,8 @@ chapters:
 - file: Notations.md
 - file: Formula_Sheets/Mod1 
 - file: HWs/HW1
-# - file: Formula_Sheets/Mod2
-# - file: HWs/HW2
+- file: Formula_Sheets/Mod2
+- file: HWs/HW2
 # - file: Formula_Sheets/Mod3
 # - file: HWs/HW3
 # - file: Formula_Sheets/Mod4
