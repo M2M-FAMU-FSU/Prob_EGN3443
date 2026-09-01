@@ -4,6 +4,21 @@
 2. ghp-import -n -p -f _build/html
 
 
+## 8/30/26
+* Exam 1
+* Exam 1 solutions too!
+* Project 1 - set everything
+* HW solutions Check
+* Next week Tuesday's class prep! (That I am traveling)
+* (Unrelated) Grad Seminar Prep! 
+
+
+
+
+
+
+
+----
 ## 1/4/26
 * Prep for the first class
     * All Projects

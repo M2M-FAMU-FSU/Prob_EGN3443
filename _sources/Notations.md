@@ -1,6 +1,24 @@
 # Mathematical Notations
 *You can try writing in LaTeX (search for Overleaf) or Markdown to learn how to "type" mathematics.*
 
+### Module 1
+| The thing | Notation |
+| --- | --- | 
+| Sample Mean | $\bar{x}$ | 
+| Sample Variance | $s^2$ | 
+| Sample Std. Dev.| $s$ | 
+| Sample Space | $\Omega$ |
+| Random Variable |$X$ *(Uppercase)* |
+| Observation/Datapoint:  | $x$ *(lowercase)* | 
+
+
+### Module 2
+| Set (curly braces) | $\{\}$| 
+| --- | --- |
+| Closed Interval | [a,b] |
+| $\in$ | belongs to
+| $\notin$ | does not belong to
+
 ### Set Theory
 * Curly Braces - $\{\}$ 
     * Denote a *set* 
