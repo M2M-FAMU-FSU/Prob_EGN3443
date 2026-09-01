@@ -5,15 +5,18 @@
 
 
 ## 8/30/26
-* Exam 1
-* Exam 1 solutions too!
-* Project 1 - set everything
-* HW solutions Check
-* Next week Tuesday's class prep! (That I am traveling)
+* Done: Exam 1
+* Done: Exam 1 solutions too!
+* Done: Project 1 - set everything
+* Done: HW solutions Check
+* Done: Next week Tuesday's class prep! (That I am traveling)
 * (Unrelated) Grad Seminar Prep! 
 
 
-
+## 9/1/26
+* HW2 
+* Exam 2 & Solutions
+* Alternate Project Day! 
 
 
 
