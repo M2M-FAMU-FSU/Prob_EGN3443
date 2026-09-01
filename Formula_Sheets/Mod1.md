@@ -2,9 +2,6 @@
 # Module 1 - Formula Sheet (1.5 sessions)
 (Chapters 1,2, and 3 in Textbook)
 
-
-
-
 ### Pictorial Descriptions 
 * Histogram - $~\sqrt{n}$ number of bins (rule of thumb)
     * Frequency vs Relative Frequency
@@ -19,9 +16,6 @@
 * Measure of Variability
     * Sample Variance $s^2 = \sum_{i=1}^{n}  \frac{(x_i - \bar{x})^2}{n -1}$ 
     * Sample Std. Dev. $s = \sqrt{s^2}$
-
-
-
 
 
 ### Basic Excel Commands
