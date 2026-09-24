@@ -6,11 +6,11 @@
 
 
 1. Justify the answer (Hint: use $P(\Omega) = 1$) 
-    *  $g(x) = 1 \,\, \forall \,\, a \in X; X  = [0,1]$. Is the function $g$ a pdf, a pmf, or neither? 
-    *  $g(x) = \frac{1}{2} \,\, \forall \,\, a \in X$; $X = \{1,2,3\}$ . Is the function $g$ a pdf, a pmf, or neither?
-    *  $g(x) = |x| \,\, \forall \,\, a \in X; X = [-1,1] $. Is the function $g$ a pdf, a pmf, or neither? 
+    *  $g(x) = 1 \,\, \forall \,\, x \in X; X  = [0,1]$. Is the function $g$ a pdf, a pmf, or neither? 
+    *  $g(x) = \frac{1}{2} \,\, \forall \,\, x \in X$; $X = \{1,2,3\}$ . Is the function $g$ a pdf, a pmf, or neither?
+    *  $g(x) = |x| \,\, \forall \,\, x \in X; X = [-1,1] $. Is the function $g$ a pdf, a pmf, or neither? 
         *Note: $|x| = \begin{cases} x, \,\, if \,\, x \geq 0 \\ -x, \,\, if \,\, a < 0 \\ \end{cases} $ (known as absolute value function)*   
-    *   $g(x) = \frac{1}{\sqrt{2\pi}}\exp(-\frac{a^2}{2}) \forall \,\, x \in X; X = (-\infty,\infty)$. Is the function $g$ a pdf, a pmf, or neither?
+    *   $g(x) = \frac{1}{\sqrt{2\pi}}\exp(-\frac{x^2}{2}) \forall \,\, x \in X; X = (-\infty,\infty)$. Is the function $g$ a pdf, a pmf, or neither?
     *  $g(x) =$ $n \choose x$ $p^x(1-p)^{n-x} \,\, \forall \,\, x \in X; X = \{0,1,2,...,n\}$. Is the function $g$ a pdf, a pmf, or neither?
 
 
