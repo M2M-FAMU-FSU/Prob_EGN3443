@@ -2,6 +2,7 @@
 
 ## Basic Math
 * Summation in Discrete $\leftrightarrow$ Integration in Continuous
+* **Integrate by parts** formula  $\int udv = uv - \int vdu$
 * **Binomial Theorem** $(a+b)^n = \sum_{x=0}^n$ $n \choose x$ $a^x b^{n-x}$  
 * **Taylor Series** $f(x) = f(a) + \frac{f'(a)}{1!} (x-a) + \frac{f''(a)}{2!} (x-a)^2 + \cdots \infty \,\, terms$ 
     * $e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}$ (by substituting $a = 0$)
@@ -9,7 +10,7 @@
     * $s = a + ar + ar^2 + \cdots \infty \,\, terms = \frac{a}{1-r}$ (only if $0<r < 1$)
 
 ## Basic Probability Definitions
-* **CDF** $F(x) = p(\omega \leq x) = \int_{-\infty}^{x}f(\omega)d\omega$ (integral will convert to summation for attributes/pmfs)
+* **CDF** $F(x) = p(X \leq x) = \int_{-\infty}^{x}f(\omega)d\omega$ (integral will convert to summation for attributes/pmfs)
 * $p(a \leq x \leq b) = \int_{a}^{b}f(x)dx$ (integral will convert to summation for attributes/pmfs)
 * $p(\Omega) = \int_{\Omega} f(x)dx = 1$
 
