@@ -31,25 +31,27 @@
     * What is the probability that number of *Heads* you get is greater than 25?
     * What is the probability that number of *Heads* you get is 15 or 16?
     * What is the probability that the value $\frac{\# of heads}{Total \# of tosses}$ is greater than $0.5$? 
-    * What is the probability that the value $\frac{\# of heads}{Total \# of tosses}$  is greater than $0.5$ if you toss the coin 50 times? Is it different from the previous answer? 
+    * What is the probability that the value $\frac{\# of heads}{Total \# of tosses}$ is greater than $0.5$ if you toss the coin 50 times? Is it different from the previous answer? 
 
-6. Textbook Section 4.3 \#42 
 
-7. Textbook Section 4.3 \#46
 
-8. Textbook Section 4.3 \#51
+6. Textbook Section 4.3 \#46
 
-9. Textbook Section 4.3 \#53
+7. Textbook Section 4.3 \#51
 
-10. Textbook Section 4.3 \#55
+8. Textbook Section 4.3 \#53
 
-11. Textbook Section 5.4 \#46
 
-12. Textbook Section 5.4 \#56
+9. Textbook Section 5.4 \#46
 
-13. Textbook Section 5.5 \#64
+10. Textbook Section 5.4 \#56
 
-14. Textbook Section 5.5 \#67
+11. Textbook Section 5.5 \#64
 
-15. [**EGN3443 Spring 26 - Perception Survey (Part 2)**](https://forms.office.com/r/fixn7F93dn): Please provide evidence of completed survey (screenshots of completed survey or email-based PDF). This will take you only 2 minutes to complete.  
+12. Textbook Section 5.5 \#67
 
+<!-- 15. [**EGN3443 Spring 26 - Perception Survey (Part 2)**](https://forms.office.com/r/fixn7F93dn): Please provide evidence of completed survey (screenshots of completed survey or email-based PDF). This will take you only 2 minutes to complete.   -->
+
+### Additional Questions (Optional)
+1. Textbook Section 4.3 \#55
+2. Textbook Section 4.3 \#42 

@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -183,6 +183,14 @@
 <li class="toctree-l1"><a class="reference internal" href="Notations.html">Mathematical Notations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Formula_Sheets/Mod1.html">Module 1 - Formula Sheet (1.5 sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="HWs/HW1.html">Homework 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Formula_Sheets/Mod2.html">Module 2 - Formula Sheet (3 sessions)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HWs/HW2.html">Homework 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Formula_Sheets/Mod3.html">Module 3 - Formula Sheet (2 sessions)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HWs/HW3.html">Homework 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Projects/Mini_Project1.html">Mini Project 1 - Design an Email Inbox Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Projects/Mini_Project2.html">Mini Project 2 - Atomic Diffusion Process</a></li>
+
+
 </ul>
 
     </div>
@@ -474,7 +482,7 @@ document.write(`
 <div class="cell_output docutils container">
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;&gt;:9: SyntaxWarning: invalid escape sequence &#39;\m&#39;
 &lt;&gt;:9: SyntaxWarning: invalid escape sequence &#39;\m&#39;
-/tmp/ipykernel_15783/4111992585.py:9: SyntaxWarning: invalid escape sequence &#39;\m&#39;
+/tmp/ipykernel_261044/4111992585.py:9: SyntaxWarning: invalid escape sequence &#39;\m&#39;
   fig,ax = generic_pdf(x, f, fig, ax, shade = False,title = &#39;$\mathcal{N}(\\mu,\\sigma^2$)&#39;,x_cdf_cutoff=a)
 </pre></div>
 </div>
@@ -490,8 +498,61 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([41.93086921,  1.1970796 ,  2.48327658, 17.94919087, 27.42187887,
-        2.83635435,  2.99837546,  4.58946619, 24.6047395 ,  2.03785418])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([18.55554386, 13.02329578,  2.29331763,  9.15622661,  1.58891782,
+        7.71350353,  2.11643092,  1.44926511,  9.18630369,  4.07031476])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span> 
+
+
+<span class="c1">## PMF</span>
+
+<span class="n">fig</span><span class="p">,</span><span class="n">axs</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span>
+
+
+<span class="n">pmf_vals</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="o">/</span><span class="mi">9</span><span class="p">,</span><span class="mi">2</span><span class="o">/</span><span class="mi">9</span><span class="p">,</span><span class="mi">1</span><span class="o">/</span><span class="mi">9</span><span class="p">,</span><span class="mi">2</span><span class="o">/</span><span class="mi">9</span><span class="p">,</span><span class="mi">1</span><span class="o">/</span><span class="mi">9</span><span class="p">,</span><span class="mi">2</span><span class="o">/</span><span class="mi">9</span><span class="p">]</span>
+
+<span class="n">cdf_vals</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="o">/</span><span class="mi">9</span><span class="p">,</span><span class="mi">3</span><span class="o">/</span><span class="mi">9</span><span class="p">,</span><span class="mi">4</span><span class="o">/</span><span class="mi">9</span><span class="p">,</span><span class="mi">6</span><span class="o">/</span><span class="mi">9</span><span class="p">,</span><span class="mi">7</span><span class="o">/</span><span class="mi">9</span><span class="p">,</span><span class="mi">9</span><span class="o">/</span><span class="mi">9</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>
+    <span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">pmf_vals</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="s1">&#39;rX&#39;</span><span class="p">)</span>
+    <span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">],[</span><span class="mi">0</span><span class="p">,</span><span class="n">pmf_vals</span><span class="p">[</span><span class="n">i</span><span class="p">]],</span><span class="s1">&#39;k&#39;</span><span class="p">)</span>
+
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">7</span><span class="p">):</span>
+    <span class="c1"># axs[0].plot(i+1,pmf_vals[i],&#39;rX&#39;)</span>
+    <span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="n">i</span><span class="p">,</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">],[</span><span class="n">cdf_vals</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">cdf_vals</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">cdf_vals</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]],</span><span class="s1">&#39;k&#39;</span><span class="p">)</span>
+
+
+<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mf">0.4</span><span class="p">])</span>
+<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;PMF&#39;</span><span class="p">)</span>
+
+
+<span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">7</span><span class="p">])</span>
+<span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;CDF&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Text(0.5, 1.0, &#39;CDF&#39;)
+</pre></div>
+</div>
+<img alt="_images/a79c3fc7a6d28227547201775ac16ec058335f1085a95a121ecb0007c5a62195.png" src="_images/a79c3fc7a6d28227547201775ac16ec058335f1085a95a121ecb0007c5a62195.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="o">/</span><span class="mi">3</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[0.3333333333333333, 0.6666666666666666]
 </pre></div>
 </div>
 </div>

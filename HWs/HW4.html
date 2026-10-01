@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -185,6 +185,14 @@
 <li class="toctree-l1"><a class="reference internal" href="../Notations.html">Mathematical Notations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Formula_Sheets/Mod1.html">Module 1 - Formula Sheet (1.5 sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="HW1.html">Homework 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Formula_Sheets/Mod2.html">Module 2 - Formula Sheet (3 sessions)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HW2.html">Homework 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Formula_Sheets/Mod3.html">Module 3 - Formula Sheet (2 sessions)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HW3.html">Homework 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Projects/Mini_Project1.html">Mini Project 1 - Design an Email Inbox Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Projects/Mini_Project2.html">Mini Project 2 - Atomic Diffusion Process</a></li>
+
+
 </ul>
 
     </div>
@@ -357,7 +365,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -373,6 +383,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-questions-optional">Additional Questions (Optional)</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -424,20 +442,25 @@ document.write(`
 <li><p>What is the probability that number of <em>Heads</em> you get is greater than 25?</p></li>
 <li><p>What is the probability that number of <em>Heads</em> you get is 15 or 16?</p></li>
 <li><p>What is the probability that the value <span class="math notranslate nohighlight">\(\frac{\# of heads}{Total \# of tosses}\)</span> is greater than <span class="math notranslate nohighlight">\(0.5\)</span>?</p></li>
-<li><p>What is the probability that the value <span class="math notranslate nohighlight">\(\frac{\# of heads}{Total \# of tosses}\)</span>  is greater than <span class="math notranslate nohighlight">\(0.5\)</span> if you toss the coin 50 times? Is it different from the previous answer?</p></li>
+<li><p>What is the probability that the value <span class="math notranslate nohighlight">\(\frac{\# of heads}{Total \# of tosses}\)</span> is greater than <span class="math notranslate nohighlight">\(0.5\)</span> if you toss the coin 50 times? Is it different from the previous answer?</p></li>
 </ul>
 </li>
-<li><p>Textbook Section 4.3 #42</p></li>
 <li><p>Textbook Section 4.3 #46</p></li>
 <li><p>Textbook Section 4.3 #51</p></li>
 <li><p>Textbook Section 4.3 #53</p></li>
-<li><p>Textbook Section 4.3 #55</p></li>
 <li><p>Textbook Section 5.4 #46</p></li>
 <li><p>Textbook Section 5.4 #56</p></li>
 <li><p>Textbook Section 5.5 #64</p></li>
 <li><p>Textbook Section 5.5 #67</p></li>
-<li><p><a class="reference external" href="https://forms.office.com/r/fixn7F93dn"><strong>EGN3443 Spring 26 - Perception Survey (Part 2)</strong></a>: Please provide evidence of completed survey (screenshots of completed survey or email-based PDF). This will take you only 2 minutes to complete.</p></li>
 </ol>
+<!-- 15. [**EGN3443 Spring 26 - Perception Survey (Part 2)**](https://forms.office.com/r/fixn7F93dn): Please provide evidence of completed survey (screenshots of completed survey or email-based PDF). This will take you only 2 minutes to complete.   -->
+<section id="additional-questions-optional">
+<h2>Additional Questions (Optional)<a class="headerlink" href="#additional-questions-optional" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Textbook Section 4.3 #55</p></li>
+<li><p>Textbook Section 4.3 #42</p></li>
+</ol>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -476,6 +499,21 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-questions-optional">Additional Questions (Optional)</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
