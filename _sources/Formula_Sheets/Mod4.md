@@ -1,5 +1,11 @@
 # Module 4 - Formula Sheet (3 Sessions) 
 
+## Sum and Product of Random Variables
+*(Assumed independent for now)*
+* $\mathbb{E}[X_1 + X_2] = \mathbb{E}[X_1] + \mathbb{E}[X_2]$
+* $\mathbb{E}[X_1 + X_2 + \cdots + X_n] = \mathbb{E}[X_1] + \mathbb{E}[X_2] + \cdots + \mathbb{E}[X_n]$
+* $\mathbb{E}[X_1X_2] = \mathbb{E}[X_1]\mathbb{E}[X_2]$
+
 ## Population Mean and Variance
 * $\mu_X = \mathbb{E}[X]$
 * $\sigma^2_X = \mathbb{E}[(X-\mu_X)^2] = \mathbb{E}[X^2] - (\mathbb{E}[X])^2$ 
@@ -15,7 +21,7 @@
    * $\mu_{Y} = \sum_{i=1}^{n} a_i\mu_i$
    * $\sigma^2_{Y} = \sum_{i=1}^{n} a_i^2\sigma^2_i$
 
-
+---
 ### Binomial Distribution $\mathcal{B}(N,p)$
  * If $X \sim Bernoulli(p)$, then $Y = (X_1 + X_2 + X_3 + ... + X_N) \sim Binomial (N,p)$
     * Attribute (discrete)

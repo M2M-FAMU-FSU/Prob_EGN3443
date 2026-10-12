@@ -153,3 +153,9 @@ Some sort of relational data between various fields (calculus, probability, stat
 * Exam 6 Solutions - done!!
 * HW7 Solutions
 * Exam 7
+
+
+---
+
+## 10/12/26
+* Quarto md to jupyter book somehow?
