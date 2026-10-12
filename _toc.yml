@@ -12,9 +12,10 @@ chapters:
 - file: HWs/HW2
 - file: Formula_Sheets/Mod3
 - file: HWs/HW3
-# - file: Formula_Sheets/Mod4
-# - file: HWs/HW4
-# - file: Formula_Sheets/Mod5
+- file: Formula_Sheets/Mod4
+- file: HWs/HW4
+- file: Formula_Sheets/Mod4_Sup_Notes.md
+- file: Formula_Sheets/Mod5
 # - file: HWs/HW5
 # - file: Formula_Sheets/Mod6
 # - file: HWs/HW6
