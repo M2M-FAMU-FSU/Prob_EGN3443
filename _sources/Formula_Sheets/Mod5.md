@@ -1,7 +1,22 @@
 # Module 5 - Formula Sheet (3 Sessions) 
 
-* Unbiased Estimate $\mathbb{E}_{\theta}[\hat{\theta}] = \theta$
-    * ($\mathbb{E}[\hat{\theta}] - \theta$) is the bias
+## Standard Distributions with Mean and Variance
+
+| Distribution of RV | $\mathbb{E}[X]$ |  $\mathbb{V}[X]$ |
+| --- | --- | --- |
+| $X \sim Bernoulli(p)$ | $p$ | $p(1-p)$| 
+| $X \sim Poisson(\lambda)$ | $\lambda$ | $\lambda$|  
+| $X \sim Uniform(a,b)$ | $\frac{a+b}{2}$ | $\frac{(b-a)^2}{12}$ |
+| $X \sim Exponential(\lambda)$ | $\frac{1}{\lambda}$ |  $\frac{1}{\lambda^2}$ |
+| $X \sim Binomial(N,p)$ | $Np$ |   $Np(1-p)$  |
+| $X \sim \mathcal{N}(\mu,\sigma^2)$ | $\mu$ |   $\sigma^2$  |
+
+
+
+
+* Bias: ($\mathbb{E}_{\theta}[\hat{\theta}] - \theta$)
+* Unbiased Estimate: $\mathbb{E}_{\theta}[\hat{\theta}] - \theta = 0$
+
 
 * $\hat{\mu} = \bar{x}$ 
 

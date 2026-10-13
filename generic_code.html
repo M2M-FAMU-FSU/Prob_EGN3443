@@ -187,6 +187,10 @@
 <li class="toctree-l1"><a class="reference internal" href="HWs/HW2.html">Homework 2</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Formula_Sheets/Mod3.html">Module 3 - Formula Sheet (2 sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="HWs/HW3.html">Homework 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Formula_Sheets/Mod4.html">Module 4 - Formula Sheet (3 Sessions)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HWs/HW4.html">Homework 4</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Formula_Sheets/Mod4_Sup_Notes.html">Module 4 Supplementary Notes (Optional)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Formula_Sheets/Mod5.html">Module 5 - Formula Sheet (3 Sessions)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Projects/Mini_Project1.html">Mini Project 1 - Design an Email Inbox Server</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Projects/Mini_Project2.html">Mini Project 2 - Atomic Diffusion Process</a></li>
 
@@ -482,7 +486,7 @@ document.write(`
 <div class="cell_output docutils container">
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;&gt;:9: SyntaxWarning: invalid escape sequence &#39;\m&#39;
 &lt;&gt;:9: SyntaxWarning: invalid escape sequence &#39;\m&#39;
-/tmp/ipykernel_261044/4111992585.py:9: SyntaxWarning: invalid escape sequence &#39;\m&#39;
+/tmp/ipykernel_242707/4111992585.py:9: SyntaxWarning: invalid escape sequence &#39;\m&#39;
   fig,ax = generic_pdf(x, f, fig, ax, shade = False,title = &#39;$\mathcal{N}(\\mu,\\sigma^2$)&#39;,x_cdf_cutoff=a)
 </pre></div>
 </div>
@@ -498,8 +502,8 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([18.55554386, 13.02329578,  2.29331763,  9.15622661,  1.58891782,
-        7.71350353,  2.11643092,  1.44926511,  9.18630369,  4.07031476])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([ 3.89517238,  0.39705302,  0.68530364,  9.91521992,  9.92203   ,
+       11.71731301, 11.96267669, 15.03805283,  7.28706307,  9.85808525])
 </pre></div>
 </div>
 </div>
@@ -553,6 +557,77 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[0.3333333333333333, 0.6666666666666666]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span> 
+
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">binomial</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mf">0.7</span><span class="p">,(</span><span class="mi">10</span><span class="p">,))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">A</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([4, 3, 5, 3, 4, 5, 3, 4, 2, 3])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>np.float64(3.6)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">square</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="n">ddof</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>np.float64(0.9333333333333331)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span><span class="mi">1</span><span class="p">,(</span><span class="mi">10</span><span class="p">,))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">B</span><span class="p">),</span><span class="n">np</span><span class="o">.</span><span class="n">square</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">B</span><span class="p">,</span><span class="n">ddof</span><span class="o">=</span><span class="mi">1</span><span class="p">)))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.652323461052417 0.659370194472794
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">B</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[ 1.42 -0.07  2.35  0.54  0.    0.96  0.05  0.58  0.99 -0.31]
 </pre></div>
 </div>
 </div>

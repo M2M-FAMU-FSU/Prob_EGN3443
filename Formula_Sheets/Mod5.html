@@ -392,6 +392,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#standard-distributions-with-mean-and-variance">Standard Distributions with Mean and Variance</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#confidence-intervals">Confidence Intervals</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-z-score-values">Useful z-score values</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#confidence-interval-on-variance">Confidence Interval on Variance</a></li>
@@ -410,17 +411,52 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="module-5-formula-sheet-3-sessions">
 <h1>Module 5 - Formula Sheet (3 Sessions)<a class="headerlink" href="#module-5-formula-sheet-3-sessions" title="Link to this heading">#</a></h1>
+<section id="standard-distributions-with-mean-and-variance">
+<h2>Standard Distributions with Mean and Variance<a class="headerlink" href="#standard-distributions-with-mean-and-variance" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Distribution of RV</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(\mathbb{E}[X]\)</span></p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(\mathbb{V}[X]\)</span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><span class="math notranslate nohighlight">\(X \sim Bernoulli(p)\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(p\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(p(1-p)\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="math notranslate nohighlight">\(X \sim Poisson(\lambda)\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\lambda\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\lambda\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p><span class="math notranslate nohighlight">\(X \sim Uniform(a,b)\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\frac{a+b}{2}\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\frac{(b-a)^2}{12}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="math notranslate nohighlight">\(X \sim Exponential(\lambda)\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\frac{1}{\lambda}\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\frac{1}{\lambda^2}\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p><span class="math notranslate nohighlight">\(X \sim Binomial(N,p)\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(Np\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(Np(1-p)\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="math notranslate nohighlight">\(X \sim \mathcal{N}(\mu,\sigma^2)\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\mu\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\sigma^2\)</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
 <ul class="simple">
-<li><p>Unbiased Estimate <span class="math notranslate nohighlight">\(\mathbb{E}_{\theta}[\hat{\theta}] = \theta\)</span></p>
-<ul>
-<li><p>(<span class="math notranslate nohighlight">\(\mathbb{E}[\hat{\theta}] - \theta\)</span>) is the bias</p></li>
-</ul>
-</li>
+<li><p>Bias: (<span class="math notranslate nohighlight">\(\mathbb{E}_{\theta}[\hat{\theta}] - \theta\)</span>)</p></li>
+<li><p>Unbiased Estimate: <span class="math notranslate nohighlight">\(\mathbb{E}_{\theta}[\hat{\theta}] - \theta = 0\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(\hat{\mu} = \bar{x}\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(\hat{\sigma^2} = s^2\)</span></p></li>
 <li><p><strong>Standard Error</strong> <span class="math notranslate nohighlight">\(\sigma_{\hat{\theta}} = \sqrt{\mathbb{V}(\hat{\theta})}\)</span></p></li>
 </ul>
 <p><strong>rest of it is not well organized</strong></p>
+</section>
 <section id="confidence-intervals">
 <h2>Confidence Intervals<a class="headerlink" href="#confidence-intervals" title="Link to this heading">#</a></h2>
 <section id="useful-z-score-values">
@@ -524,6 +560,7 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#standard-distributions-with-mean-and-variance">Standard Distributions with Mean and Variance</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#confidence-intervals">Confidence Intervals</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-z-score-values">Useful z-score values</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#confidence-interval-on-variance">Confidence Interval on Variance</a></li>

@@ -6,7 +6,7 @@ Derivation of two key results
     $$ \mathbb{E}[X_1X_2] = \mathbb{E}_1[X_1]\mathbb{E}_2[X_2]$$
 
 ## 1. Expected Value of Sum of Random Variables
-### Marginal Distribution (Definition)
+### Marginal Distribution (Definition, will be discussed in Module 7)
 
 $$f_1(x_1) = \int_{-\infty}^{\infty} f_{12}(x_1,x_2) dx_2 $$
 $$f_2(x_2) = \int_{-\infty}^{\infty} f_{12}(x_1,x_2) dx_1 $$
