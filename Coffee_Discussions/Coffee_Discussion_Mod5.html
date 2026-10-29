@@ -108,7 +108,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Module 5 Coffee Discussion</h1>
+<h1 class="title">EGN3443 Module 5 Discussion</h1>
 </div>
 
 
@@ -125,10 +125,11 @@ window.Quarto = {
 </header>
 
 
+<p>(Instructor: Raghav)</p>
 <section id="exercise-1-heights" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-1-heights">Exercise 1: Heights</h3>
 <p>Fill the right column.</p>
-<div id="e674e372" class="cell" data-execution_count="1">
+<div id="8e35c98c" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -140,9 +141,9 @@ window.Quarto = {
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'s = '</span>,np.std(x,ddof <span class="op">=</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>Heights (12) =  [52.67 65.22 54.78 54.43 50.34 63.41 68.37 65.05 56.38 60.85 54.44 55.6 ]
-x_bar =  58.46166666666667
-s =  5.842295366678678</code></pre>
+<pre><code>Heights (12) =  [60.43 58.99 55.44 60.22 54.54 57.55 51.68 50.55 56.56 66.61 68.91 52.99]
+x_bar =  57.872499999999995
+s =  5.6094467803713215</code></pre>
 </div>
 </div>
 <table class="caption-top table">
@@ -175,7 +176,7 @@ s =  5.842295366678678</code></pre>
 <section id="exercise-2-inspection-defective-1-not-defective-0" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-2-inspection-defective-1-not-defective-0">Exercise 2: Inspection (Defective-1, Not Defective-0)</h3>
 <p>Fill the right column.</p>
-<div id="321633a4" class="cell" data-execution_count="2">
+<div id="fe713bce" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -187,9 +188,9 @@ s =  5.842295366678678</code></pre>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'s = '</span>,np.std(x,ddof <span class="op">=</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>Inspected items (9) =  [1 0 0 0 0 0 0 1 1]
-x_bar =  0.3333333333333333
-s =  0.5</code></pre>
+<pre><code>Inspected items (9) =  [0 0 0 1 0 0 0 0 0]
+x_bar =  0.1111111111111111
+s =  0.3333333333333333</code></pre>
 </div>
 </div>
 <table class="caption-top table">
@@ -222,7 +223,7 @@ s =  0.5</code></pre>
 <section id="exercise-3-car-arrivals-over-a-semester" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-3-car-arrivals-over-a-semester">Exercise 3: Car Arrivals Over a Semester</h3>
 <p>Fill the right column.</p>
-<div id="d318a267" class="cell" data-execution_count="3">
+<div id="471c7659" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -234,15 +235,15 @@ s =  0.5</code></pre>
 <span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'s = '</span>,np.std(x,ddof <span class="op">=</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>Arrivals each Day (120) =  [333 273 315 297 332 302 299 263 293 309 266 281 290 307 284 312 317 287
- 292 299 297 344 296 299 291 294 303 325 301 282 282 286 297 302 347 311
- 334 305 296 296 267 298 293 306 303 316 323 315 333 300 277 301 285 303
- 284 279 282 313 294 297 279 300 314 302 289 312 286 303 296 305 320 322
- 290 288 286 309 312 298 315 328 318 318 307 283 308 308 286 306 283 283
- 294 310 286 307 302 330 299 283 295 312 297 284 315 290 300 324 310 297
- 314 302 321 297 307 278 326 296 326 314 297 278]
-x_bar =  301.275
-s =  16.210258449253566</code></pre>
+<pre><code>Arrivals each Day (120) =  [300 294 298 307 291 316 290 306 302 287 320 273 270 324 297 317 300 301
+ 288 305 325 287 276 295 287 299 301 289 304 278 313 291 312 316 295 313
+ 302 339 265 331 302 333 279 283 293 317 313 311 271 290 323 314 286 304
+ 274 291 287 311 309 304 288 302 352 262 295 293 294 289 295 307 303 295
+ 295 294 292 286 329 317 306 287 333 315 300 312 319 279 298 320 277 306
+ 303 292 320 359 307 291 319 283 304 268 300 297 295 304 342 297 298 294
+ 320 297 309 302 310 302 317 286 309 265 282 299]
+x_bar =  300.9166666666667
+s =  17.343094105875863</code></pre>
 </div>
 </div>
 <table class="caption-top table">

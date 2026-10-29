@@ -1,0 +1,97 @@
+# Project 2 Derivations
+
+
+## Task 1 
+Let $X_i$ be the step. $p(X_i) = \begin{cases} 0.5, \,\, if \,\, X_i=-a \\ 0.5, \,\, if \,\, X_i=a  \end{cases}$. Every step is independent. Final position $X = \sum_{i=1}^{n} X_i$
+
+---
+
+$\mathbb{E}[X] = \mathbb{E}[\sum_{i=1}^{n} X_i] = \sum_{i=1}^{n} \mathbb{E}[X_i] = \sum_{i=1}^{n} 0.5 \times (a) + 0.5 \times (-a) = 0$
+---
+
+\begin{aligned}
+\mathbb{V}[X] &= \mathbb{E}[X^2] - (\mathbb{E}[X])^2  \\
+                &= \mathbb{E}[(\sum_{i=1}^{n} X_i)^2] \\
+                &= \mathbb{E}[\sum_{i=1}^{n} X_i^2 + \sum_{i=1,j=1,i\neq j}^{i=n,j=n} X_i X_j] \\
+                &= \sum_{i=1}^{n} \mathbb{E}[X_i^2] + \sum_{i=1,j=1,i\neq j}^{i=n,j=n} \mathbb{E}[X_i X_j] \\
+        \text{(i.i.d)}\\
+           &= \sum_{i=1}^{n} \big(0.5 \times (a^2) + 0.5 \times (a^2) \big)  + \sum_{i=1,j=1,i\neq j}^{i=n,j=n} \mathbb{E}[X_i] \mathbb{E}[X_j] \\
+          \mathbb{V}[X] &= na^2 
+
+\end{aligned}
+
+
+## Task 2
+### Expected Value
+**One-Dimensional**
+(continuing from Task 1)
+$r^2 = X^2 \implies \mathbb{E}[X^2] = na^2$ 
+
+
+
+
+**Three Dimensional**
+$r^2 = X^2 + Y^2 + Z^2$
+
+\begin{aligned}
+\mathbb{E}[r^2] &=  \mathbb{E}[X^2 + Y^2 + Z^2] \\
+                &= \mathbb{E}[X^2] + \mathbb{E}[Y^2] + \mathbb{E}[Z^2] \\
+\end{aligned}
+
+$X = \sum_{i=1}^{n} X_i$, but now, $p(X_i) = \begin{cases} 1/6, \,\, if \,\, X_i=-a \\ 1/6, \,\, if \,\, X_i=a \\ 4/6, \,\, X_i = 0  \end{cases}$. Every step is still independent.
+
+
+$\mathbb{E}[X_i] = \frac{a}{6} + \frac{(-a)}{6} + 0 = 0 \implies \mathbb{E}[X] = 0$
+
+$\mathbb{E}[X_i^2] = \frac{a^2}{6} + \frac{(-a)^2}{6} + 0 = \frac{a^2}{3}$
+
+*(each $X_i$ is i.i.d. still)*, therefore
+
+$\mathbb{E}[X^2] = \sum_{i=1}^{n} \mathbb{E}[X_i^2] = \frac{na^2}{3}$    
+
+
+Similarly, $\mathbb{E}[Y^2] = \mathbb{E}[Z^2] = \frac{na^2}{3}$
+
+$\implies \mathbb{E}[r^2] = na^2$
+
+
+### Variance
+(is not straightforward)
+
+**One-dimensional**
+\begin{aligned}
+\mathbb{V}[X^2] &= \mathbb{E}[(X^2)^2] - \Big(\mathbb{E}[(X^2)]\big)^2 \\
+                &= \mathbb{E}[(X^4)] - n^2a^4 \\  
+\end{aligned}
+
+\begin{aligned}
+\mathbb{E}[X^4] &= \mathbb{E}(\sum_{i=1}^n X_i)^4 \\  
+                &= \mathbb{E}\big(\sum_{i=1}^n X_i^4 +  \sum_{i=1,j=1, i \neq j}^n  (4C_1) X_iX_j^3 + \sum_{i=1,j=1, i \neq j}^n (4C_2) X_i^2X_j^2 \big)\\
+                &= \mathbb{E}\big[\sum_{i=1}^n X_i^4\big] +  \mathbb{E}\big[\sum_{i=1,j=1, i \neq j}^n (4C_1) X_iX_j^3\big] + \mathbb{E}\big[\sum_{i=1,j=1, i \neq j}^n (4C_2) X_i^2X_j^2\big] \\ 
+                &= \sum_{i=1}^n\mathbb{E}\big[ X_i^4\big] + (4C_1) \sum_{i=1,j=1, i \neq j}^n  \mathbb{E}\big[X_iX_j^3\big] + \sum_{i=1,j=1, i \neq j}^n  (4C_2) \mathbb{E}\big[X_i^2X_j^2\big] \\ 
+                &= \sum_{i=1}^n \underbrace{\mathbb{E}[ X_i^4]}_{a} + (4C_1) \sum_{i=1,j=1, i \neq j}^n  \mathbb{E}[X_i]\underbrace{\mathbb{E}[X_j^3]}_{b} + (4C_2) \sum_{i=1,j=1, i \neq j}^n  \mathbb{E}[X_i^2]\mathbb{E}[X_j^2] \\ 
+
+\end{aligned}
+
+*Part a.*
+$\mathbb{E}[X_i^4] = a^4$
+
+*Part b.*
+$\mathbb{E}[X_i^3] = (0.5)a^3 + (0.5)(-a^3) = 0$
+
+Therefore, 
+
+$$\mathbb{E}[X^4] = na^4 + 0 + \frac{4!}{2!2!} \frac{n(n-1)}{2} a^4 = na^4 +  3n(n-1) a^4 = (3n^2 - 2n)a^4$$
+
+Therefore,
+$$\mathbb{V}[X^2] = (3n^2 - 2n)a^4 - n^2a^4 = 2n(n - 1)a^4$$
+
+**Three-dimensional**
+
+$\vec{r} = \sum_{t=1}^n \vec{s}_i$ 
+
+$\vec{r} = X\hat{i} + Y\hat{j} + Z\hat{k}$
+
+
+Let $s_i$ be the step $p(s_i) = \begin{cases} a \hat{i},  \end{cases}$
+
