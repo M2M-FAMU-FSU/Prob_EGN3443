@@ -1,5 +1,8 @@
 # Homework 6
-*Check Due Date, Office Hours, and Textbook on Canvas* 
+* *Do your cognitively demanding attempt and write it down **before** you ask an AI Chatbot*. 
+* *Homeworks are long, start early!*
+* *Check Due Date, Office Hours, and Textbook on Canvas*  
+
 
 1. If we choose a sample of size 9 from a normal distribution with $\mu = 1.5$ and $\sigma^2 = 4$.
     * What is the probability (as percentage) that $\bar{x} \geq 2.327$? 
@@ -49,6 +52,4 @@
 10. Textbook Section 8.4 \#57
 
 11.  Textbook Section 8.4 \#58
-
-12. [**EGN3443 Spring 26 - Job/Internship Survey**](https://forms.office.com/r/AE3Z7Pc7ms): Please provide evidence of completed survey (screenshots of completed survey or email-based PDF). This will take you only 2 minutes to complete.  
 

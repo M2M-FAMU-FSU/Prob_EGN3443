@@ -1,5 +1,9 @@
 # Homework 4
-*Check Due Date, Office Hours, and Textbook on Canvas* 
+* *Do your cognitively demanding attempt and write it down **before** you ask an AI Chatbot*. 
+* *Homeworks are long, start early!*
+* *Check Due Date, Office Hours, and Textbook on Canvas*  
+
+
 
 1. Shade to show appropriate values on a figure of normal pdf with mean $\mu$ and variance $\sigma^2$. Draw a figure for each case. 
     * $p(x \leq a)$, where $a < \mu$.

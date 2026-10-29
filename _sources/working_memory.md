@@ -4,6 +4,25 @@
 2. ghp-import -n -p -f _build/html
 
 
+## 10/27/26
+* Exam 4 Solutions - Done! 
+* Homework 5 Solutions - Done! 
+* Exam 5 Set - Done!
+    * Exam 5 Print it out: Done! 
+    * Send Email Exam Accessibility 
+* Exam 5 Solutions - Done!
+* Project 2 Evaluation - Done!
+* Final Project Publish - Done!
+* Homework 6  
+* (Additional) Homework 6 Solutions!
+* QMD Migration?
+* Teaching Recording - Check and Store
+* Other Stuff
+    * Alissa Meeting - Done!
+    * Sam Meeting 
+    * AFSD Proposal
+
+
 ## 8/30/26
 * Done: Exam 1
 * Done: Exam 1 solutions too!
