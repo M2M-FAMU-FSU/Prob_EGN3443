@@ -6,11 +6,6 @@
     * $\alpha$ = $p$(*Type-I Error*) 
     * Typically, the $\alpha$ values are provided as 5% or 10%
 
-### Gamma Distribution 
-* $f(x) = \frac{1}{\Gamma(\alpha) \beta^{\alpha}}x^{\alpha -1}e^{-\frac{x}{\beta}} \,\, \forall \,\, x \in [0,\infty]$
-* Parameters - Shape $\alpha$, scale $\beta$
-* Gamma function $\Gamma(\alpha)  = \int_0^\infty t^{\alpha-1}e^{-t}dt$
-
 ### 7. Students' t-distribution $t(n-1)$
 * $f(x) =\frac{\Gamma(\frac{\nu +1}{2})}{\sqrt{\pi \nu} \Gamma(\frac{\nu}{2})} (1+\frac{x^2}{\nu})^{-\frac{\nu + 1}{2}}$
 * $\mu = 0$ and $\sigma^2 = \frac{\nu}{\nu - 2}$
@@ -38,3 +33,9 @@
 * **Testing on $\sigma^2$**
     * "Chi-squared Test" $\implies \chi_{test}^2 = \frac{(n-1)s^2}{\sigma_0^2}$
     * Two-sided $\implies$ *p-value* $= \min(p(\chi^2 > \chi_{test}^2), p(\chi^2 < \chi_{test}^2)) $
+
+
+### Gamma Distribution 
+* $f(x) = \frac{1}{\Gamma(\alpha) \beta^{\alpha}}x^{\alpha -1}e^{-\frac{x}{\beta}} \,\, \forall \,\, x \in [0,\infty]$
+* Parameters - Shape $\alpha$, scale $\beta$
+* Gamma function $\Gamma(\alpha)  = \int_0^\infty t^{\alpha-1}e^{-t}dt$
