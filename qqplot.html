@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>coffee_discussion_mod5</title>
+<title>qqplot</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -57,46 +57,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="Coffee_Discussion_Mod5_files/libs/clipboard/clipboard.min.js"></script>
-<script src="Coffee_Discussion_Mod5_files/libs/quarto-html/quarto.js"></script>
-<script src="Coffee_Discussion_Mod5_files/libs/quarto-html/popper.min.js"></script>
-<script src="Coffee_Discussion_Mod5_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="Coffee_Discussion_Mod5_files/libs/quarto-html/anchor.min.js"></script>
-<link href="Coffee_Discussion_Mod5_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Coffee_Discussion_Mod5_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="Coffee_Discussion_Mod5_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="Coffee_Discussion_Mod5_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="Coffee_Discussion_Mod5_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="qqplot_files/libs/clipboard/clipboard.min.js"></script>
+<script src="qqplot_files/libs/quarto-html/quarto.js"></script>
+<script src="qqplot_files/libs/quarto-html/popper.min.js"></script>
+<script src="qqplot_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="qqplot_files/libs/quarto-html/anchor.min.js"></script>
+<link href="qqplot_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="qqplot_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="qqplot_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="qqplot_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="qqplot_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -108,7 +79,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">EGN3443 Module 5 Discussion</h1>
+<h1 class="title">Q-Q Plot</h1>
 </div>
 
 
@@ -125,154 +96,33 @@ window.Quarto = {
 </header>
 
 
-<p>(Instructor: Raghav)</p>
-<section id="exercise-1-heights" class="level3">
-<h3 class="anchored" data-anchor-id="exercise-1-heights">Exercise 1: Heights</h3>
-<p>Fill the right column.</p>
-<div id="8e35c98c" class="cell" data-execution_count="1">
+<ol type="1">
+<li>Student 1: <strong>Sample 1</strong> of Heights</li>
+</ol>
+<div id="303091f2" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.<span class="bu">round</span>(np.random.normal(<span class="dv">59</span>,<span class="dv">5</span>,(<span class="dv">12</span>,)), decimals <span class="op">=</span> <span class="dv">2</span>)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Heights (12) = "</span>,x)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'x_bar = '</span>,np.mean(x))</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'s = '</span>,np.std(x,ddof <span class="op">=</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(np.<span class="bu">round</span>(np.random.normal(<span class="dv">60</span>,<span class="dv">2</span>, (<span class="dv">10</span>,)),<span class="dv">2</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>Heights (12) =  [60.43 58.99 55.44 60.22 54.54 57.55 51.68 50.55 56.56 66.61 68.91 52.99]
-x_bar =  57.872499999999995
-s =  5.6094467803713215</code></pre>
+<pre><code>[57.15 61.05 56.93 60.62 60.85 58.8  59.73 60.2  60.55 62.06]</code></pre>
 </div>
 </div>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Appropriate Distribution</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Parameters <span class="math inline">\(\theta\)</span></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Estimates of parameters <span class="math inline">\(\hat{\theta}\)</span></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Standard Errors <span class="math inline">\(\sigma_{\hat{\theta}}\)</span></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Confidence Intervals</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="exercise-2-inspection-defective-1-not-defective-0" class="level3">
-<h3 class="anchored" data-anchor-id="exercise-2-inspection-defective-1-not-defective-0">Exercise 2: Inspection (Defective-1, Not Defective-0)</h3>
-<p>Fill the right column.</p>
-<div id="fe713bce" class="cell" data-execution_count="2">
+<ol start="2" type="1">
+<li>Student 2: <strong>Sample 2</strong> of Heights</li>
+</ol>
+<div id="645df78a" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.random.binomial(<span class="dv">1</span>,<span class="fl">0.3</span>,(<span class="dv">9</span>,))</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Inspected items (9) = "</span>,x)</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'x_bar = '</span>,np.mean(x))</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'s = '</span>,np.std(x,ddof <span class="op">=</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(np.<span class="bu">round</span>(np.random.uniform(<span class="dv">56</span>,<span class="dv">64</span>, (<span class="dv">10</span>,)),<span class="dv">2</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>Inspected items (9) =  [0 0 0 1 0 0 0 0 0]
-x_bar =  0.1111111111111111
-s =  0.3333333333333333</code></pre>
+<pre><code>[62.82 59.26 59.69 63.08 61.33 60.3  60.79 57.64 61.1  58.41]</code></pre>
 </div>
 </div>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Appropriate Distribution</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Parameters <span class="math inline">\(\theta\)</span></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Estimates of parameters <span class="math inline">\(\hat{\theta}\)</span></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Standard Errors <span class="math inline">\(\sigma_{\hat{\theta}}\)</span></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Confidence Intervals</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="exercise-3-car-arrivals-over-a-semester" class="level3">
-<h3 class="anchored" data-anchor-id="exercise-3-car-arrivals-over-a-semester">Exercise 3: Car Arrivals Over a Semester</h3>
-<p>Fill the right column.</p>
-<div id="471c7659" class="cell" data-execution_count="3">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.random.poisson(<span class="dv">300</span>,(<span class="dv">120</span>,))</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Arrivals each Day (120) = "</span>,x)</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'x_bar = '</span>,np.mean(x))</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'s = '</span>,np.std(x,ddof <span class="op">=</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>Arrivals each Day (120) =  [300 294 298 307 291 316 290 306 302 287 320 273 270 324 297 317 300 301
- 288 305 325 287 276 295 287 299 301 289 304 278 313 291 312 316 295 313
- 302 339 265 331 302 333 279 283 293 317 313 311 271 290 323 314 286 304
- 274 291 287 311 309 304 288 302 352 262 295 293 294 289 295 307 303 295
- 295 294 292 286 329 317 306 287 333 315 300 312 319 279 298 320 277 306
- 303 292 320 359 307 291 319 283 304 268 300 297 295 304 342 297 298 294
- 320 297 309 302 310 302 317 286 309 265 282 299]
-x_bar =  300.9166666666667
-s =  17.343094105875863</code></pre>
-</div>
-</div>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Appropriate Distribution</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Parameters <span class="math inline">\(\theta\)</span></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Estimates of parameters <span class="math inline">\(\hat{\theta}\)</span></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Standard Errors <span class="math inline">\(\sigma_{\hat{\theta}}\)</span></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Confidence Intervals</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
+<p>Heights will be always <em>normally distributed</em>. <strong>Which one is fake?</strong></p>
 
 </main>
 <!-- /main column -->

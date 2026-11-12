@@ -1,0 +1,27 @@
+# Q-Q Plot 
+
+---
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+
+1. Student 1: **Sample 1** of Heights
+```{python}
+
+
+import numpy as np
+print(np.round(np.random.normal(60,2, (10,)),2))
+```
+
+2. Student 2: **Sample 2** of Heights
+
+```{python}
+
+import numpy as np
+print(np.round(np.random.uniform(56,64, (10,)),2))
+```
+
+Heights will be always *normally distributed*. **Which one is fake?**

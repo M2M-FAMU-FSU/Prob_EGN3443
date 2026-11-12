@@ -13,3 +13,5 @@ Mod4Restructuring.md
 # Ignore all files with a certain extension
 #*.log
 #*.exe
+/.quarto/
+/_site/
