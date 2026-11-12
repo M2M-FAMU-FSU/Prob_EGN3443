@@ -2,13 +2,13 @@
 
 *   Jointly Distributed Discrete  
     * $\sum_x \sum_y p(x,y) = 1$
-    * $p_x(X = x) = \sum_y p(x,y)$
-    * $p_y(Y = y) = \sum_x p(x,y)$
+    * Marginal PMF in X: $p_x(X = x) = \sum_y p(x,y)$
+    * Marginal PMF in X: $p_y(Y = y) = \sum_x p(x,y)$
 
 * Continuous
     * Joint pdf: $\int \int_A f(x,y) dxdy$
-    * $f_X(x) \int_{-\infty}^{\infty} f(x,y) dy$
-    * $f_y(x) \int_{-\infty}^{\infty} f(x,y) dx$
+    * Marginal PDF in X: $f_X(x) = \int_{-\infty}^{\infty} f(x,y) dy$
+    * Marginal PDF in Y: $f_y(y) = \int_{-\infty}^{\infty} f(x,y) dx$
 
 * $\mathbb{E}[h(X,Y)] =\sum_x \sum_y h(x,y) p(x,y)$
 or

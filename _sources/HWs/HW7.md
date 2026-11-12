@@ -1,7 +1,9 @@
 # Homework 7
 *Check Due Date, Office Hours, and Textbook on Canvas* 
 
-1. Derive the definition of covariance by deriving the variance of $X_1 + X_2$ and variance of $X_1 - X_2$ for two dependent random variables $X_1$ and $X_2$. 
+**Note:** Please fill the official course evaluation survey you received on Canvas/Email. *(No submissions required as part of HW7, and this does not carry points)*
+
+1. Derive the definition of covariance by deriving the variance of $X_1 + X_2$ and variance of $X_1 - X_2$ for two dependent random variables $X_1$ and $X_2$. (*Not covered as of 11/12 but give a try*) 
 
 2. Textbook Section 5.2 \#22
 
@@ -17,7 +19,7 @@
 
 8. Show that sample variance is a less useful or misleading statistic for a non-i.i.d sample by deriving the expression mathematically in terms of covariance.
 
-9. Provide the values of $\phi^{-1}(0.43)$, $\phi^{-1}(0.65)$, $\phi^{-1}(0.95)$, $\phi^{-1}(0.86)$, and $\phi^{-1}(0.11)$.  
+9. Provide the values of $\phi^{-1}(0.43)$, $\phi^{-1}(0.65)$, $\phi^{-1}(0.95)$, $\phi^{-1}(0.86)$, and $\phi^{-1}(0.11)$. (*Finding z-value from probability*)  
 
 10. Find the mean, median, and mode of Weibull distribution parameterized with two parameters $\lambda$ and $k$ (both $\in \mathbb{R}^+$). The pdf is given as $f(x) = \frac{k}{\lambda} (\frac{x}{\lambda})^{k-1} e^{-(x/\lambda)^k} \,\, \forall \,\, x \geq 0$ 
 
